@@ -4,6 +4,7 @@
 ![Overview](intro.png)
 
 ## Tasks
+Please refer to the tasks in each folder, respectively.
 
 ![Tasks](tasks.png)
 
