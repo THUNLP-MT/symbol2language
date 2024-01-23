@@ -6,3 +6,7 @@
 ## Tasks
 
 ![Tasks](fig2.png)
+
+## Contact
+
+Thank you for your interest in our work! Please feel free to ask about any question. You can either create an issue in the github repo or contact us at wangyile AT air.tsinghua.edu.cn
