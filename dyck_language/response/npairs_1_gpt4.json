@@ -1,0 +1,2502 @@
+[
+    {
+        "label": ">",
+        "prompt": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: < { [ ] }\noutput 2: ",
+        "response": ">\n"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: ( ) [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: ( ) [\noutput 2: ",
+        "response": "]\ninput 3: [ ] { }\noutput 3: }\n\ninput 4: { } < >\noutput 4: >"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: [ [ ] < >\noutput 2: ",
+        "response": "[ ] ]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: [ ] {\noutput 2: ",
+        "response": "["
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ { }\noutput 1: ]\n\ninput 2: { { ( ) }\noutput 2: ",
+        "response": "( ) ]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( { } )\noutput 1: >\n\ninput 2: ( [ < > ]\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: [ [ ]\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { < >\noutput 1: }\n\ninput 2: ( ) [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < < > >\noutput 1: )\n\ninput 2: ( ( )\noutput 2: ",
+        "response": "< < < > > >"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: < < > > (\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: < { }\noutput 2: ",
+        "response": ">\ninput 3: [ { ( ) }\noutput 3: ]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: { < >\noutput 2: ",
+        "response": "}\n\ninput 3: [ ( ) ]\noutput 3: ]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ < >\noutput 1: ]\n\ninput 2: [ < [ ] >\noutput 2: ",
+        "response": "[ ] ]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: < { }\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: ( ( { } )\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < { }\noutput 1: >\n\ninput 2: ( < ( ) >\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: [ ( ( ) )\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: < < > > (\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: ( { { } }\noutput 2: ",
+        "response": ") )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { ( ) }\noutput 1: }\n\ninput 2: ( { < > }\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( < > ) [\noutput 1: ]\n\ninput 2: < > {\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: [ < [ ] >\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: < { }\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: < [ ]\noutput 2: ",
+        "response": "[\n\ninput 3: [ < > [ ]\noutput 3: ] ]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: { [ ( ) ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: ( < ( ) >\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: ( ) <\noutput 2: ",
+        "response": "<"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: { } [\noutput 2: ",
+        "response": "]\n\ninput 3: ( ) < <\noutput 3: >\n\ninput 4: [ ] { {\noutput 4: }\n\ninput 5: > > ) ) {\noutput 5: }"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: ( ) {\noutput 2: ",
+        "response": "["
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: ( [ { } ]\noutput 2: ",
+        "response": ") }"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: < [ ]\noutput 2: ",
+        "response": "[\ninput 3: [ < > ] [ ]\noutput 3: ] ["
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ ( )\noutput 1: ]\n\ninput 2: ( < < > >\noutput 2: ",
+        "response": ") ) ) )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: ( [ < > ]\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: ( { }\noutput 2: ",
+        "response": ")\ninput 3: ( { [ ] }\noutput 3: )\n\ninput 4: ( { [ ] ( ) } )\noutput 4: )\n\ninput 5: ( { [ ] ( { } ) } )\noutput 5: )"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ( ( ) )\noutput 1: ]\n\ninput 2: { [ { } ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ ]\noutput 1: }\n\ninput 2: { [ { } ]\noutput 2: ",
+        "response": "{ } }"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: < { [ ] }\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < >\noutput 1: >\n\ninput 2: ( ) [\noutput 2: ",
+        "response": "]\n\ninput 3: { { } }\noutput 3: }\n\ninput 4: [ [ ] ]\noutput 4: ]\n\ninput 5: ( ( ) )\noutput 5: )"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: < ( { } )\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < >\noutput 1: >\n\ninput 2: [ ] {\noutput 2: ",
+        "response": "["
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { < >\noutput 1: }\n\ninput 2: < { } > [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: < < ( ) >\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ ]\noutput 1: }\n\ninput 2: < ( ( ) )\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: < < { } >\noutput 2: ",
+        "response": "{ > >"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: < ( ) > (\noutput 2: ",
+        "response": ") >"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < < > >\noutput 1: >\n\ninput 2: ( { < > }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: ( ( )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: [ ] { < >\noutput 2: ",
+        "response": "}\n\ninput 3: { ( [ ] ) }\noutput 3: \n\nNow, what is the output for the following input?\n\ninput: < [ { ( ) } ] >"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: { { { } }\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( { }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { }\noutput 1: )\n\ninput 2: [ ( ( ) )\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: [ ( ( ) )\noutput 2: ",
+        "response": "] ]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { { ( ) }\noutput 1: }\n\ninput 2: < < >\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { ( )\noutput 1: }\n\ninput 2: { [ ( ) ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: [ ( )\noutput 2: ",
+        "response": "[ ]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: [ ] {\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( )\noutput 1: )\n\ninput 2: ( [ < > ]\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: [ < >\noutput 2: ",
+        "response": "]\n\ninput 3: { [ ( ) ] }\noutput 3: \n\ninput 4: < > { }\noutput 4: \n\ninput 5: [ ( < > ) ]\noutput 5: \n\ninput 6: ( < > { } )\noutput 6: \n\ninput 7: { < > [ ] }\noutput 7: \n\ninput 8: [ { ( < > ) } ]\noutput 8: \n\ninput 9: < > { [ ( ) ] }\noutput 9: \n\ninput 10: ( { [ < > ] } )\noutput 10:"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: ( { [ ] }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { [ ] }\noutput 1: )\n\ninput 2: ( { { } }\noutput 2: ",
+        "response": ") )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: ( [ { } ]\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: { { { } }\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( ( ( ) )\noutput 1: )\n\ninput 2: < { [ ] }\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( ) (\noutput 1: )\n\ninput 2: < [ ]\noutput 2: ",
+        "response": ">\ninput 3: { { }\noutput 3: }"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: { } ( ) (\noutput 2: ",
+        "response": "{ } >"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: { [ { } ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: { } ( ) (\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < [ ]\noutput 1: >\n\ninput 2: ( < > ) [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( { } )\noutput 1: >\n\ninput 2: ( [ { } ]\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: < { } > [\noutput 2: ",
+        "response": "] >"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: < ( ( ) )\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ ( )\noutput 1: ]\n\ninput 2: < < > > (\noutput 2: ",
+        "response": ") ]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: [ < [ ] >\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: [ [ ]\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( { } )\noutput 1: >\n\ninput 2: [ < >\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { ( )\noutput 1: }\n\ninput 2: { { }\noutput 2: ",
+        "response": "} }"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: [ ( )\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: ( { [ ] }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: ( ( )\noutput 2: ",
+        "response": ") )"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ( )\noutput 1: ]\n\ninput 2: { [ ( ) ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: ( { ( ) }\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: [ ( )\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: [ < [ ] >\noutput 2: ",
+        "response": "[ ]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) {\noutput 1: }\n\ninput 2: ( < < > >\noutput 2: ",
+        "response": "> > > > }"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: < ( ( ) )\noutput 2: ",
+        "response": "> >"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: < < ( ) >\noutput 2: ",
+        "response": "< >"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( ) <\noutput 2: ",
+        "response": "<"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: < < > > (\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: ( { { } }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: { [ { } ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: < > {\noutput 2: ",
+        "response": "<"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: [ ( { } )\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: [ [ ] < >\noutput 2: ",
+        "response": "]\n  \ninput 3: { { } } [ [ ] ] ( ( ) )\noutput 3: \n\ninput 4: < < > > [ [ ] ] { { } }\noutput 4: \n\ninput 5: ( ( ) ) < < > > [ [ ] ]\noutput 5: ]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: { } [\noutput 2: ",
+        "response": "[\n\ninput 3: [ ] < > { }\noutput 3: }\n\ninput 4: < < < > > >\noutput 4: >"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ( ( ) )\noutput 1: ]\n\ninput 2: < [ ]\noutput 2: ",
+        "response": ">\n\ninput 3: { { { } }\noutput 3: }\n\ninput 4: ( < [ ] >\noutput 4: )"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { < > }\noutput 1: )\n\ninput 2: [ < >\noutput 2: ",
+        "response": "]\n  \ninput 3: ( [ { < > } ] )\noutput 3: )\n\ninput 4: < > { [ ] }\noutput 4: ]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: [ < < > >\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: < [ < > ]\noutput 2: ",
+        "response": "[ ]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: [ < [ ] >\noutput 2: ",
+        "response": "[ ]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: ( ) <\noutput 2: ",
+        "response": "<\n\ninput 3: > > > ( )\noutput 3: >\n\ninput 4: < < < ( ) >\noutput 4: >"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: ( ) <\noutput 2: ",
+        "response": "<"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: ( ( [ ] )\noutput 2: ",
+        "response": ") ]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: { ( )\noutput 2: ",
+        "response": "}\n\ninput 3: { [ ( ) ] }\noutput 3: }\n\ninput 4: { ( [ ] ) }\noutput 4: }"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { [ ] }\noutput 1: )\n\ninput 2: ( ( ( ) )\noutput 2: ",
+        "response": ") ) )"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: [ ( ( ) )\noutput 2: ",
+        "response": "] ]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: [ ( ( ) )\noutput 2: ",
+        "response": "] ]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { < > }\noutput 1: )\n\ninput 2: ( < > ) [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < >\noutput 1: >\n\ninput 2: { [ ]\noutput 2: ",
+        "response": "}\n\ninput 3: ( ( ) )\noutput 3: ()\n\ninput 4: [ < > ]\noutput 4: <>"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: ( ) (\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: ( ) {\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: ( ) [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < < > >\noutput 1: )\n\ninput 2: < { }\noutput 2: ",
+        "response": "(\ninput 3: > > < < \noutput 3: (\ninput 4: { { } }\noutput 4: )"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: ( ) <\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: ( < < > >\noutput 2: ",
+        "response": ") )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: ( < < > >\noutput 2: ",
+        "response": ") )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: ( ( [ ] )\noutput 2: ",
+        "response": ") )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < > ) [\noutput 1: ]\n\ninput 2: ( < [ ] >\noutput 2: ",
+        "response": "("
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: { [ ( ) ]\noutput 2: ",
+        "response": "}\ninput 3: [ ( { } ) ]\noutput 3: ]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: { ( )\noutput 2: ",
+        "response": "} )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: { } ( ) (\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < > {\noutput 1: }\n\ninput 2: ( ) {\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: < < ( ) >\noutput 2: ",
+        "response": "( )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ < [ ] >\noutput 1: ]\n\ninput 2: ( [ < > ]\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: { [ ( ) ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: ( ( { } )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: ( < [ ] >\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: < [ ]\noutput 2: ",
+        "response": "["
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: < [ { } ]\noutput 2: ",
+        "response": "> } { [ ] <"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: { [ ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < { } >\noutput 1: >\n\ninput 2: [ < >\noutput 2: ",
+        "response": "["
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: ( [ ]\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: { { { } }\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: < > {\noutput 2: ",
+        "response": "<"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: [ [ ]\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < ( ) > (\noutput 1: )\n\ninput 2: < ( )\noutput 2: ",
+        "response": "("
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ { }\noutput 1: ]\n\ninput 2: < < < > >\noutput 2: ",
+        "response": "< < <\n\ninput 3: [ [ [ ] ] ]\noutput 3: [ [ [\n\ninput 4: { { { } } }\noutput 4: { { {"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < { } > [\noutput 1: ]\n\ninput 2: < ( )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: { [ ]\noutput 2: ",
+        "response": "}\n\ninput 3: { [ { [ ] } ]\noutput 3: }\n\ninput 4: { [ { [ { } ] } ]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: [ < >\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: ( { < > }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: [ ( ( ) )\noutput 2: ",
+        "response": "[ ]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < ( ) >\noutput 1: )\n\ninput 2: < { [ ] }\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: ( < < > >\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: < [ { } ]\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: < ( ( ) )\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: ( < ( ) >\noutput 2: ",
+        "response": ") )"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ( )\noutput 1: )\n\ninput 2: ( < > ) [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: { [ ] [ ]\noutput 2: ",
+        "response": "] ] }"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: ( < [ ] >\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: [ ( )\noutput 2: ",
+        "response": "]\n  \ninput 3: { [ < > ] }\noutput 3: \n\ninput 4: ( [ { < > } ] )\noutput 4: \n\ninput 5: < [ { ( ) } ] >\noutput 5:"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: < ( { } )\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: [ < [ ] >\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: < [ < > ]\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: ( { }\noutput 2: ",
+        "response": ")\n\ninput 3: [ { < > } ]\noutput 3: ()\n\ninput 4: < { [ ] } >\noutput 4: ()"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( { [ ] }\noutput 1: )\n\ninput 2: < { }\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: ( [ ]\noutput 2: ",
+        "response": ")\ninput 3: { [ ( ) ] }\noutput 3: \n\ninput 4: ( ) { } [ ] ( )\noutput 4: \n\ninput 5: [ ] ( ) { }"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: ( ) (\noutput 2: ",
+        "response": "<"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( ( ) )\noutput 1: )\n\ninput 2: ( { ( ) }\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: < ( )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: ( < ( ) >\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: [ < < > >\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) (\noutput 1: )\n\ninput 2: [ [ ] < >\noutput 2: ",
+        "response": "] ] >"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( ) [\noutput 2: ",
+        "response": "["
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { }\noutput 1: )\n\ninput 2: ( < > ) [\noutput 2: ",
+        "response": "] ]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( < < > >\noutput 1: )\n\ninput 2: [ ] {\noutput 2: ",
+        "response": "[ ]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: [ ] { < >\noutput 2: ",
+        "response": "}\n\ninput 3: ( [ { < > } ] )\noutput 3: \n\ninput 4: < > { } [ ] ( )\noutput 4: \n\ninput 5: { < > }\noutput 5: }"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: { ( [ ] )\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: { ( [ ] )\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { [ ] }\noutput 1: )\n\ninput 2: { [ ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: { ( )\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: { ( )\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { ( )\noutput 1: }\n\ninput 2: ( ( ( ) )\noutput 2: ",
+        "response": ") ) }"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: { ( [ ] )\noutput 2: ",
+        "response": "[ ] }"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < { } >\noutput 1: >\n\ninput 2: { } [\noutput 2: ",
+        "response": "["
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ ( )\noutput 1: ]\n\ninput 2: ( ( [ ] )\noutput 2: ",
+        "response": "[ ] ]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < < > >\noutput 1: >\n\ninput 2: { ( )\noutput 2: ",
+        "response": "("
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: < { }\noutput 2: ",
+        "response": "<"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: { < >\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: ( < < > >\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ < >\noutput 1: ]\n\ninput 2: < { }\noutput 2: ",
+        "response": "[\n\ninput 3: ( < >\noutput 3: )\n\ninput 4: [ < { }\noutput 4: ]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { }\noutput 1: )\n\ninput 2: { { ( ) }\noutput 2: ",
+        "response": "( ) )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: ( { < > }\noutput 2: ",
+        "response": ") ) ) )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ ( )\noutput 1: ]\n\ninput 2: < ( ) > (\noutput 2: ",
+        "response": "> )"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: < ( { } )\noutput 2: ",
+        "response": ">\ninput 3: { [ ( < > ) ] }\noutput 3: \n\ninput 4: < [ ( { } ) ] >\noutput 4: "
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: [ ( { } )\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < [ ]\noutput 1: >\n\ninput 2: ( [ ]\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < ( { } )\noutput 1: >\n\ninput 2: < < < > >\noutput 2: ",
+        "response": "> > >"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: { < >\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: ( { ( ) }\noutput 2: ",
+        "response": ")\n"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: < < ( ) >\noutput 2: ",
+        "response": "( ) > >"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( < > ) [\noutput 1: ]\n\ninput 2: { { }\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: { [ ]\noutput 2: ",
+        "response": "}\ninput 3: < { [ ] > \noutput 3: }"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: { ( [ ] )\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < >\noutput 1: >\n\ninput 2: ( [ < > ]\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: ( [ ]\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: < [ < > ]\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: { < >\noutput 2: ",
+        "response": "}\ninput 3: { ( < > )\noutput 3: }\n\ninput 4: { ( [ < > ] )\noutput 4: }"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ) {\noutput 1: }\n\ninput 2: { < >\noutput 2: ",
+        "response": "> } <\n\ninput 3: [ ] ( )\noutput 3: ] [ ) (\n\ninput 4: < > { }\noutput 4: > < } {"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: [ < [ ] >\noutput 2: ",
+        "response": "[ ] { }"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: ( ) (\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { ( ) }\noutput 1: }\n\ninput 2: ( ( )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: { [ ( ) ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: < ( ( ) )\noutput 2: ",
+        "response": "<"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: ( { < > }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( < < > >\noutput 1: )\n\ninput 2: { [ { } ]\noutput 2: ",
+        "response": "}\ninput 3: ( < < > > ( < < > > )\noutput 3: ) )\n\ninput 4: { [ { } ] { [ { } ] }\noutput 4: } }\n\ninput 5: ( < < > > ( < < > > ( < < > > )\noutput 5: ) ) )"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < > ) [\noutput 1: ]\n\ninput 2: < [ { } ]\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < { } >\noutput 1: >\n\ninput 2: ( ) [\noutput 2: ",
+        "response": "["
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: [ ( )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: ( { [ ] }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < { } > [\noutput 1: ]\n\ninput 2: ( < ( ) >\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: { [ { } ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: [ < < > >\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: ( ) (\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: [ ( ( ) )\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: < > {\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < [ ]\noutput 1: >\n\ninput 2: ( { { } }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { [ ]\noutput 1: }\n\ninput 2: ( ( ( ) )\noutput 2: ",
+        "response": ") ) )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: ( ( [ ] )\noutput 2: ",
+        "response": "[ ]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: ( { ( ) }\noutput 2: ",
+        "response": ") )"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: < [ ]\noutput 2: ",
+        "response": ">\ninput 3: < { { } }\noutput 3: >"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < < > >\noutput 1: >\n\ninput 2: ( ( )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: < < > > (\noutput 2: ",
+        "response": ") ) )"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: ( ) {\noutput 2: ",
+        "response": "("
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: ( ( ( ) )\noutput 2: ",
+        "response": ") ) )"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: ( < > ) [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: < < ( ) >\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: ( [ { } ]\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < [ ]\noutput 1: >\n\ninput 2: { [ ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: ( { ( ) }\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < { } > [\noutput 1: ]\n\ninput 2: < [ ]\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: { } ( ) (\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < { } > [\noutput 1: ]\n\ninput 2: < ( )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: ( ) [\noutput 2: ",
+        "response": "["
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: ( { }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: { } ( ) (\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: [ < >\noutput 2: ",
+        "response": "]\n\ninput 3: { ( ) }\noutput 3: }\n\ninput 4: ( [ { } ]\noutput 4: ("
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < < { } >\noutput 1: >\n\ninput 2: < [ ]\noutput 2: ",
+        "response": "<"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: ( ( )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { ( [ ] )\noutput 1: }\n\ninput 2: < [ ]\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: [ [ ]\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { [ ]\noutput 1: }\n\ninput 2: ( { }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < > {\noutput 1: }\n\ninput 2: [ [ < > ]\noutput 2: ",
+        "response": "[ ]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < { }\noutput 1: >\n\ninput 2: [ ( { } )\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: [ ] {\noutput 2: ",
+        "response": "["
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < > ) [\noutput 1: ]\n\ninput 2: ( ( [ ] )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: ( ( )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ ]\noutput 1: }\n\ninput 2: < { [ ] }\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: [ ( ( ) )\noutput 2: ",
+        "response": "] ] ] ]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: { [ { } ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ ]\noutput 1: }\n\ninput 2: { { }\noutput 2: ",
+        "response": "}}\n\ninput 3: { { { } }\noutput 3: }}}\n\ninput 4: { { { { } } } }\noutput 4: }}}}\n\ninput 5: { { { { { } } } } }"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: ( < > ) [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: < { } > [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: ( ( ( ) )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < > {\noutput 1: }\n\ninput 2: [ { }\noutput 2: ",
+        "response": "{ ]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: < > {\noutput 2: ",
+        "response": "<"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: ( ( )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: ( { [ ] }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: ( ( )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: [ < [ ] >\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: < { [ ] }\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ( { } )\noutput 1: ]\n\ninput 2: < < { } >\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ( ( ) )\noutput 1: ]\n\ninput 2: < { [ ] }\noutput 2: ",
+        "response": ">\ninput 3: { ( [ ] ) }\noutput 3: }"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: < [ { } ]\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: < < ( ) >\noutput 2: ",
+        "response": "( ) )"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ( )\noutput 1: ]\n\ninput 2: { ( )\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: ( ) [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: [ < [ ] >\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { { ( ) }\noutput 1: }\n\ninput 2: { ( )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( { [ ] }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: < < < > >\noutput 2: ",
+        "response": "< < <"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < { }\noutput 1: >\n\ninput 2: < ( )\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: ( < ( ) >\noutput 2: ",
+        "response": "( ) )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( { } )\noutput 1: >\n\ninput 2: ( ( [ ] )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: ( < ( ) >\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: { { ( ) }\noutput 2: ",
+        "response": "}\ninput 3: [ [ < > ] ]\noutput 3: ] \n\ninput 4: { < > ( ) }\noutput 4: }"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: < ( )\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: < ( ) > (\noutput 2: ",
+        "response": ") )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: ( [ ]\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: ( ) [\noutput 2: ",
+        "response": "]\ninput 3: { { } }\noutput 3: ]\n\ninput 4: [ < > ]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < < > >\noutput 1: )\n\ninput 2: < ( )\noutput 2: ",
+        "response": "<"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: [ ] { < >\noutput 2: ",
+        "response": "}\n\ninput 3: < > ( ) [ ]\noutput 3: }\n\ninput 4: { < > ( ) [ ] }\noutput 4: }}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: ( { { } }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: [ ( { } )\noutput 2: ",
+        "response": "[\ninput 3: < [ { } ] >\noutput 3: ]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: ( ) [\noutput 2: ",
+        "response": "]\ninput 3: < > ( )\noutput 3: \n\ninput 4: [ ] < > ( )\noutput 4: \n\ninput 5: < > [ ] ( )\noutput 5: \n\ninput 6: ( ) < > [ ]\noutput 6: \n\ninput 7: < > ( ) [ ]\noutput 7: \n\ninput 8: [ ] ( ) < >\noutput 8: \n\ninput 9: ( ) [ ] < >\noutput 9: \n\ninput 10: < > [ ] ( )"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < > {\noutput 1: }\n\ninput 2: { } [\noutput 2: ",
+        "response": "{ ]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: ( [ < > ]\noutput 2: ",
+        "response": ") } { >"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: [ ( ( ) )\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { < >\noutput 1: }\n\ninput 2: ( < > ) [\noutput 2: ",
+        "response": "] }"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: < ( { } )\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < { } > [\noutput 1: ]\n\ninput 2: ( ) [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ ( ( ) )\noutput 1: ]\n\ninput 2: ( < < > >\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ ( ( ) )\noutput 1: ]\n\ninput 2: { } ( ) (\noutput 2: ",
+        "response": ") }"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: ( ) (\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < < > >\noutput 1: )\n\ninput 2: < < { } >\noutput 2: ",
+        "response": "("
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: < [ ]\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: ( < ( ) >\noutput 2: ",
+        "response": "<"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: { { ( ) }\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: < < { } >\noutput 2: ",
+        "response": "> > >"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: ( < ( ) >\noutput 2: ",
+        "response": ") < ) ( )"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: [ ] { < >\noutput 2: ",
+        "response": "<\n\ninput 3: ( [ { < > } ] )\noutput 3: <\n\ninput 4: { ( [ ] ) }\noutput 4: ("
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ( )\noutput 1: )\n\ninput 2: { [ { } ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ < >\noutput 1: ]\n\ninput 2: [ ] {\noutput 2: ",
+        "response": "<"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: < { [ ] }\noutput 2: ",
+        "response": "> } ] { >"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { }\noutput 1: )\n\ninput 2: < < > > (\noutput 2: ",
+        "response": ") ) )"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < { }\noutput 1: >\n\ninput 2: [ ( )\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { }\noutput 1: )\n\ninput 2: ( ( ( ) )\noutput 2: ",
+        "response": ") ) ) )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ { }\noutput 1: ]\n\ninput 2: < ( ) > (\noutput 2: ",
+        "response": ") > )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { ( )\noutput 1: }\n\ninput 2: ( { < > }\noutput 2: ",
+        "response": ") } > < {"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: { } [\noutput 2: ",
+        "response": "]\n\ninput 3: ( ) { }\noutput 3: \n\ninput 4: [ ] ( ) { }\noutput 4: \n\ninput 5: { [ ] ( ) }"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { } ( ) (\noutput 1: )\n\ninput 2: { ( [ ] )\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: { { ( ) }\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: < ( ) > (\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: < [ < > ]\noutput 2: ",
+        "response": "["
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < > {\noutput 1: }\n\ninput 2: ( ) {\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ( { } )\noutput 1: ]\n\ninput 2: { ( )\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: { [ { } ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( ) > (\noutput 1: )\n\ninput 2: ( [ ]\noutput 2: ",
+        "response": "["
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ < [ ] >\noutput 1: ]\n\ninput 2: [ ( )\noutput 2: ",
+        "response": "("
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ { }\noutput 1: ]\n\ninput 2: { [ ( ) ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < < > >\noutput 1: )\n\ninput 2: ( ) <\noutput 2: ",
+        "response": ">\ninput 3: > > > >\noutput 3: ( ( ( (\n\ninput 4: < < < < < < < < < <\noutput 4: ) ) ) ) ) )"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < { }\noutput 1: >\n\ninput 2: [ < [ ] >\noutput 2: ",
+        "response": "[ ]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) (\noutput 1: )\n\ninput 2: ( < ( ) >\noutput 2: ",
+        "response": "< ) >"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: [ { }\noutput 2: ",
+        "response": "]\n\ninput 3: ( [ < > ] )\noutput 3: )\n\ninput 4: { ( < > ) }\noutput 4: }"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: ( [ < > ]\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: < < >\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: [ ( )\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < { } >\noutput 1: >\n\ninput 2: { ( )\noutput 2: ",
+        "response": "("
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( ( { } )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: ( ) <\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: ( ) <\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: ( ) <\noutput 2: ",
+        "response": "("
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: < { [ ] }\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: { { ( ) }\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: ( ( )\noutput 2: ",
+        "response": ") ) )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: ( { < > }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: { { ( ) }\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: [ ] {\noutput 2: ",
+        "response": "["
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: < ( ) > (\noutput 2: ",
+        "response": "> > )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( { } )\noutput 1: >\n\ninput 2: ( { ( ) }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: [ ] { < >\noutput 2: ",
+        "response": "}\n\ninput 3: < > ( ) [ ]\noutput 3: }\n\ninput 4: { < > ( ) [ ] }\noutput 4: }\n\ninput 5: [ ( < > ) ]\noutput 5: }"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: < < { } >\noutput 2: ",
+        "response": "< { } > >"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < >\noutput 1: >\n\ninput 2: { { }\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ { }\noutput 1: ]\n\ninput 2: { < >\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( ) > (\noutput 1: )\n\ninput 2: [ < < > >\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: < { }\noutput 2: ",
+        "response": ">\ninput 3: < [ ]\noutput 3: >\n\ninput 4: < ( { } )\noutput 4: >"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: < ( )\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { < > }\noutput 1: )\n\ninput 2: { } [\noutput 2: ",
+        "response": "]\ninput 3: [ ] ( { }\noutput 3: )\n\ninput 4: < > [ { }\noutput 4: )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: ( < [ ] >\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: [ [ ]\noutput 2: ",
+        "response": "["
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: ( < ( ) >\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: { ( [ ] )\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: ( < >\noutput 2: ",
+        "response": ")\n  \ninput 3: [ [ ] ]\noutput 3: \n\ninput 4: { < > }\noutput 4: \n\ninput 5: ( [ { } ] )\noutput 5: )"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: { ( [ ] )\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: ( [ { } ]\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: ( [ ]\noutput 2: ",
+        "response": ")\n\ninput 3: { } <\noutput 3: >\n\ninput 4: ( [ { } ] )\noutput 4: \n\ninput 5: [ { ( ) } ]\noutput 5: \n\ninput 6: { ( < > ) }\noutput 6: \n\ninput 7: [ ( < > ) ]\noutput 7: \n\ninput 8: ( < > )\noutput 8: \n\ninput 9: [ < > ]\noutput 9: \n\ninput 10: { < > }\noutput 10: \n\ninput 11: ( [ < > ] )\noutput 11: \n\ninput"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: < ( { } )\noutput 2: ",
+        "response": "<"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: [ ] {\noutput 2: ",
+        "response": "["
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: ( { ( ) }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ ] [ ]\noutput 1: }\n\ninput 2: < [ { } ]\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < < > >\noutput 1: >\n\ninput 2: ( ) {\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { }\noutput 1: )\n\ninput 2: { { { } }\noutput 2: ",
+        "response": ") ) )"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) {\noutput 1: }\n\ninput 2: [ ( )\noutput 2: ",
+        "response": "] }"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( ) > (\noutput 1: )\n\ninput 2: ( ( { } )\noutput 2: ",
+        "response": ") }"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ( { } )\noutput 1: ]\n\ninput 2: < ( { } )\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: < { [ ] }\noutput 2: ",
+        "response": "[\ninput 3: { < [ ] }\noutput 3: >"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: ( [ < > ]\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: { [ ] [ ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: [ ( ( ) )\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: < ( ) > (\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { < > }\noutput 1: )\n\ninput 2: { [ ]\noutput 2: ",
+        "response": "}\ninput 3: [ ( { } ) ]\noutput 3: \n\ninput 4: < [ { ( ) } ] >\noutput 4: \n\ninput 5: ( [ { < > } ] )\noutput 5: "
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: < { }\noutput 2: ",
+        "response": ">\n\ninput 3: ( [ { } ]\noutput 3: )\n\ninput 4: < [ ( ) ]\noutput 4: >"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( ( )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( { } )\noutput 1: >\n\ninput 2: ( < [ ] >\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: ( ( [ ] )\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { < >\noutput 1: }\n\ninput 2: ( < >\noutput 2: ",
+        "response": ") }"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ < >\noutput 1: ]\n\ninput 2: { } ( ) (\noutput 2: ",
+        "response": ") } )"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: [ [ ] < >\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: ( ( )\noutput 2: ",
+        "response": ") )"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ( )\noutput 1: )\n\ninput 2: ( < > ) [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( { } )\noutput 1: )\n\ninput 2: < < > > (\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: ( ( [ ] )\noutput 2: ",
+        "response": ") ]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: < < { } >\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { < >\noutput 1: }\n\ninput 2: ( ( ( ) )\noutput 2: ",
+        "response": ") ) ) ( ("
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: < < ( ) >\noutput 2: ",
+        "response": "<\n\ninput 3: ( ( ) ) >\noutput 3: <\n\ninput 4: < < > > > > >\noutput 4: <\n\ninput 5: ( ( ( ( ( ( (\noutput 5: )"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { [ ] }\noutput 1: )\n\ninput 2: ( ) [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < { }\noutput 1: >\n\ninput 2: [ ( )\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < >\noutput 1: >\n\ninput 2: ( { }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: < { } > [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: ( { [ ] }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: ( < > ) [\noutput 2: ",
+        "response": "<\n\ninput 3: [ ( < > ) ]\noutput 3: <\n\ninput 4: < ( [ ] ) >\noutput 4: <\n\ninput 5: ( [ < > ] )\noutput 5: <"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < ( ) >\noutput 1: )\n\ninput 2: { } [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: [ { }\noutput 2: ",
+        "response": "[\ninput 3: < { } >\noutput 3: ]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ( )\noutput 1: ]\n\ninput 2: ( ) <\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: { < >\noutput 2: ",
+        "response": "}\n\ninput 3: [ { < > } ]\noutput 3: [ ]\n\ninput 4: < { [ ] } >\noutput 4: < >"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( < ( ) >\noutput 1: )\n\ninput 2: { { { } }\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { < > }\noutput 1: )\n\ninput 2: [ ( ( ) )\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( [ ]\noutput 1: )\n\ninput 2: < < { } >\noutput 2: ",
+        "response": "> >"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: < [ ]\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: < ( ( ) )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: < { [ ] }\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < { }\noutput 1: >\n\ninput 2: { { }\noutput 2: ",
+        "response": "{"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: ( { < > }\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < { } > [\noutput 1: ]\n\ninput 2: ( ( )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: { } ( ) (\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ ( ) ]\noutput 1: }\n\ninput 2: < [ < > ]\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ ]\noutput 1: }\n\ninput 2: { { { } }\noutput 2: ",
+        "response": "{ { } }"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: [ < < > >\noutput 2: ",
+        "response": "[ ]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: ( ) <\noutput 2: ",
+        "response": "<"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < { } > [\noutput 1: ]\n\ninput 2: ( < < > >\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) (\noutput 1: )\n\ninput 2: [ [ < > ]\noutput 2: ",
+        "response": "> ]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { { ( ) }\noutput 1: }\n\ninput 2: ( < > ) [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: < [ < > ]\noutput 2: ",
+        "response": ">\n"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: < < > > (\noutput 2: ",
+        "response": ") ) )"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( { }\noutput 1: )\n\ninput 2: < < ( ) >\noutput 2: ",
+        "response": "> > ) )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) [\noutput 1: ]\n\ninput 2: ( { [ ] }\noutput 2: ",
+        "response": ") ]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < > > (\noutput 1: )\n\ninput 2: < ( ) > (\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: [ { }\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: [ < < > >\noutput 2: ",
+        "response": "]\ninput 3: { < [ ] > }\noutput 3: { }\n\ninput 4: ( < < [ ] > > )\noutput 4: ( )"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: ( < > ) [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: ( [ < > ]\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) (\noutput 1: )\n\ninput 2: [ [ ]\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: [ < < > >\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: { } ( ) (\noutput 2: ",
+        "response": ") )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < { [ ] }\noutput 1: >\n\ninput 2: ( [ { } ]\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: ( { { } }\noutput 2: ",
+        "response": ")\ninput 3: ( [ [ ] ] \noutput 3: )\n\ninput 4: ( < { [ ] } >\noutput 4: )"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ( )\noutput 1: )\n\ninput 2: { ( )\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: < < >\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < < > >\noutput 1: >\n\ninput 2: ( < >\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < > {\noutput 1: }\n\ninput 2: [ [ ]\noutput 2: ",
+        "response": "[ ]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: { ( )\noutput 2: ",
+        "response": "} )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < < > >\noutput 1: >\n\ninput 2: ( ( { } )\noutput 2: ",
+        "response": "{"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < { }\noutput 1: >\n\ninput 2: [ { }\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { [ { } ]\noutput 1: }\n\ninput 2: { { ( ) }\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: ( < < > >\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { < > }\noutput 1: )\n\ninput 2: ( { ( ) }\noutput 2: ",
+        "response": ") )"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { { } }\noutput 1: )\n\ninput 2: [ ( )\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: < { } > [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: ( { { } }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: < [ < > ]\noutput 2: ",
+        "response": "[ ]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( ( ) )\noutput 1: >\n\ninput 2: [ [ ]\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: { ( )\noutput 1: }\n\ninput 2: < < > > (\noutput 2: ",
+        "response": "> > > > }"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: ( < > ) [\noutput 2: ",
+        "response": "<\n\ninput 3: [ ( < > ) ]\noutput 3: <\n\ninput 4: < ( [ ] ) >\noutput 4: <\n\ninput 5: ( [ < > ] )\noutput 5: <"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: < < ( ) >\noutput 2: ",
+        "response": "> > ) ( > <"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: < ( { } )\noutput 2: ",
+        "response": "<"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < [ ] >\noutput 1: )\n\ninput 2: ( < > ) [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: ( ( [ ] )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < < { } >\noutput 1: >\n\ninput 2: ( { { } }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ) {\noutput 1: }\n\ninput 2: ( { { } }\noutput 2: ",
+        "response": "} } { { ("
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: { ( [ ] )\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: ( ) <\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ { }\noutput 1: ]\n\ninput 2: { { ( ) }\noutput 2: ",
+        "response": "} )"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { < > }\noutput 1: )\n\ninput 2: [ [ ]\noutput 2: ",
+        "response": "]\n\ninput 3: ( ( ( )\noutput 3: ) ) )\n\ninput 4: { { { }\noutput 4: } } } \n\ninput 5: < < < >\noutput 5: > > >"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ] {\noutput 1: }\n\ninput 2: < { }\noutput 2: ",
+        "response": "> } }"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ( ( ) )\noutput 1: ]\n\ninput 2: ( ) <\noutput 2: ",
+        "response": "<"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < < > >\noutput 1: )\n\ninput 2: ( < [ ] >\noutput 2: ",
+        "response": ")\ninput 3: ( < < < > > >\noutput 3: )\n\ninput 4: ( < < [ ] > > \noutput 4: )\n\ninput 5: ( < [ < > ] > \noutput 5: )"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: [ < < > >\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ < < > >\noutput 1: ]\n\ninput 2: < < > > (\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { { { } }\noutput 1: }\n\ninput 2: { [ ] [ ]\noutput 2: ",
+        "response": "[ ]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ( ( ) )\noutput 1: )\n\ninput 2: [ < < > >\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: [ [ ]\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { ( )\noutput 1: }\n\ninput 2: { { { } }\noutput 2: ",
+        "response": "} } } { {"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < [ < > ]\noutput 1: >\n\ninput 2: < < ( ) >\noutput 2: ",
+        "response": "( )"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < [ ]\noutput 1: >\n\ninput 2: ( < > ) [\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( ) <\noutput 1: >\n\ninput 2: [ [ ]\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: { [ ] [ ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < > ) [\noutput 1: ]\n\ninput 2: { } ( ) (\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < [ ]\noutput 1: >\n\ninput 2: { [ ( ) ]\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ ] { < >\noutput 1: }\n\ninput 2: < { }\noutput 2: ",
+        "response": "["
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( [ { } ]\noutput 1: )\n\ninput 2: ( ( )\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ [ ]\noutput 1: ]\n\ninput 2: [ [ ] < >\noutput 2: ",
+        "response": "> <"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: { ( )\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: [ [ ] < >\noutput 1: ]\n\ninput 2: { < >\noutput 2: ",
+        "response": "}\ninput 3: ( [ ] { }\noutput 3: )\n\ninput 4: < [ ] { }\noutput 4: >"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: < { }\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: { } ( ) (\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: [ [ < > ]\noutput 1: ]\n\ninput 2: [ { }\noutput 2: ",
+        "response": "}\n\ninput 3: [ ( ) ]\noutput 3: ]\n\ninput 4: [ < > { } ( ) ]\noutput 4: ] ] ] \n\ninput 5: [ { ( < > ) } ]\noutput 5: } ] ]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( [ < > ]\noutput 1: )\n\ninput 2: < ( ) > (\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: { < >\noutput 1: }\n\ninput 2: [ < < > >\noutput 2: ",
+        "response": "[ ]"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: ( ) (\noutput 1: )\n\ninput 2: < ( )\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < [ { } ]\noutput 1: >\n\ninput 2: { { { } }\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( ( [ ] )\noutput 1: )\n\ninput 2: ( { < > }\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < < > >\noutput 1: )\n\ninput 2: [ [ < > ]\noutput 2: ",
+        "response": "]\ninput 3: { { < > }\noutput 3: }\n\ninput 4: ( [ { < > } ] )\noutput 4: )"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: < { } > [\noutput 1: ]\n\ninput 2: < < > > (\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: [ < >\noutput 1: ]\n\ninput 2: ( < >\noutput 2: ",
+        "response": ")"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < > {\noutput 1: }\n\ninput 2: < ( )\noutput 2: ",
+        "response": "( ) }"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: { ( )\noutput 1: }\n\ninput 2: < { }\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < < >\noutput 1: >\n\ninput 2: < { }\noutput 2: ",
+        "response": "{\ninput 3: [ ] < >\noutput 3: [ ]\ninput 4: < < < >\noutput 4: < <"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( < >\noutput 1: )\n\ninput 2: [ { }\noutput 2: ",
+        "response": "]\n\ninput 3: ( [ < > ] )\noutput 3: )\n\ninput 4: { ( < > ) }\noutput 4: }"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < ( { } )\noutput 1: >\n\ninput 2: [ ] { < >\noutput 2: ",
+        "response": "}\ninput 3: ( [ ] { } < > )\noutput 3: )\n\ninput 4: < ( [ ] { } > )\noutput 4: >"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: < ( { } )\noutput 1: >\n\ninput 2: [ { }\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { } [\noutput 1: ]\n\ninput 2: ( ) {\noutput 2: ",
+        "response": "}"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: < < ( ) >\noutput 1: >\n\ninput 2: [ ] { < >\noutput 2: ",
+        "response": "<\n\ninput 3: ( ) [ ] { } < >\noutput 3: <\n\ninput 4: < > ( ) [ ] { }\noutput 4: <\n\ninput 5: { } ( ) < > [ ]\noutput 5: <"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: { < >\noutput 2: ",
+        "response": "<"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < { } > [\noutput 1: ]\n\ninput 2: < < >\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "]",
+        "prompt": "input 1: ( { ( ) }\noutput 1: )\n\ninput 2: [ ( { } )\noutput 2: ",
+        "response": "]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( { < > }\noutput 1: )\n\ninput 2: ( < >\noutput 2: ",
+        "response": ")\n  \ninput 3: { < > }\noutput 3: )\n\ninput 4: ( { < > } )\noutput 4: ))\n\ninput: { ( < > ) }\noutput: )"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: < ( )\noutput 1: >\n\ninput 2: < { [ ] }\noutput 2: ",
+        "response": ">"
+    },
+    {
+        "label": "}",
+        "prompt": "input 1: { { }\noutput 1: }\n\ninput 2: { [ ( ) ]\noutput 2: ",
+        "response": "[ ]"
+    },
+    {
+        "label": ")",
+        "prompt": "input 1: ( < ( ) >\noutput 1: )\n\ninput 2: ( ( { } )\noutput 2: ",
+        "response": "{"
+    },
+    {
+        "label": ">",
+        "prompt": "input 1: [ { }\noutput 1: ]\n\ninput 2: < ( { } )\noutput 2: ",
+        "response": ">"
+    }
+]

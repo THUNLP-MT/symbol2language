@@ -1,0 +1,302 @@
+[
+    {
+        "label": "Six 0 ; Three 2 ; Three 0",
+        "prompt": "input: One 0 ; Seven 6 ; Four 0\noutput: Two 0 ; Seven 6 ; Three 0\n\ninput: One 0 ; Seven 5 ; Four 0\noutput: Two 0 ; Seven 5 ; Three 0\n\ninput: Three 0 ; Three 1 ; Six 0\noutput: Four 0 ; Three 1 ; Five 0\n\ninput: Two 0 ; Four 6 ; Six 0\noutput: Three 0 ; Four 6 ; Five 0\n\ninput: Five 0 ; Three 2 ; Four 0\noutput: ",
+        "response": "Six 0 ; Three 2 ; Three 0"
+    },
+    {
+        "label": "Three 0 ; Four 6 ; Five 0",
+        "prompt": "input: One 0 ; Seven 6 ; Four 0\noutput: Two 0 ; Seven 6 ; Three 0\n\ninput: Three 0 ; Three 1 ; Six 0\noutput: Four 0 ; Three 1 ; Five 0\n\ninput: One 0 ; Seven 5 ; Four 0\noutput: Two 0 ; Seven 5 ; Three 0\n\ninput: Three 0 ; Four 5 ; Five 0\noutput: Four 0 ; Four 5 ; Four 0\n\ninput: Two 0 ; Four 6 ; Six 0\noutput: ",
+        "response": "Three 0 ; Four 6 ; Five 0"
+    },
+    {
+        "label": "Four 0 ; Four 5 ; Four 0",
+        "prompt": "input: One 0 ; Seven 5 ; Four 0\noutput: Two 0 ; Seven 5 ; Three 0\n\ninput: Two 0 ; Four 6 ; Six 0\noutput: Three 0 ; Four 6 ; Five 0\n\ninput: Three 0 ; Three 1 ; Six 0\noutput: Four 0 ; Three 1 ; Five 0\n\ninput: Five 0 ; Three 2 ; Four 0\noutput: Six 0 ; Three 2 ; Three 0\n\ninput: Three 0 ; Four 5 ; Five 0\noutput: ",
+        "response": "Four 0 ; Four 5 ; Four 0"
+    },
+    {
+        "label": "Two 0 ; Seven 5 ; Three 0",
+        "prompt": "input: Three 0 ; Four 5 ; Five 0\noutput: Four 0 ; Four 5 ; Four 0\n\ninput: Five 0 ; Three 2 ; Four 0\noutput: Six 0 ; Three 2 ; Three 0\n\ninput: Three 0 ; Three 1 ; Six 0\noutput: Four 0 ; Three 1 ; Five 0\n\ninput: Two 0 ; Four 6 ; Six 0\noutput: Three 0 ; Four 6 ; Five 0\n\ninput: One 0 ; Seven 5 ; Four 0\noutput: ",
+        "response": "Two 0 ; Seven 5 ; Three 0"
+    },
+    {
+        "label": "Two 0 ; Seven 5 ; Three 0",
+        "prompt": "input: Three 0 ; Three 1 ; Six 0\noutput: Four 0 ; Three 1 ; Five 0\n\ninput: Two 0 ; Four 6 ; Six 0\noutput: Three 0 ; Four 6 ; Five 0\n\ninput: Five 0 ; Three 2 ; Four 0\noutput: Six 0 ; Three 2 ; Three 0\n\ninput: Three 0 ; Four 5 ; Five 0\noutput: Four 0 ; Four 5 ; Four 0\n\ninput: One 0 ; Seven 5 ; Four 0\noutput: ",
+        "response": "Two 0 ; Seven 5 ; Three 0"
+    },
+    {
+        "label": "Two 0 ; Seven 5 ; Three 0",
+        "prompt": "input: Three 0 ; Four 5 ; Five 0\noutput: Four 0 ; Four 5 ; Four 0\n\ninput: Five 0 ; Three 2 ; Four 0\noutput: Six 0 ; Three 2 ; Three 0\n\ninput: Three 0 ; Three 1 ; Six 0\noutput: Four 0 ; Three 1 ; Five 0\n\ninput: Two 0 ; Four 6 ; Six 0\noutput: Three 0 ; Four 6 ; Five 0\n\ninput: One 0 ; Seven 5 ; Four 0\noutput: ",
+        "response": "Two 0 ; Seven 5 ; Three 0"
+    },
+    {
+        "label": "Two 0 ; Seven 6 ; Three 0",
+        "prompt": "input: One 0 ; Seven 5 ; Four 0\noutput: Two 0 ; Seven 5 ; Three 0\n\ninput: Five 0 ; Three 2 ; Four 0\noutput: Six 0 ; Three 2 ; Three 0\n\ninput: Three 0 ; Four 5 ; Five 0\noutput: Four 0 ; Four 5 ; Four 0\n\ninput: Three 0 ; Three 1 ; Six 0\noutput: Four 0 ; Three 1 ; Five 0\n\ninput: One 0 ; Seven 6 ; Four 0\noutput: ",
+        "response": "Two 0 ; Seven 6 ; Three 0"
+    },
+    {
+        "label": "Four 0 ; Four 5 ; Four 0",
+        "prompt": "input: Two 0 ; Four 6 ; Six 0\noutput: Three 0 ; Four 6 ; Five 0\n\ninput: Three 0 ; Three 1 ; Six 0\noutput: Four 0 ; Three 1 ; Five 0\n\ninput: Five 0 ; Three 2 ; Four 0\noutput: Six 0 ; Three 2 ; Three 0\n\ninput: One 0 ; Seven 6 ; Four 0\noutput: Two 0 ; Seven 6 ; Three 0\n\ninput: Three 0 ; Four 5 ; Five 0\noutput: ",
+        "response": "Four 0 ; Four 5 ; Four 0"
+    },
+    {
+        "label": "Three 0 ; Four 6 ; Five 0",
+        "prompt": "input: One 0 ; Seven 5 ; Four 0\noutput: Two 0 ; Seven 5 ; Three 0\n\ninput: One 0 ; Seven 6 ; Four 0\noutput: Two 0 ; Seven 6 ; Three 0\n\ninput: Three 0 ; Three 1 ; Six 0\noutput: Four 0 ; Three 1 ; Five 0\n\ninput: Three 0 ; Four 5 ; Five 0\noutput: Four 0 ; Four 5 ; Four 0\n\ninput: Two 0 ; Four 6 ; Six 0\noutput: ",
+        "response": "Three 0 ; Four 6 ; Five 0"
+    },
+    {
+        "label": "Six 0 ; Three 2 ; Three 0",
+        "prompt": "input: Three 0 ; Three 1 ; Six 0\noutput: Four 0 ; Three 1 ; Five 0\n\ninput: Two 0 ; Four 6 ; Six 0\noutput: Three 0 ; Four 6 ; Five 0\n\ninput: Three 0 ; Four 5 ; Five 0\noutput: Four 0 ; Four 5 ; Four 0\n\ninput: One 0 ; Seven 5 ; Four 0\noutput: Two 0 ; Seven 5 ; Three 0\n\ninput: Five 0 ; Three 2 ; Four 0\noutput: ",
+        "response": "Six 0 ; Three 2 ; Three 0"
+    },
+    {
+        "label": "Six 0 ; Three 2 ; Three 0",
+        "prompt": "input: One 0 ; Seven 5 ; Four 0\noutput: Two 0 ; Seven 5 ; Three 0\n\ninput: Three 0 ; Four 5 ; Five 0\noutput: Four 0 ; Four 5 ; Four 0\n\ninput: Two 0 ; Four 6 ; Six 0\noutput: Three 0 ; Four 6 ; Five 0\n\ninput: Three 0 ; Three 1 ; Six 0\noutput: Four 0 ; Three 1 ; Five 0\n\ninput: Five 0 ; Three 2 ; Four 0\noutput: ",
+        "response": "Six 0 ; Three 2 ; Three 0"
+    },
+    {
+        "label": "Four 0 ; Three 1 ; Five 0",
+        "prompt": "input: Two 0 ; Four 6 ; Six 0\noutput: Three 0 ; Four 6 ; Five 0\n\ninput: Five 0 ; Three 2 ; Four 0\noutput: Six 0 ; Three 2 ; Three 0\n\ninput: One 0 ; Seven 6 ; Four 0\noutput: Two 0 ; Seven 6 ; Three 0\n\ninput: Three 0 ; Four 5 ; Five 0\noutput: Four 0 ; Four 5 ; Four 0\n\ninput: Three 0 ; Three 1 ; Six 0\noutput: ",
+        "response": "Four 0 ; Three 1 ; Five 0"
+    },
+    {
+        "label": "Two 0 ; Seven 6 ; Three 0",
+        "prompt": "input: Three 0 ; Three 1 ; Six 0\noutput: Four 0 ; Three 1 ; Five 0\n\ninput: Three 0 ; Four 5 ; Five 0\noutput: Four 0 ; Four 5 ; Four 0\n\ninput: Five 0 ; Three 2 ; Four 0\noutput: Six 0 ; Three 2 ; Three 0\n\ninput: Two 0 ; Four 6 ; Six 0\noutput: Three 0 ; Four 6 ; Five 0\n\ninput: One 0 ; Seven 6 ; Four 0\noutput: ",
+        "response": "Two 0 ; Seven 6 ; Three 0"
+    },
+    {
+        "label": "Four 0 ; Four 5 ; Four 0",
+        "prompt": "input: One 0 ; Seven 5 ; Four 0\noutput: Two 0 ; Seven 5 ; Three 0\n\ninput: One 0 ; Seven 6 ; Four 0\noutput: Two 0 ; Seven 6 ; Three 0\n\ninput: Two 0 ; Four 6 ; Six 0\noutput: Three 0 ; Four 6 ; Five 0\n\ninput: Three 0 ; Three 1 ; Six 0\noutput: Four 0 ; Three 1 ; Five 0\n\ninput: Three 0 ; Four 5 ; Five 0\noutput: ",
+        "response": "Four 0 ; Four 5 ; Four 0"
+    },
+    {
+        "label": "Six 0 ; Three 2 ; Three 0",
+        "prompt": "input: Three 0 ; Four 5 ; Five 0\noutput: Four 0 ; Four 5 ; Four 0\n\ninput: Three 0 ; Three 1 ; Six 0\noutput: Four 0 ; Three 1 ; Five 0\n\ninput: Two 0 ; Four 6 ; Six 0\noutput: Three 0 ; Four 6 ; Five 0\n\ninput: One 0 ; Seven 5 ; Four 0\noutput: Two 0 ; Seven 5 ; Three 0\n\ninput: Five 0 ; Three 2 ; Four 0\noutput: ",
+        "response": "Six 0 ; Three 2 ; Three 0"
+    },
+    {
+        "label": "Two 0 ; Seven 6 ; Three 0",
+        "prompt": "input: Three 0 ; Four 5 ; Five 0\noutput: Four 0 ; Four 5 ; Four 0\n\ninput: One 0 ; Seven 5 ; Four 0\noutput: Two 0 ; Seven 5 ; Three 0\n\ninput: Two 0 ; Four 6 ; Six 0\noutput: Three 0 ; Four 6 ; Five 0\n\ninput: Three 0 ; Three 1 ; Six 0\noutput: Four 0 ; Three 1 ; Five 0\n\ninput: One 0 ; Seven 6 ; Four 0\noutput: ",
+        "response": "Two 0 ; Seven 6 ; Three 0"
+    },
+    {
+        "label": "Three 0 ; Four 6 ; Five 0",
+        "prompt": "input: Three 0 ; Three 1 ; Six 0\noutput: Four 0 ; Three 1 ; Five 0\n\ninput: Three 0 ; Four 5 ; Five 0\noutput: Four 0 ; Four 5 ; Four 0\n\ninput: One 0 ; Seven 6 ; Four 0\noutput: Two 0 ; Seven 6 ; Three 0\n\ninput: One 0 ; Seven 5 ; Four 0\noutput: Two 0 ; Seven 5 ; Three 0\n\ninput: Two 0 ; Four 6 ; Six 0\noutput: ",
+        "response": "Three 0 ; Four 6 ; Five 0"
+    },
+    {
+        "label": "Three 0 ; Four 6 ; Five 0",
+        "prompt": "input: Three 0 ; Three 1 ; Six 0\noutput: Four 0 ; Three 1 ; Five 0\n\ninput: Three 0 ; Four 5 ; Five 0\noutput: Four 0 ; Four 5 ; Four 0\n\ninput: One 0 ; Seven 6 ; Four 0\noutput: Two 0 ; Seven 6 ; Three 0\n\ninput: Five 0 ; Three 2 ; Four 0\noutput: Six 0 ; Three 2 ; Three 0\n\ninput: Two 0 ; Four 6 ; Six 0\noutput: ",
+        "response": "Three 0 ; Four 6 ; Five 0"
+    },
+    {
+        "label": "Two 0 ; Seven 6 ; Three 0",
+        "prompt": "input: Five 0 ; Three 2 ; Four 0\noutput: Six 0 ; Three 2 ; Three 0\n\ninput: Three 0 ; Three 1 ; Six 0\noutput: Four 0 ; Three 1 ; Five 0\n\ninput: Three 0 ; Four 5 ; Five 0\noutput: Four 0 ; Four 5 ; Four 0\n\ninput: One 0 ; Seven 5 ; Four 0\noutput: Two 0 ; Seven 5 ; Three 0\n\ninput: One 0 ; Seven 6 ; Four 0\noutput: ",
+        "response": "Two 0 ; Seven 6 ; Three 0"
+    },
+    {
+        "label": "Four 0 ; Three 1 ; Five 0",
+        "prompt": "input: Five 0 ; Three 2 ; Four 0\noutput: Six 0 ; Three 2 ; Three 0\n\ninput: Three 0 ; Four 5 ; Five 0\noutput: Four 0 ; Four 5 ; Four 0\n\ninput: Two 0 ; Four 6 ; Six 0\noutput: Three 0 ; Four 6 ; Five 0\n\ninput: One 0 ; Seven 6 ; Four 0\noutput: Two 0 ; Seven 6 ; Three 0\n\ninput: Three 0 ; Three 1 ; Six 0\noutput: ",
+        "response": "Four 0 ; Three 1 ; Five 0"
+    },
+    {
+        "label": "Two 0 ; Nine 2 ; Three 0",
+        "prompt": "input: One 0 ; Eight 7 ; Five 0\noutput: Two 0 ; Eight 7 ; Four 0\n\ninput: Four 0 ; Five 3 ; Five 0\noutput: Five 0 ; Five 3 ; Four 0\n\ninput: One 0 ; Eight 1 ; Five 0\noutput: Two 0 ; Eight 1 ; Four 0\n\ninput: Four 0 ; Six 7 ; Four 0\noutput: Five 0 ; Six 7 ; Three 0\n\ninput: One 0 ; Nine 2 ; Four 0\noutput: ",
+        "response": "Two 0 ; Nine 2 ; Three 0"
+    },
+    {
+        "label": "Five 0 ; Five 3 ; Four 0",
+        "prompt": "input: One 0 ; Eight 1 ; Five 0\noutput: Two 0 ; Eight 1 ; Four 0\n\ninput: Two 0 ; Three 2 ; Nine 0\noutput: Three 0 ; Three 2 ; Eight 0\n\ninput: One 0 ; Nine 2 ; Four 0\noutput: Two 0 ; Nine 2 ; Three 0\n\ninput: Four 0 ; Six 7 ; Four 0\noutput: Five 0 ; Six 7 ; Three 0\n\ninput: Four 0 ; Five 3 ; Five 0\noutput: ",
+        "response": "Five 0 ; Five 3 ; Four 0"
+    },
+    {
+        "label": "Two 0 ; Eight 1 ; Four 0",
+        "prompt": "input: One 0 ; Nine 2 ; Four 0\noutput: Two 0 ; Nine 2 ; Three 0\n\ninput: Four 0 ; Six 7 ; Four 0\noutput: Five 0 ; Six 7 ; Three 0\n\ninput: One 0 ; Eight 7 ; Five 0\noutput: Two 0 ; Eight 7 ; Four 0\n\ninput: Four 0 ; Five 3 ; Five 0\noutput: Five 0 ; Five 3 ; Four 0\n\ninput: One 0 ; Eight 1 ; Five 0\noutput: ",
+        "response": "Two 0 ; Eight 1 ; Four 0"
+    },
+    {
+        "label": "Two 0 ; Nine 2 ; Three 0",
+        "prompt": "input: Four 0 ; Six 7 ; Four 0\noutput: Five 0 ; Six 7 ; Three 0\n\ninput: Two 0 ; Three 2 ; Nine 0\noutput: Three 0 ; Three 2 ; Eight 0\n\ninput: One 0 ; Eight 7 ; Five 0\noutput: Two 0 ; Eight 7 ; Four 0\n\ninput: Four 0 ; Five 3 ; Five 0\noutput: Five 0 ; Five 3 ; Four 0\n\ninput: One 0 ; Nine 2 ; Four 0\noutput: ",
+        "response": "Two 0 ; Nine 2 ; Three 0"
+    },
+    {
+        "label": "Two 0 ; Eight 1 ; Four 0",
+        "prompt": "input: Two 0 ; Three 2 ; Nine 0\noutput: Three 0 ; Three 2 ; Eight 0\n\ninput: Four 0 ; Five 3 ; Five 0\noutput: Five 0 ; Five 3 ; Four 0\n\ninput: One 0 ; Eight 7 ; Five 0\noutput: Two 0 ; Eight 7 ; Four 0\n\ninput: One 0 ; Nine 2 ; Four 0\noutput: Two 0 ; Nine 2 ; Three 0\n\ninput: One 0 ; Eight 1 ; Five 0\noutput: ",
+        "response": "Two 0 ; Eight 1 ; Four 0"
+    },
+    {
+        "label": "Five 0 ; Five 3 ; Four 0",
+        "prompt": "input: One 0 ; Nine 2 ; Four 0\noutput: Two 0 ; Nine 2 ; Three 0\n\ninput: One 0 ; Eight 7 ; Five 0\noutput: Two 0 ; Eight 7 ; Four 0\n\ninput: One 0 ; Eight 1 ; Five 0\noutput: Two 0 ; Eight 1 ; Four 0\n\ninput: Two 0 ; Three 2 ; Nine 0\noutput: Three 0 ; Three 2 ; Eight 0\n\ninput: Four 0 ; Five 3 ; Five 0\noutput: ",
+        "response": "Five 0 ; Five 3 ; Four 0"
+    },
+    {
+        "label": "Five 0 ; Six 7 ; Three 0",
+        "prompt": "input: One 0 ; Eight 1 ; Five 0\noutput: Two 0 ; Eight 1 ; Four 0\n\ninput: Four 0 ; Five 3 ; Five 0\noutput: Five 0 ; Five 3 ; Four 0\n\ninput: One 0 ; Eight 7 ; Five 0\noutput: Two 0 ; Eight 7 ; Four 0\n\ninput: Two 0 ; Three 2 ; Nine 0\noutput: Three 0 ; Three 2 ; Eight 0\n\ninput: Four 0 ; Six 7 ; Four 0\noutput: ",
+        "response": "Five 0 ; Six 7 ; Three 0"
+    },
+    {
+        "label": "Five 0 ; Five 3 ; Four 0",
+        "prompt": "input: One 0 ; Nine 2 ; Four 0\noutput: Two 0 ; Nine 2 ; Three 0\n\ninput: One 0 ; Eight 7 ; Five 0\noutput: Two 0 ; Eight 7 ; Four 0\n\ninput: Two 0 ; Three 2 ; Nine 0\noutput: Three 0 ; Three 2 ; Eight 0\n\ninput: Four 0 ; Six 7 ; Four 0\noutput: Five 0 ; Six 7 ; Three 0\n\ninput: Four 0 ; Five 3 ; Five 0\noutput: ",
+        "response": "Five 0 ; Five 3 ; Four 0"
+    },
+    {
+        "label": "Two 0 ; Nine 2 ; Three 0",
+        "prompt": "input: Four 0 ; Five 3 ; Five 0\noutput: Five 0 ; Five 3 ; Four 0\n\ninput: One 0 ; Eight 1 ; Five 0\noutput: Two 0 ; Eight 1 ; Four 0\n\ninput: One 0 ; Eight 7 ; Five 0\noutput: Two 0 ; Eight 7 ; Four 0\n\ninput: Two 0 ; Three 2 ; Nine 0\noutput: Three 0 ; Three 2 ; Eight 0\n\ninput: One 0 ; Nine 2 ; Four 0\noutput: ",
+        "response": "Two 0 ; Nine 2 ; Three 0"
+    },
+    {
+        "label": "Five 0 ; Six 7 ; Three 0",
+        "prompt": "input: Four 0 ; Five 3 ; Five 0\noutput: Five 0 ; Five 3 ; Four 0\n\ninput: One 0 ; Eight 7 ; Five 0\noutput: Two 0 ; Eight 7 ; Four 0\n\ninput: Two 0 ; Three 2 ; Nine 0\noutput: Three 0 ; Three 2 ; Eight 0\n\ninput: One 0 ; Eight 1 ; Five 0\noutput: Two 0 ; Eight 1 ; Four 0\n\ninput: Four 0 ; Six 7 ; Four 0\noutput: ",
+        "response": "Five 0 ; Six 7 ; Three 0"
+    },
+    {
+        "label": "Two 0 ; Eight 1 ; Four 0",
+        "prompt": "input: Two 0 ; Three 2 ; Nine 0\noutput: Three 0 ; Three 2 ; Eight 0\n\ninput: Four 0 ; Six 7 ; Four 0\noutput: Five 0 ; Six 7 ; Three 0\n\ninput: Four 0 ; Five 3 ; Five 0\noutput: Five 0 ; Five 3 ; Four 0\n\ninput: One 0 ; Eight 7 ; Five 0\noutput: Two 0 ; Eight 7 ; Four 0\n\ninput: One 0 ; Eight 1 ; Five 0\noutput: ",
+        "response": "Two 0 ; Eight 1 ; Four 0"
+    },
+    {
+        "label": "Three 0 ; Three 2 ; Eight 0",
+        "prompt": "input: Four 0 ; Five 3 ; Five 0\noutput: Five 0 ; Five 3 ; Four 0\n\ninput: Four 0 ; Six 7 ; Four 0\noutput: Five 0 ; Six 7 ; Three 0\n\ninput: One 0 ; Nine 2 ; Four 0\noutput: Two 0 ; Nine 2 ; Three 0\n\ninput: One 0 ; Eight 7 ; Five 0\noutput: Two 0 ; Eight 7 ; Four 0\n\ninput: Two 0 ; Three 2 ; Nine 0\noutput: ",
+        "response": "Three 0 ; Three 2 ; Eight 0"
+    },
+    {
+        "label": "Two 0 ; Eight 1 ; Four 0",
+        "prompt": "input: Four 0 ; Six 7 ; Four 0\noutput: Five 0 ; Six 7 ; Three 0\n\ninput: Two 0 ; Three 2 ; Nine 0\noutput: Three 0 ; Three 2 ; Eight 0\n\ninput: Four 0 ; Five 3 ; Five 0\noutput: Five 0 ; Five 3 ; Four 0\n\ninput: One 0 ; Eight 7 ; Five 0\noutput: Two 0 ; Eight 7 ; Four 0\n\ninput: One 0 ; Eight 1 ; Five 0\noutput: ",
+        "response": "Two 0 ; Eight 1 ; Four 0"
+    },
+    {
+        "label": "Two 0 ; Nine 2 ; Three 0",
+        "prompt": "input: Four 0 ; Five 3 ; Five 0\noutput: Five 0 ; Five 3 ; Four 0\n\ninput: Two 0 ; Three 2 ; Nine 0\noutput: Three 0 ; Three 2 ; Eight 0\n\ninput: One 0 ; Eight 7 ; Five 0\noutput: Two 0 ; Eight 7 ; Four 0\n\ninput: One 0 ; Eight 1 ; Five 0\noutput: Two 0 ; Eight 1 ; Four 0\n\ninput: One 0 ; Nine 2 ; Four 0\noutput: ",
+        "response": "Two 0 ; Nine 2 ; Three 0"
+    },
+    {
+        "label": "Two 0 ; Nine 2 ; Three 0",
+        "prompt": "input: One 0 ; Eight 1 ; Five 0\noutput: Two 0 ; Eight 1 ; Four 0\n\ninput: Four 0 ; Five 3 ; Five 0\noutput: Five 0 ; Five 3 ; Four 0\n\ninput: One 0 ; Eight 7 ; Five 0\noutput: Two 0 ; Eight 7 ; Four 0\n\ninput: Two 0 ; Three 2 ; Nine 0\noutput: Three 0 ; Three 2 ; Eight 0\n\ninput: One 0 ; Nine 2 ; Four 0\noutput: ",
+        "response": "Two 0 ; Nine 2 ; Three 0"
+    },
+    {
+        "label": "Two 0 ; Eight 1 ; Four 0",
+        "prompt": "input: One 0 ; Nine 2 ; Four 0\noutput: Two 0 ; Nine 2 ; Three 0\n\ninput: Two 0 ; Three 2 ; Nine 0\noutput: Three 0 ; Three 2 ; Eight 0\n\ninput: Four 0 ; Six 7 ; Four 0\noutput: Five 0 ; Six 7 ; Three 0\n\ninput: Four 0 ; Five 3 ; Five 0\noutput: Five 0 ; Five 3 ; Four 0\n\ninput: One 0 ; Eight 1 ; Five 0\noutput: ",
+        "response": "Two 0 ; Eight 1 ; Four 0"
+    },
+    {
+        "label": "Two 0 ; Eight 1 ; Four 0",
+        "prompt": "input: One 0 ; Eight 7 ; Five 0\noutput: Two 0 ; Eight 7 ; Four 0\n\ninput: Two 0 ; Three 2 ; Nine 0\noutput: Three 0 ; Three 2 ; Eight 0\n\ninput: Four 0 ; Six 7 ; Four 0\noutput: Five 0 ; Six 7 ; Three 0\n\ninput: Four 0 ; Five 3 ; Five 0\noutput: Five 0 ; Five 3 ; Four 0\n\ninput: One 0 ; Eight 1 ; Five 0\noutput: ",
+        "response": "Two 0 ; Eight 1 ; Four 0"
+    },
+    {
+        "label": "Two 0 ; Eight 1 ; Four 0",
+        "prompt": "input: Two 0 ; Three 2 ; Nine 0\noutput: Three 0 ; Three 2 ; Eight 0\n\ninput: Four 0 ; Five 3 ; Five 0\noutput: Five 0 ; Five 3 ; Four 0\n\ninput: Four 0 ; Six 7 ; Four 0\noutput: Five 0 ; Six 7 ; Three 0\n\ninput: One 0 ; Nine 2 ; Four 0\noutput: Two 0 ; Nine 2 ; Three 0\n\ninput: One 0 ; Eight 1 ; Five 0\noutput: ",
+        "response": "Two 0 ; Eight 1 ; Four 0"
+    },
+    {
+        "label": "Three 0 ; Three 2 ; Eight 0",
+        "prompt": "input: One 0 ; Nine 2 ; Four 0\noutput: Two 0 ; Nine 2 ; Three 0\n\ninput: One 0 ; Eight 7 ; Five 0\noutput: Two 0 ; Eight 7 ; Four 0\n\ninput: Four 0 ; Five 3 ; Five 0\noutput: Five 0 ; Five 3 ; Four 0\n\ninput: One 0 ; Eight 1 ; Five 0\noutput: Two 0 ; Eight 1 ; Four 0\n\ninput: Two 0 ; Three 2 ; Nine 0\noutput: ",
+        "response": "Three 0 ; Three 2 ; Eight 0"
+    },
+    {
+        "label": "Five 0 ; Five 3 ; Four 0",
+        "prompt": "input: One 0 ; Eight 1 ; Five 0\noutput: Two 0 ; Eight 1 ; Four 0\n\ninput: Four 0 ; Six 7 ; Four 0\noutput: Five 0 ; Six 7 ; Three 0\n\ninput: One 0 ; Eight 7 ; Five 0\noutput: Two 0 ; Eight 7 ; Four 0\n\ninput: Two 0 ; Three 2 ; Nine 0\noutput: Three 0 ; Three 2 ; Eight 0\n\ninput: Four 0 ; Five 3 ; Five 0\noutput: ",
+        "response": "Five 0 ; Five 3 ; Four 0"
+    },
+    {
+        "label": "Two 0 ; Five 8 ; Eight 0",
+        "prompt": "input: One 0 ; Ten 4 ; Four 0\noutput: Two 0 ; Ten 4 ; Three 0\n\ninput: Six 0 ; Four 6 ; Five 0\noutput: Seven 0 ; Four 6 ; Four 0\n\ninput: One 0 ; Nine 5 ; Five 0\noutput: Two 0 ; Nine 5 ; Four 0\n\ninput: One 0 ; Three 2 ; Eleven 0\noutput: Two 0 ; Three 2 ; Ten 0\n\ninput: One 0 ; Five 8 ; Nine 0\noutput: ",
+        "response": "Two 0 ; Five 8 ; Eight 0"
+    },
+    {
+        "label": "Seven 0 ; Five 1 ; Three 0",
+        "prompt": "input: One 0 ; Nine 5 ; Five 0\noutput: Two 0 ; Nine 5 ; Four 0\n\ninput: One 0 ; Eight 8 ; Six 0\noutput: Two 0 ; Eight 8 ; Five 0\n\ninput: One 0 ; Three 2 ; Eleven 0\noutput: Two 0 ; Three 2 ; Ten 0\n\ninput: One 0 ; Five 8 ; Nine 0\noutput: Two 0 ; Five 8 ; Eight 0\n\ninput: Six 0 ; Five 1 ; Four 0\noutput: ",
+        "response": "Seven 0 ; Five 1 ; Three 0"
+    },
+    {
+        "label": "Two 0 ; Five 8 ; Eight 0",
+        "prompt": "input: One 0 ; Ten 4 ; Four 0\noutput: Two 0 ; Ten 4 ; Three 0\n\ninput: Two 0 ; Five 8 ; Eight 0\noutput: Three 0 ; Five 8 ; Seven 0\n\ninput: Two 0 ; Nine 2 ; Four 0\noutput: Three 0 ; Nine 2 ; Three 0\n\ninput: One 0 ; Nine 5 ; Five 0\noutput: Two 0 ; Nine 5 ; Four 0\n\ninput: One 0 ; Five 8 ; Nine 0\noutput: ",
+        "response": "Two 0 ; Five 8 ; Eight 0"
+    },
+    {
+        "label": "Two 0 ; Eight 8 ; Five 0",
+        "prompt": "input: One 0 ; Ten 4 ; Four 0\noutput: Two 0 ; Ten 4 ; Three 0\n\ninput: Six 0 ; Five 1 ; Four 0\noutput: Seven 0 ; Five 1 ; Three 0\n\ninput: Two 0 ; Five 8 ; Eight 0\noutput: Three 0 ; Five 8 ; Seven 0\n\ninput: Six 0 ; Four 6 ; Five 0\noutput: Seven 0 ; Four 6 ; Four 0\n\ninput: One 0 ; Eight 8 ; Six 0\noutput: ",
+        "response": "Two 0 ; Eight 8 ; Five 0"
+    },
+    {
+        "label": "Seven 0 ; Five 1 ; Three 0",
+        "prompt": "input: One 0 ; Nine 5 ; Five 0\noutput: Two 0 ; Nine 5 ; Four 0\n\ninput: One 0 ; Ten 4 ; Four 0\noutput: Two 0 ; Ten 4 ; Three 0\n\ninput: Two 0 ; Five 8 ; Eight 0\noutput: Three 0 ; Five 8 ; Seven 0\n\ninput: One 0 ; Three 2 ; Eleven 0\noutput: Two 0 ; Three 2 ; Ten 0\n\ninput: Six 0 ; Five 1 ; Four 0\noutput: ",
+        "response": "Seven 0 ; Five 1 ; Three 0"
+    },
+    {
+        "label": "Seven 0 ; Four 6 ; Four 0",
+        "prompt": "input: One 0 ; Five 8 ; Nine 0\noutput: Two 0 ; Five 8 ; Eight 0\n\ninput: Two 0 ; Nine 2 ; Four 0\noutput: Three 0 ; Nine 2 ; Three 0\n\ninput: Two 0 ; Five 8 ; Eight 0\noutput: Three 0 ; Five 8 ; Seven 0\n\ninput: One 0 ; Three 2 ; Eleven 0\noutput: Two 0 ; Three 2 ; Ten 0\n\ninput: Six 0 ; Four 6 ; Five 0\noutput: ",
+        "response": "Seven 0 ; Four 6 ; Four 0"
+    },
+    {
+        "label": "Two 0 ; Three 2 ; Ten 0",
+        "prompt": "input: Six 0 ; Four 6 ; Five 0\noutput: Seven 0 ; Four 6 ; Four 0\n\ninput: Two 0 ; Five 8 ; Eight 0\noutput: Three 0 ; Five 8 ; Seven 0\n\ninput: One 0 ; Nine 5 ; Five 0\noutput: Two 0 ; Nine 5 ; Four 0\n\ninput: One 0 ; Ten 4 ; Four 0\noutput: Two 0 ; Ten 4 ; Three 0\n\ninput: One 0 ; Three 2 ; Eleven 0\noutput: ",
+        "response": "Two 0 ; Three 2 ; Ten 0"
+    },
+    {
+        "label": "Three 0 ; Five 8 ; Seven 0",
+        "prompt": "input: One 0 ; Three 2 ; Eleven 0\noutput: Two 0 ; Three 2 ; Ten 0\n\ninput: One 0 ; Five 8 ; Nine 0\noutput: Two 0 ; Five 8 ; Eight 0\n\ninput: One 0 ; Nine 5 ; Five 0\noutput: Two 0 ; Nine 5 ; Four 0\n\ninput: One 0 ; Ten 4 ; Four 0\noutput: Two 0 ; Ten 4 ; Three 0\n\ninput: Two 0 ; Five 8 ; Eight 0\noutput: ",
+        "response": "Three 0 ; Five 8 ; Seven 0"
+    },
+    {
+        "label": "Three 0 ; Five 8 ; Seven 0",
+        "prompt": "input: One 0 ; Five 8 ; Nine 0\noutput: Two 0 ; Five 8 ; Eight 0\n\ninput: One 0 ; Ten 4 ; Four 0\noutput: Two 0 ; Ten 4 ; Three 0\n\ninput: Six 0 ; Four 6 ; Five 0\noutput: Seven 0 ; Four 6 ; Four 0\n\ninput: One 0 ; Nine 5 ; Five 0\noutput: Two 0 ; Nine 5 ; Four 0\n\ninput: Two 0 ; Five 8 ; Eight 0\noutput: ",
+        "response": "Three 0 ; Five 8 ; Seven 0"
+    },
+    {
+        "label": "Two 0 ; Three 2 ; Ten 0",
+        "prompt": "input: One 0 ; Eight 8 ; Six 0\noutput: Two 0 ; Eight 8 ; Five 0\n\ninput: One 0 ; Nine 5 ; Five 0\noutput: Two 0 ; Nine 5 ; Four 0\n\ninput: Six 0 ; Four 6 ; Five 0\noutput: Seven 0 ; Four 6 ; Four 0\n\ninput: Six 0 ; Five 1 ; Four 0\noutput: Seven 0 ; Five 1 ; Three 0\n\ninput: One 0 ; Three 2 ; Eleven 0\noutput: ",
+        "response": "Two 0 ; Three 2 ; Ten 0"
+    },
+    {
+        "label": "Two 0 ; Three 2 ; Ten 0",
+        "prompt": "input: One 0 ; Ten 4 ; Four 0\noutput: Two 0 ; Ten 4 ; Three 0\n\ninput: Two 0 ; Five 8 ; Eight 0\noutput: Three 0 ; Five 8 ; Seven 0\n\ninput: Six 0 ; Five 1 ; Four 0\noutput: Seven 0 ; Five 1 ; Three 0\n\ninput: Six 0 ; Four 6 ; Five 0\noutput: Seven 0 ; Four 6 ; Four 0\n\ninput: One 0 ; Three 2 ; Eleven 0\noutput: ",
+        "response": "Two 0 ; Three 2 ; Ten 0"
+    },
+    {
+        "label": "Two 0 ; Five 8 ; Eight 0",
+        "prompt": "input: One 0 ; Three 2 ; Eleven 0\noutput: Two 0 ; Three 2 ; Ten 0\n\ninput: Six 0 ; Four 6 ; Five 0\noutput: Seven 0 ; Four 6 ; Four 0\n\ninput: One 0 ; Nine 5 ; Five 0\noutput: Two 0 ; Nine 5 ; Four 0\n\ninput: One 0 ; Eight 8 ; Six 0\noutput: Two 0 ; Eight 8 ; Five 0\n\ninput: One 0 ; Five 8 ; Nine 0\noutput: ",
+        "response": "Two 0 ; Five 8 ; Eight 0"
+    },
+    {
+        "label": "Two 0 ; Eight 8 ; Five 0",
+        "prompt": "input: One 0 ; Nine 5 ; Five 0\noutput: Two 0 ; Nine 5 ; Four 0\n\ninput: Six 0 ; Four 6 ; Five 0\noutput: Seven 0 ; Four 6 ; Four 0\n\ninput: Six 0 ; Five 1 ; Four 0\noutput: Seven 0 ; Five 1 ; Three 0\n\ninput: One 0 ; Three 2 ; Eleven 0\noutput: Two 0 ; Three 2 ; Ten 0\n\ninput: One 0 ; Eight 8 ; Six 0\noutput: ",
+        "response": "Two 0 ; Eight 8 ; Five 0"
+    },
+    {
+        "label": "Two 0 ; Eight 8 ; Five 0",
+        "prompt": "input: Two 0 ; Nine 2 ; Four 0\noutput: Three 0 ; Nine 2 ; Three 0\n\ninput: Six 0 ; Four 6 ; Five 0\noutput: Seven 0 ; Four 6 ; Four 0\n\ninput: Two 0 ; Five 8 ; Eight 0\noutput: Three 0 ; Five 8 ; Seven 0\n\ninput: One 0 ; Three 2 ; Eleven 0\noutput: Two 0 ; Three 2 ; Ten 0\n\ninput: One 0 ; Eight 8 ; Six 0\noutput: ",
+        "response": "Two 0 ; Eight 8 ; Five 0"
+    },
+    {
+        "label": "Three 0 ; Five 8 ; Seven 0",
+        "prompt": "input: One 0 ; Nine 5 ; Five 0\noutput: Two 0 ; Nine 5 ; Four 0\n\ninput: Two 0 ; Nine 2 ; Four 0\noutput: Three 0 ; Nine 2 ; Three 0\n\ninput: One 0 ; Three 2 ; Eleven 0\noutput: Two 0 ; Three 2 ; Ten 0\n\ninput: Six 0 ; Five 1 ; Four 0\noutput: Seven 0 ; Five 1 ; Three 0\n\ninput: Two 0 ; Five 8 ; Eight 0\noutput: ",
+        "response": "Three 0 ; Five 8 ; Seven 0"
+    },
+    {
+        "label": "Two 0 ; Three 2 ; Ten 0",
+        "prompt": "input: One 0 ; Eight 8 ; Six 0\noutput: Two 0 ; Eight 8 ; Five 0\n\ninput: One 0 ; Nine 5 ; Five 0\noutput: Two 0 ; Nine 5 ; Four 0\n\ninput: Six 0 ; Five 1 ; Four 0\noutput: Seven 0 ; Five 1 ; Three 0\n\ninput: Two 0 ; Five 8 ; Eight 0\noutput: Three 0 ; Five 8 ; Seven 0\n\ninput: One 0 ; Three 2 ; Eleven 0\noutput: ",
+        "response": "Two 0 ; Three 2 ; Ten 0"
+    },
+    {
+        "label": "Two 0 ; Nine 5 ; Four 0",
+        "prompt": "input: Two 0 ; Five 8 ; Eight 0\noutput: Three 0 ; Five 8 ; Seven 0\n\ninput: One 0 ; Three 2 ; Eleven 0\noutput: Two 0 ; Three 2 ; Ten 0\n\ninput: One 0 ; Eight 8 ; Six 0\noutput: Two 0 ; Eight 8 ; Five 0\n\ninput: One 0 ; Ten 4 ; Four 0\noutput: Two 0 ; Ten 4 ; Three 0\n\ninput: One 0 ; Nine 5 ; Five 0\noutput: ",
+        "response": "Two 0 ; Nine 5 ; Four 0"
+    },
+    {
+        "label": "Two 0 ; Three 2 ; Ten 0",
+        "prompt": "input: Six 0 ; Five 1 ; Four 0\noutput: Seven 0 ; Five 1 ; Three 0\n\ninput: One 0 ; Eight 8 ; Six 0\noutput: Two 0 ; Eight 8 ; Five 0\n\ninput: Two 0 ; Nine 2 ; Four 0\noutput: Three 0 ; Nine 2 ; Three 0\n\ninput: Two 0 ; Five 8 ; Eight 0\noutput: Three 0 ; Five 8 ; Seven 0\n\ninput: One 0 ; Three 2 ; Eleven 0\noutput: ",
+        "response": "Two 0 ; Three 2 ; Ten 0"
+    },
+    {
+        "label": "Three 0 ; Nine 2 ; Three 0",
+        "prompt": "input: One 0 ; Ten 4 ; Four 0\noutput: Two 0 ; Ten 4 ; Three 0\n\ninput: One 0 ; Eight 8 ; Six 0\noutput: Two 0 ; Eight 8 ; Five 0\n\ninput: One 0 ; Five 8 ; Nine 0\noutput: Two 0 ; Five 8 ; Eight 0\n\ninput: One 0 ; Three 2 ; Eleven 0\noutput: Two 0 ; Three 2 ; Ten 0\n\ninput: Two 0 ; Nine 2 ; Four 0\noutput: ",
+        "response": "Three 0 ; Nine 2 ; Three 0"
+    },
+    {
+        "label": "Two 0 ; Nine 5 ; Four 0",
+        "prompt": "input: One 0 ; Five 8 ; Nine 0\noutput: Two 0 ; Five 8 ; Eight 0\n\ninput: One 0 ; Three 2 ; Eleven 0\noutput: Two 0 ; Three 2 ; Ten 0\n\ninput: One 0 ; Eight 8 ; Six 0\noutput: Two 0 ; Eight 8 ; Five 0\n\ninput: Six 0 ; Five 1 ; Four 0\noutput: Seven 0 ; Five 1 ; Three 0\n\ninput: One 0 ; Nine 5 ; Five 0\noutput: ",
+        "response": "Two 0 ; Nine 5 ; Four 0"
+    }
+]

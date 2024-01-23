@@ -1,0 +1,2502 @@
+[
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket; less than; greater than\noutput 1: close square bracket\n\ninput 2: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: open parenthesis; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; less than; greater than; greater than; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open square bracket; less than; less than; greater than; greater than\noutput 1: close square bracket\n\ninput 2: open square bracket; open square bracket; close square bracket; less than; greater than\noutput 2: ",
+        "response": "close square bracket; close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open square bracket; close square bracket; open curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; open curly bracket; close curly bracket\noutput 1: close square bracket\n\ninput 2: open curly bracket; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: greater than\n\ninput 2: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open square bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: open square bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open curly bracket; less than; greater than\noutput 1: close curly bracket\n\ninput 2: open parenthesis; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; less than; less than; greater than; greater than\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close parenthesis; close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close curly bracket\n\ninput 2: less than; less than; greater than; greater than; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 1: close parenthesis\n\ninput 2: less than; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open curly bracket; less than; greater than\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open square bracket; less than; greater than\noutput 1: close square bracket\n\ninput 2: open square bracket; less than; open square bracket; close square bracket; greater than\noutput 2: ",
+        "response": "close square bracket; close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; close curly bracket; open square bracket\noutput 1: close square bracket\n\ninput 2: less than; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; less than; less than; greater than; greater than\noutput 1: close square bracket\n\ninput 2: open parenthesis; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open curly bracket; close curly bracket\noutput 1: greater than\n\ninput 2: open parenthesis; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "open parenthesis; greater than; close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 1: close parenthesis\n\ninput 2: open square bracket; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; less than; less than; greater than; greater than\noutput 1: close square bracket\n\ninput 2: less than; less than; greater than; greater than; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open square bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; open curly bracket; less than; greater than; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 1: close square bracket\n\ninput 2: less than; greater than; open curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: open square bracket; less than; open square bracket; close square bracket; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open square bracket; close square bracket; open square bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: less than; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; open square bracket; less than; greater than; close square bracket\noutput 1: close square bracket\n\ninput 2: less than; open square bracket; close square bracket\noutput 2: ",
+        "response": "open square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; close square bracket; open curly bracket; less than; greater than\noutput 1: close curly bracket\n\ninput 2: open curly bracket; open square bracket; open parenthesis; close parenthesis; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open square bracket; less than; greater than; close square bracket\noutput 1: greater than\n\ninput 2: open parenthesis; close parenthesis; less than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; less than; greater than; greater than; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open curly bracket; close curly bracket; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close curly bracket\n\ninput 2: open parenthesis; close parenthesis; open curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; open square bracket; less than; greater than; close square bracket\noutput 1: close square bracket\n\ninput 2: less than; open square bracket; close square bracket\noutput 2: ",
+        "response": "open square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; open parenthesis; close parenthesis\noutput 1: close square bracket\n\ninput 2: open parenthesis; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open square bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: close square bracket\n\ninput 2: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open square bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; less than; greater than\noutput 1: greater than\n\ninput 2: open parenthesis; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; open square bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: less than; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; less than; greater than\noutput 1: greater than\n\ninput 2: open square bracket; close square bracket; open curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open curly bracket; less than; greater than\noutput 1: close curly bracket\n\ninput 2: less than; open curly bracket; close curly bracket; greater than; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close curly bracket\n\ninput 2: less than; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "greater than; greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open square bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: less than; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket\noutput 1: close square bracket\n\ninput 2: less than; less than; open curly bracket; close curly bracket; greater than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: less than; open parenthesis; close parenthesis; greater than; open parenthesis\noutput 2: ",
+        "response": "close parenthesis; less than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; less than; less than; greater than; greater than\noutput 1: greater than\n\ninput 2: open parenthesis; open curly bracket; less than; greater than; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open square bracket; close square bracket; open square bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: open square bracket; close square bracket; open curly bracket; less than; greater than\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; open square bracket; less than; greater than; close square bracket\noutput 1: close square bracket\n\ninput 2: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 2: ",
+        "response": "open curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open square bracket; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; close parenthesis; open square bracket\noutput 1: close square bracket\n\ninput 2: open square bracket; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 1: close curly bracket\n\ninput 2: less than; less than; greater than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open parenthesis; close parenthesis\noutput 1: close curly bracket\n\ninput 2: open curly bracket; open square bracket; open parenthesis; close parenthesis; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open curly bracket; open square bracket; close square bracket; open square bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: open square bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; close curly bracket; open parenthesis; close parenthesis; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open square bracket; close square bracket; open curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open parenthesis; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; close parenthesis; less than\noutput 1: greater than\n\ninput 2: open square bracket; less than; greater than\noutput 2: ",
+        "response": "less than; greater than; close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; close parenthesis; less than\noutput 1: greater than\n\ninput 2: open parenthesis; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; close curly bracket; open square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: close parenthesis\n\ninput 2: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; close parenthesis; open parenthesis\noutput 1: close parenthesis\n\ninput 2: less than; open square bracket; close square bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: open curly bracket; close curly bracket; open parenthesis; close parenthesis; open parenthesis\noutput 2: ",
+        "response": "close curly bracket; open curly bracket; close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket\noutput 1: close square bracket\n\ninput 2: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket; close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close curly bracket\n\ninput 2: open curly bracket; close curly bracket; open parenthesis; close parenthesis; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open square bracket; close square bracket\noutput 1: greater than\n\ninput 2: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: greater than\n\ninput 2: open parenthesis; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open curly bracket; open curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: less than; open curly bracket; close curly bracket; greater than; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: less than; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; open parenthesis; close parenthesis\noutput 1: close square bracket\n\ninput 2: less than; less than; greater than; greater than; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; less than; open parenthesis; close parenthesis; greater than\noutput 1: greater than\n\ninput 2: open square bracket; less than; open square bracket; close square bracket; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; less than; open parenthesis; close parenthesis; greater than\noutput 1: greater than\n\ninput 2: open square bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: greater than\n\ninput 2: open square bracket; less than; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open parenthesis; close parenthesis\noutput 1: close curly bracket\n\ninput 2: open curly bracket; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "close curly bracket; close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close curly bracket\n\ninput 2: open square bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; close parenthesis; less than\noutput 1: greater than\n\ninput 2: open parenthesis; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close parenthesis; close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; open parenthesis; close parenthesis\noutput 1: close square bracket\n\ninput 2: open curly bracket; open square bracket; open parenthesis; close parenthesis; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; close parenthesis; less than\noutput 1: greater than\n\ninput 2: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 2: ",
+        "response": "open curly bracket; close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 1: close parenthesis\n\ninput 2: open square bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open square bracket; open square bracket; less than; greater than; close square bracket\noutput 1: close square bracket\n\ninput 2: open square bracket; less than; open square bracket; close square bracket; greater than\noutput 2: ",
+        "response": "open square bracket; close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; close parenthesis; open curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: less than; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "greater than; greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: less than; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "greater than; greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; close parenthesis; less than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; close parenthesis; open square bracket\noutput 1: close square bracket\n\ninput 2: less than; less than; greater than; greater than; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: less than; greater than; open curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; less than; greater than; greater than; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open square bracket; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; less than; greater than; greater than; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open square bracket; open square bracket; close square bracket; less than; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; less than; open parenthesis; close parenthesis; greater than\noutput 1: greater than\n\ninput 2: open curly bracket; close curly bracket; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: close square bracket\n\ninput 2: less than; open square bracket; close square bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; less than; greater than; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open square bracket; less than; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: greater than\n\ninput 2: open square bracket; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; less than; greater than\noutput 1: close parenthesis\n\ninput 2: less than; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open square bracket; open square bracket; less than; greater than; close square bracket\noutput 1: close square bracket\n\ninput 2: open square bracket; less than; open square bracket; close square bracket; greater than\noutput 2: ",
+        "response": "open square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; less than; open parenthesis; close parenthesis; greater than\noutput 1: greater than\n\ninput 2: open parenthesis; close parenthesis; less than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; close parenthesis; less than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open square bracket; close square bracket; open square bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: open curly bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open curly bracket; close curly bracket; open square bracket\noutput 1: close square bracket\n\ninput 2: open square bracket; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; close parenthesis; open square bracket\noutput 1: close square bracket\n\ninput 2: open square bracket; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; less than; greater than; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; less than; greater than\noutput 1: greater than\n\ninput 2: open curly bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; close parenthesis; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; less than; greater than; greater than; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; close parenthesis; open curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open square bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; less than; less than; greater than; greater than\noutput 1: close parenthesis\n\ninput 2: less than; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; close square bracket; open curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; close parenthesis; less than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; less than; greater than\noutput 1: close parenthesis\n\ninput 2: open parenthesis; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "close parenthesis; close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 1: close parenthesis\n\ninput 2: open parenthesis; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "open parenthesis; close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 2: ",
+        "response": "open parenthesis; close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 1: greater than\n\ninput 2: open curly bracket; open square bracket; open parenthesis; close parenthesis; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; close square bracket; open curly bracket\noutput 1: close curly bracket\n\ninput 2: open curly bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket; less than; greater than\noutput 1: close square bracket\n\ninput 2: open curly bracket; close curly bracket; open parenthesis; close parenthesis; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; greater than; open curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; close parenthesis; open curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open square bracket; less than; greater than; close square bracket\noutput 1: greater than\n\ninput 2: less than; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "greater than; greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; less than; open square bracket; close square bracket; greater than\noutput 1: close square bracket\n\ninput 2: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open square bracket; close square bracket; open square bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: open curly bracket; open square bracket; open parenthesis; close parenthesis; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 1: greater than\n\ninput 2: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket; less than; greater than\noutput 1: close square bracket\n\ninput 2: less than; open square bracket; close square bracket\noutput 2: ",
+        "response": "open square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; less than; greater than\noutput 1: close parenthesis\n\ninput 2: less than; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; close parenthesis; open square bracket\noutput 1: close square bracket\n\ninput 2: open curly bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; less than; open curly bracket; close curly bracket; greater than\noutput 1: greater than\n\ninput 2: open square bracket; less than; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: greater than\n\ninput 2: open parenthesis; open square bracket; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 2: ",
+        "response": "open curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; less than; open parenthesis; close parenthesis; greater than\noutput 1: greater than\n\ninput 2: less than; greater than; open curly bracket\noutput 2: ",
+        "response": "greater than; open curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open square bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: open square bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis; greater than; open parenthesis\noutput 1: close parenthesis\n\ninput 2: less than; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "greater than; open parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; open curly bracket; close curly bracket\noutput 1: close square bracket\n\ninput 2: less than; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "less than; greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open curly bracket; close curly bracket; greater than; open square bracket\noutput 1: close square bracket\n\ninput 2: less than; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: open curly bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open curly bracket; close curly bracket; open parenthesis; close parenthesis; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open square bracket; less than; greater than\noutput 2: ",
+        "response": "greater than; less than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open curly bracket; less than; greater than; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: open square bracket; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; less than; open parenthesis; close parenthesis; greater than\noutput 1: close parenthesis\n\ninput 2: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close curly bracket\n\ninput 2: less than; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; close parenthesis; open square bracket\noutput 1: close square bracket\n\ninput 2: less than; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "greater than; close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open parenthesis; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; close curly bracket; open parenthesis; close parenthesis; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open square bracket; close square bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; less than; open parenthesis; close parenthesis; greater than\noutput 1: greater than\n\ninput 2: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 2: ",
+        "response": "less than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; less than; greater than\noutput 1: close parenthesis\n\ninput 2: open square bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: less than; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 1: greater than\n\ninput 2: open square bracket; less than; open square bracket; close square bracket; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open square bracket; open parenthesis; close parenthesis; close square bracket\noutput 1: close curly bracket\n\ninput 2: less than; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: less than; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; close curly bracket; open parenthesis; close parenthesis; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open square bracket; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: open parenthesis; close parenthesis; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 2: ",
+        "response": "close parenthesis; close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: less than; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; close curly bracket; open square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "open parenthesis; close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open square bracket; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; close parenthesis; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open square bracket; open square bracket; close square bracket; less than; greater than\noutput 2: ",
+        "response": "close square bracket; less than; greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; less than; less than; greater than; greater than\noutput 1: close parenthesis\n\ninput 2: open square bracket; close square bracket; open curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; close parenthesis; less than\noutput 1: greater than\n\ninput 2: open square bracket; close square bracket; open curly bracket; less than; greater than\noutput 2: ",
+        "response": "less than; greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; open square bracket; less than; greater than; close square bracket\noutput 1: close square bracket\n\ninput 2: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; close parenthesis; open square bracket\noutput 1: close square bracket\n\ninput 2: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close curly bracket\n\ninput 2: open curly bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open parenthesis; close parenthesis\noutput 1: close curly bracket\n\ninput 2: open parenthesis; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "open parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; less than; open curly bracket; close curly bracket; greater than\noutput 1: greater than\n\ninput 2: open curly bracket; close curly bracket; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; open parenthesis; close parenthesis\noutput 1: close square bracket\n\ninput 2: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 2: ",
+        "response": "close parenthesis; close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; less than; less than; greater than; greater than\noutput 1: greater than\n\ninput 2: open curly bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: less than; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; close parenthesis; open square bracket\noutput 1: close square bracket\n\ninput 2: open curly bracket; less than; greater than\noutput 2: ",
+        "response": "greater than; less than; close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; close curly bracket; open square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; less than; greater than\noutput 1: close square bracket\n\ninput 2: less than; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open square bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open curly bracket; less than; greater than; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; open parenthesis; close parenthesis\noutput 1: close square bracket\n\ninput 2: less than; open parenthesis; close parenthesis; greater than; open parenthesis\noutput 2: ",
+        "response": "close parenthesis; greater than; close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 1: close parenthesis\n\ninput 2: less than; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open square bracket; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open square bracket; close square bracket\noutput 1: greater than\n\ninput 2: open parenthesis; open square bracket; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: greater than\n\ninput 2: less than; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "less than; less than; less than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open curly bracket; less than; greater than\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close curly bracket\n\ninput 2: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: less than; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 1: close square bracket\n\ninput 2: open curly bracket; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "open curly bracket; close curly bracket; close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; less than; greater than; greater than; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; less than; greater than\noutput 1: greater than\n\ninput 2: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open square bracket; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: less than; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close curly bracket\n\ninput 2: open curly bracket; less than; greater than\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; close parenthesis; open curly bracket\noutput 1: close curly bracket\n\ninput 2: open curly bracket; less than; greater than\noutput 2: ",
+        "response": "greater than; less than; close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open square bracket; close square bracket; open curly bracket; less than; greater than\noutput 1: close curly bracket\n\ninput 2: open square bracket; less than; open square bracket; close square bracket; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; close curly bracket; open parenthesis; close parenthesis; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; close parenthesis; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "open parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open square bracket; open parenthesis; close parenthesis; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open square bracket; less than; greater than; close square bracket\noutput 1: greater than\n\ninput 2: less than; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 1: greater than\n\ninput 2: open parenthesis; open curly bracket; less than; greater than; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; less than; less than; greater than; greater than\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 1: close square bracket\n\ninput 2: less than; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; less than; open curly bracket; close curly bracket; greater than\noutput 1: greater than\n\ninput 2: open parenthesis; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket\noutput 1: close square bracket\n\ninput 2: open square bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "open square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open curly bracket; close curly bracket; greater than; open square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "open parenthesis; close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; less than; greater than; greater than; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close curly bracket\n\ninput 2: open square bracket; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; close parenthesis; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open square bracket; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; close square bracket; open curly bracket\noutput 1: close curly bracket\n\ninput 2: less than; greater than; open curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open square bracket; close square bracket\noutput 1: greater than\n\ninput 2: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open square bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "open parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; less than; less than; greater than; greater than\noutput 1: close square bracket\n\ninput 2: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: less than; open square bracket; close square bracket\noutput 2: ",
+        "response": "greater than; open square bracket; close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; less than; less than; greater than; greater than\noutput 1: greater than\n\ninput 2: open parenthesis; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open square bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: less than; less than; greater than; greater than; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; close parenthesis; open curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; close curly bracket; open parenthesis; close parenthesis; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "open parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; close parenthesis; less than\noutput 1: greater than\n\ninput 2: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket; less than; greater than; open parenthesis; close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: less than; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "greater than; greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: open parenthesis; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; open square bracket; close square bracket\noutput 1: greater than\n\ninput 2: open curly bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 2: ",
+        "response": "close parenthesis; close curly bracket; close parenthesis; open curly bracket; open parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open curly bracket; close curly bracket; greater than; open square bracket\noutput 1: close square bracket\n\ninput 2: less than; open square bracket; close square bracket\noutput 2: ",
+        "response": "open square bracket; close square bracket; greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open curly bracket; close curly bracket; open parenthesis; close parenthesis; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open curly bracket; close curly bracket; greater than; open square bracket\noutput 1: close square bracket\n\ninput 2: less than; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "greater than; close parenthesis; open parenthesis; less than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; less than; open parenthesis; close parenthesis; greater than\noutput 1: greater than\n\ninput 2: open parenthesis; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: greater than\n\ninput 2: open parenthesis; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open curly bracket; close curly bracket; open parenthesis; close parenthesis; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 1: greater than\n\ninput 2: open square bracket; less than; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; less than; open curly bracket; close curly bracket; greater than\noutput 1: greater than\n\ninput 2: less than; open square bracket; close square bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close curly bracket\n\ninput 2: open parenthesis; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close curly bracket\n\ninput 2: less than; open square bracket; close square bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open square bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open square bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; greater than; open curly bracket\noutput 1: close curly bracket\n\ninput 2: open square bracket; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "open square bracket; close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open curly bracket; close curly bracket\noutput 1: greater than\n\ninput 2: open square bracket; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open square bracket; close square bracket; open curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; close parenthesis; less than\noutput 1: greater than\n\ninput 2: open parenthesis; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close parenthesis; open parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open square bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open curly bracket; close curly bracket; open square bracket\noutput 1: close square bracket\n\ninput 2: open square bracket; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open square bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: open curly bracket; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: less than; open curly bracket; close curly bracket; greater than; open square bracket\noutput 2: ",
+        "response": "less than; close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "open parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; greater than; open curly bracket\noutput 1: close curly bracket\n\ninput 2: open square bracket; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: less than; greater than; open curly bracket\noutput 2: ",
+        "response": "less than; close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket\noutput 1: close square bracket\n\ninput 2: open square bracket; less than; open square bracket; close square bracket; greater than\noutput 2: ",
+        "response": "less than; close square bracket; greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 1: close parenthesis\n\ninput 2: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: close square bracket\n\ninput 2: less than; less than; open curly bracket; close curly bracket; greater than\noutput 2: ",
+        "response": "greater than; greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: close square bracket\n\ninput 2: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open square bracket; open parenthesis; close parenthesis; close square bracket\noutput 1: close curly bracket\n\ninput 2: less than; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; less than; greater than\noutput 1: close parenthesis\n\ninput 2: less than; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "greater than; greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; open parenthesis; close parenthesis\noutput 1: close square bracket\n\ninput 2: open curly bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: open square bracket; less than; open square bracket; close square bracket; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open curly bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: less than; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open curly bracket; close curly bracket\noutput 1: greater than\n\ninput 2: less than; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; less than; greater than\noutput 1: close parenthesis\n\ninput 2: open parenthesis; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "close parenthesis; open parenthesis; close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: greater than\n\ninput 2: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open square bracket; less than; greater than; close square bracket\noutput 1: greater than\n\ninput 2: open parenthesis; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "less than; greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; less than; greater than\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: less than; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; less than; less than; greater than; greater than\noutput 1: close square bracket\n\ninput 2: less than; open parenthesis; close parenthesis; greater than; open parenthesis\noutput 2: ",
+        "response": "greater than; close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; open square bracket; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open square bracket; less than; less than; greater than; greater than\noutput 1: close square bracket\n\ninput 2: open parenthesis; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; less than; less than; greater than; greater than\noutput 1: close parenthesis\n\ninput 2: less than; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open square bracket; open parenthesis; close parenthesis; close square bracket\noutput 1: close curly bracket\n\ninput 2: open square bracket; close square bracket; open curly bracket; less than; greater than\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis; close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket; less than; greater than\noutput 1: close square bracket\n\ninput 2: open square bracket; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; greater than; open curly bracket\noutput 1: close curly bracket\n\ninput 2: open curly bracket; close curly bracket; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; close square bracket; open curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; close parenthesis; less than\noutput 1: greater than\n\ninput 2: open square bracket; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open curly bracket; less than; greater than\noutput 1: close curly bracket\n\ninput 2: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; open square bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: less than; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open curly bracket; close curly bracket; greater than; open square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: close square bracket\n\ninput 2: open parenthesis; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: close square bracket\n\ninput 2: open curly bracket; close curly bracket; open parenthesis; close parenthesis; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; close parenthesis; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; less than; less than; greater than; greater than\noutput 1: close parenthesis\n\ninput 2: less than; less than; open curly bracket; close curly bracket; greater than\noutput 2: ",
+        "response": "greater than; greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; open square bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: less than; open square bracket; close square bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; less than; greater than; greater than; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "open parenthesis; close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; close parenthesis; open square bracket\noutput 1: close square bracket\n\ninput 2: open curly bracket; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; close curly bracket; open square bracket\noutput 1: close square bracket\n\ninput 2: less than; less than; open curly bracket; close curly bracket; greater than\noutput 2: ",
+        "response": "greater than; greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; close square bracket; open curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "close parenthesis; less than; close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open square bracket; close square bracket; open curly bracket; less than; greater than\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open parenthesis; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; less than; greater than\noutput 1: close square bracket\n\ninput 2: open square bracket; close square bracket; open curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; close square bracket; open curly bracket\noutput 1: close curly bracket\n\ninput 2: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open curly bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: less than; less than; greater than; greater than; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open curly bracket; close curly bracket\noutput 1: greater than\n\ninput 2: open square bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open curly bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; open curly bracket; close curly bracket\noutput 1: close square bracket\n\ninput 2: less than; open parenthesis; close parenthesis; greater than; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open parenthesis; close parenthesis\noutput 1: close curly bracket\n\ninput 2: open parenthesis; open curly bracket; less than; greater than; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open curly bracket; open square bracket; open parenthesis; close parenthesis; close square bracket\noutput 1: close curly bracket\n\ninput 2: open curly bracket; close curly bracket; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; close curly bracket; open parenthesis; close parenthesis; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; close curly bracket; open square bracket\noutput 1: close square bracket\n\ninput 2: open curly bracket; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 2: ",
+        "response": "close curly bracket; close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: less than; open parenthesis; close parenthesis; greater than; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; close square bracket; open curly bracket; less than; greater than\noutput 1: close curly bracket\n\ninput 2: less than; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; greater than; open curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; close parenthesis; open curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: close square bracket\n\ninput 2: open curly bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; less than; less than; greater than; greater than\noutput 1: close square bracket\n\ninput 2: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis; greater than; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open square bracket; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open square bracket; less than; open square bracket; close square bracket; greater than\noutput 1: close square bracket\n\ninput 2: open square bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; open curly bracket; close curly bracket\noutput 1: close square bracket\n\ninput 2: open curly bracket; open square bracket; open parenthesis; close parenthesis; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; less than; less than; greater than; greater than\noutput 1: close parenthesis\n\ninput 2: open parenthesis; close parenthesis; less than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open curly bracket; close curly bracket\noutput 1: greater than\n\ninput 2: open square bracket; less than; open square bracket; close square bracket; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; close parenthesis; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "greater than; close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; less than; greater than\noutput 1: close parenthesis\n\ninput 2: open square bracket; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open square bracket; close square bracket; open square bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: less than; less than; greater than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open square bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; less than; open curly bracket; close curly bracket; greater than\noutput 1: greater than\n\ninput 2: open curly bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; less than; greater than; greater than; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; close parenthesis; less than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: greater than\n\ninput 2: open parenthesis; close parenthesis; less than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; less than; greater than\noutput 1: close parenthesis\n\ninput 2: open parenthesis; close parenthesis; less than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; less than; greater than\noutput 1: close parenthesis\n\ninput 2: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open square bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; close square bracket; open curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close parenthesis; close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; close parenthesis; open square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; open curly bracket; less than; greater than; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; close square bracket; open curly bracket; less than; greater than\noutput 1: close curly bracket\n\ninput 2: open square bracket; close square bracket; open curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: less than; open parenthesis; close parenthesis; greater than; open parenthesis\noutput 2: ",
+        "response": "greater than; close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: greater than\n\ninput 2: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open square bracket; open parenthesis; close parenthesis; close square bracket\noutput 1: close curly bracket\n\ninput 2: open square bracket; close square bracket; open curly bracket; less than; greater than\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: less than; less than; open curly bracket; close curly bracket; greater than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; less than; greater than\noutput 1: greater than\n\ninput 2: open curly bracket; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; open curly bracket; close curly bracket\noutput 1: close square bracket\n\ninput 2: open curly bracket; less than; greater than\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis; greater than; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open square bracket; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "open square bracket; close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: less than; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "greater than; open square bracket; close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: less than; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; less than; greater than; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open curly bracket; close curly bracket; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket; less than; greater than\noutput 1: close square bracket\n\ninput 2: open square bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "open square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; open square bracket; less than; greater than; close square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; less than; greater than\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open square bracket; less than; greater than; close square bracket\noutput 1: greater than\n\ninput 2: open parenthesis; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; close parenthesis; less than\noutput 1: greater than\n\ninput 2: open parenthesis; open square bracket; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 1: greater than\n\ninput 2: less than; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; close square bracket; open curly bracket; less than; greater than\noutput 1: close curly bracket\n\ninput 2: open square bracket; close square bracket; open curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 1: greater than\n\ninput 2: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open square bracket; close square bracket; open square bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: less than; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; less than; less than; greater than; greater than\noutput 1: greater than\n\ninput 2: open parenthesis; close parenthesis; open curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; close parenthesis; open curly bracket\noutput 1: close curly bracket\n\ninput 2: open square bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis; greater than; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "close parenthesis; close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: close square bracket\n\ninput 2: less than; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; close square bracket; open curly bracket; less than; greater than\noutput 1: close curly bracket\n\ninput 2: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open square bracket; close square bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open square bracket; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: less than; open parenthesis; close parenthesis; greater than; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; less than; greater than; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket\noutput 1: close square bracket\n\ninput 2: less than; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: greater than\n\ninput 2: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; less than; greater than\noutput 1: close curly bracket\n\ninput 2: open parenthesis; less than; greater than\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; less than; greater than\noutput 1: close square bracket\n\ninput 2: open curly bracket; close curly bracket; open parenthesis; close parenthesis; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 1: greater than\n\ninput 2: open square bracket; open square bracket; close square bracket; less than; greater than\noutput 2: ",
+        "response": "close square bracket; close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close parenthesis; close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open parenthesis; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: less than; less than; greater than; greater than; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; close curly bracket; open square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 2: ",
+        "response": "close parenthesis; close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open square bracket; open parenthesis; close parenthesis; close square bracket\noutput 1: close curly bracket\n\ninput 2: less than; less than; open curly bracket; close curly bracket; greater than\noutput 2: ",
+        "response": "greater than; greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; less than; greater than\noutput 1: close curly bracket\n\ninput 2: open parenthesis; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "open parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; less than; greater than; greater than; open parenthesis\noutput 1: close parenthesis\n\ninput 2: less than; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "greater than; greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open curly bracket; close curly bracket\noutput 1: greater than\n\ninput 2: open square bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; less than; greater than\noutput 1: greater than\n\ninput 2: open parenthesis; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 1: close parenthesis\n\ninput 2: less than; open curly bracket; close curly bracket; greater than; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open square bracket; less than; greater than; close square bracket\noutput 1: greater than\n\ninput 2: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 2: ",
+        "response": "less than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; less than; open parenthesis; close parenthesis; greater than\noutput 1: close parenthesis\n\ninput 2: open curly bracket; close curly bracket; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket; less than; greater than\noutput 1: close square bracket\n\ninput 2: open square bracket; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; open parenthesis; close parenthesis\noutput 1: close square bracket\n\ninput 2: open parenthesis; close parenthesis; less than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: greater than\n\ninput 2: open curly bracket; less than; greater than\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; less than; open parenthesis; close parenthesis; greater than\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 2: ",
+        "response": "open curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; less than; greater than; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open square bracket; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; open square bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: less than; less than; open curly bracket; close curly bracket; greater than\noutput 2: ",
+        "response": "greater than; greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; less than; less than; greater than; greater than\noutput 1: close square bracket\n\ninput 2: less than; open square bracket; close square bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: less than; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; open curly bracket; close curly bracket\noutput 1: greater than\n\ninput 2: open curly bracket; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "open curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open curly bracket; less than; greater than; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open curly bracket; close curly bracket; greater than; open square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close parenthesis; close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: open curly bracket; close curly bracket; open parenthesis; close parenthesis; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open square bracket; open parenthesis; close parenthesis; close square bracket\noutput 1: close curly bracket\n\ninput 2: less than; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open square bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open square bracket; close square bracket; open curly bracket; less than; greater than\noutput 1: close curly bracket\n\ninput 2: open square bracket; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; close parenthesis; less than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open curly bracket; close curly bracket; greater than; open square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; close parenthesis; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open square bracket; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "greater than; close square bracket; close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open curly bracket; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: less than; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "greater than; open square bracket; greater than; less than; close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 1: close parenthesis\n\ninput 2: less than; less than; greater than; greater than; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; open curly bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: less than; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "greater than; greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; close parenthesis; open square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; less than; greater than; greater than; open parenthesis\noutput 1: close parenthesis\n\ninput 2: less than; open parenthesis; close parenthesis; greater than; open parenthesis\noutput 2: ",
+        "response": "close parenthesis; less than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 1: close parenthesis\n\ninput 2: open square bracket; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 1: close parenthesis\n\ninput 2: open square bracket; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; close curly bracket; open square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; close parenthesis; open parenthesis\noutput 1: close parenthesis\n\ninput 2: open square bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close square bracket; close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open square bracket; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open curly bracket; close curly bracket; open parenthesis; close parenthesis; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 1: greater than\n\ninput 2: open parenthesis; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; less than; greater than\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open parenthesis; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: less than; less than; greater than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; less than; less than; greater than; greater than\noutput 1: greater than\n\ninput 2: open parenthesis; less than; greater than\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; greater than; open curly bracket\noutput 1: close curly bracket\n\ninput 2: open square bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close square bracket; close square bracket; open square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; close square bracket; open curly bracket\noutput 1: close curly bracket\n\ninput 2: open curly bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; less than; less than; greater than; greater than\noutput 1: greater than\n\ninput 2: open parenthesis; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "open parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open curly bracket; close curly bracket\noutput 1: greater than\n\ninput 2: open square bracket; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close curly bracket\n\ninput 2: open curly bracket; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; less than; less than; greater than; greater than\noutput 1: close square bracket\n\ninput 2: open parenthesis; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open curly bracket; less than; greater than; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open square bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: greater than\n\ninput 2: less than; open curly bracket; close curly bracket; greater than; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: less than; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "greater than; open square bracket; greater than; less than; close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: open square bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open curly bracket; open parenthesis; close parenthesis\noutput 1: close curly bracket\n\ninput 2: less than; less than; greater than; greater than; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open square bracket; less than; greater than; close square bracket\noutput 1: greater than\n\ninput 2: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 2: ",
+        "response": "less than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; close square bracket; open curly bracket\noutput 1: close curly bracket\n\ninput 2: less than; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "greater than; greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open square bracket; less than; greater than; close square bracket\noutput 1: greater than\n\ninput 2: less than; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 1: close parenthesis\n\ninput 2: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; less than; open parenthesis; close parenthesis; greater than\noutput 1: greater than\n\ninput 2: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; less than; open curly bracket; close curly bracket; greater than\noutput 1: greater than\n\ninput 2: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 2: ",
+        "response": "open parenthesis; close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; close parenthesis; open curly bracket\noutput 1: close curly bracket\n\ninput 2: open parenthesis; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; close curly bracket; open square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; close parenthesis; less than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; open curly bracket; close curly bracket\noutput 1: close square bracket\n\ninput 2: open curly bracket; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; less than; greater than; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open square bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; close square bracket; open curly bracket\noutput 1: close curly bracket\n\ninput 2: less than; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: close square bracket\n\ninput 2: open parenthesis; close parenthesis; less than\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; less than; less than; greater than; greater than\noutput 1: close parenthesis\n\ninput 2: open parenthesis; less than; open square bracket; close square bracket; greater than\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: greater than\n\ninput 2: open square bracket; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; less than; less than; greater than; greater than\noutput 1: close square bracket\n\ninput 2: less than; less than; greater than; greater than; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open curly bracket; open square bracket; close square bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "open curly bracket; close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open parenthesis; open parenthesis; close parenthesis; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open square bracket; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; less than; open parenthesis; close parenthesis; greater than\noutput 1: greater than\n\ninput 2: open square bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open parenthesis; close parenthesis\noutput 1: close curly bracket\n\ninput 2: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open square bracket; less than; greater than; close square bracket\noutput 1: greater than\n\ninput 2: less than; less than; open parenthesis; close parenthesis; greater than\noutput 2: ",
+        "response": "greater than; greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open square bracket; close square bracket\noutput 1: greater than\n\ninput 2: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 2: ",
+        "response": "close square bracket; less than; greater than; open parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; close parenthesis; less than\noutput 1: greater than\n\ninput 2: open square bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close square bracket; close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket; less than; greater than\noutput 1: close square bracket\n\ninput 2: open curly bracket; open square bracket; close square bracket; open square bracket; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; less than; greater than; close parenthesis; open square bracket\noutput 1: close square bracket\n\ninput 2: open curly bracket; close curly bracket; open parenthesis; close parenthesis; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; open square bracket; close square bracket\noutput 1: greater than\n\ninput 2: open curly bracket; open square bracket; open parenthesis; close parenthesis; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; close square bracket; open curly bracket; less than; greater than\noutput 1: close curly bracket\n\ninput 2: less than; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket\noutput 1: close square bracket\n\ninput 2: open square bracket; open square bracket; close square bracket; less than; greater than\noutput 2: ",
+        "response": "close square bracket; less than; greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open curly bracket; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open square bracket; open square bracket; close square bracket; less than; greater than\noutput 1: close square bracket\n\ninput 2: open curly bracket; less than; greater than\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 1: close parenthesis\n\ninput 2: less than; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: greater than\n\ninput 2: open curly bracket; close curly bracket; open parenthesis; close parenthesis; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open square bracket; open square bracket; less than; greater than; close square bracket\noutput 1: close square bracket\n\ninput 2: open square bracket; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open square bracket; less than; greater than; close square bracket\noutput 1: close parenthesis\n\ninput 2: less than; open parenthesis; close parenthesis; greater than; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open curly bracket; less than; greater than\noutput 1: close curly bracket\n\ninput 2: open square bracket; less than; less than; greater than; greater than\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open parenthesis; close parenthesis; open parenthesis\noutput 1: close parenthesis\n\ninput 2: less than; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; open square bracket; open curly bracket; close curly bracket; close square bracket\noutput 1: greater than\n\ninput 2: open curly bracket; open curly bracket; open curly bracket; close curly bracket; close curly bracket\noutput 2: ",
+        "response": "open curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open parenthesis; open square bracket; close square bracket; close parenthesis\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open curly bracket; less than; greater than; close curly bracket\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; less than; less than; greater than; greater than\noutput 1: close parenthesis\n\ninput 2: open square bracket; open square bracket; less than; greater than; close square bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: less than; open curly bracket; close curly bracket; greater than; open square bracket\noutput 1: close square bracket\n\ninput 2: less than; less than; greater than; greater than; open parenthesis\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open square bracket; less than; greater than\noutput 1: close square bracket\n\ninput 2: open parenthesis; less than; greater than\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; greater than; open curly bracket\noutput 1: close curly bracket\n\ninput 2: less than; open parenthesis; close parenthesis\noutput 2: ",
+        "response": "open parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open curly bracket; open parenthesis; close parenthesis\noutput 1: close curly bracket\n\ninput 2: less than; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; less than; greater than\noutput 1: greater than\n\ninput 2: less than; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "open curly bracket; close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; less than; greater than\noutput 1: close parenthesis\n\ninput 2: open square bracket; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: greater than\n\ninput 2: open square bracket; close square bracket; open curly bracket; less than; greater than\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: less than; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 1: greater than\n\ninput 2: open square bracket; open curly bracket; close curly bracket\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; close curly bracket; open square bracket\noutput 1: close square bracket\n\ninput 2: open parenthesis; close parenthesis; open curly bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: less than; less than; open parenthesis; close parenthesis; greater than\noutput 1: greater than\n\ninput 2: open square bracket; close square bracket; open curly bracket; less than; greater than\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open curly bracket; less than; greater than\noutput 2: ",
+        "response": "greater than; less than; close curly bracket"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open curly bracket; close curly bracket; greater than; open square bracket\noutput 1: close square bracket\n\ninput 2: less than; less than; greater than\noutput 2: ",
+        "response": "greater than; greater than"
+    },
+    {
+        "label": "close square bracket",
+        "prompt": "input 1: open parenthesis; open curly bracket; open parenthesis; close parenthesis; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open square bracket; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "close square bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; open curly bracket; less than; greater than; close curly bracket\noutput 1: close parenthesis\n\ninput 2: open parenthesis; less than; greater than\noutput 2: ",
+        "response": "close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: less than; open parenthesis; close parenthesis\noutput 1: greater than\n\ninput 2: less than; open curly bracket; open square bracket; close square bracket; close curly bracket\noutput 2: ",
+        "response": "greater than"
+    },
+    {
+        "label": "close curly bracket",
+        "prompt": "input 1: open curly bracket; open curly bracket; close curly bracket\noutput 1: close curly bracket\n\ninput 2: open curly bracket; open square bracket; open parenthesis; close parenthesis; close square bracket\noutput 2: ",
+        "response": "close curly bracket"
+    },
+    {
+        "label": "close parenthesis",
+        "prompt": "input 1: open parenthesis; less than; open parenthesis; close parenthesis; greater than\noutput 1: close parenthesis\n\ninput 2: open parenthesis; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "close parenthesis; close parenthesis"
+    },
+    {
+        "label": "greater than",
+        "prompt": "input 1: open square bracket; open curly bracket; close curly bracket\noutput 1: close square bracket\n\ninput 2: less than; open parenthesis; open curly bracket; close curly bracket; close parenthesis\noutput 2: ",
+        "response": "greater than"
+    }
+]

@@ -1,0 +1,3002 @@
+[
+    {
+        "p_np": "1",
+        "smiles": "CCCN(CCc1c2c(ccc1)NC(=O)C2)CCC",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a compound with a tertiary amine group (N) attached to three carbon chains (CCC), one of which is attached to a bicyclic aromatic ring system (c1c2c(ccc1)NC(=O)C2)."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN1CC[C@]23[C@H]4Oc5c(OC(C)=O)ccc(C[C@@H]1[C@@H]2C=C[C@@H]4OC(C)=O)c35",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called \"Etoposide\". It is a chemotherapy medication used for the treatments of a number of types of cancer including testicular cancer, lung cancer, lymphoma, leukemia, neuroblastoma, and ovarian cancer."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(CC\\C(CN)=C/F)C=CC(=C1)F",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is 2,4-difluoro-1-(prop-2-en-1-yl)-1H-benzene-1,3-dicarbonitrile."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Cn1c2CCC(Cn3ccnc3C)C(=O)c2c4ccccc14",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a compound named as \"2,3-dihydro-1H-pyrrolo[3,4-b]quinolin-1-one\"."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]4([C@@]3([C@H]([C@H]2[C@]([C@@]1(C(=CC(=O)C=C1)CC2)C)(F)[C@H](C3)O)C[C@@H]4C)C)(OC(C5=CC=CC=C5)=O)C(CO)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Dexamethasone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "s1cc(nc1\\[NH]=C(\\N)N)C",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a molecule called 1-methyl-3-(1,2,4-triazol-3-yl)thiourea."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CCSc1ccc2Sc3ccccc3N(CCCN4CCN(C)CC4)c2c1",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of the drug Clozapine."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CCC(C(=O)NC\\C=C\\C=C(/C)C(OC)C(C)C1OC(\\C=C\\C=C\\C=C(/C)C(=O)C2=C(O)N(C)C=CC2=O)C(O)C1O)C3(O)OC(\\C=C\\C=C\\C)C(C)(C)C(OC4OC(C)C(OC5OC(C)C(OC)C(O)C5OC)C(OC)C4O)C3O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named \"Erythromycin A\". It is a macrolide antibiotic produced by a strain of Saccharopolyspora erythraea (formerly Streptomyces erythraeus). It is used to treat infections caused by certain bacteria."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C2=C(CN(C(=C(SC(=O)C1=CC=CC=C1)/CCO[P](=O)(O)O)/C)C=O)C(=NC(=N2)C)N",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-[(2Z)-2-(2,4-dioxo-3,4-dihydropyrimidin-1(2H)-yl)-3-methylbut-2-enoyl]-N-(2-oxoethyl)-3-(4-sulfamoylphenyl)prop-2-enamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CCCC(C)C1(CC=C)C(=O)NC(=O)NC1=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named 2,2,6-trimethyl-8-oxo-7-octanoylpiperazine-1-carboxylic acid."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC(=CC=C1C(N2CCN(C)CCC2)C3=CC=CC=C3)Cl",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Chlorpromazine. It is a medication used to treat a number of mental disorders such as schizophrenia, bipolar disorder, and major depressive disorder."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(=CC=C1[S](N)(=O)=O)OC)C(NCC3N(CC2=CC=C(F)C=C2)CCC3)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound is not specified, but it appears to be a complex organic molecule with several functional groups, including a sulfonamide group, an ester group, and a fluorobenzene ring."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C3=C(N=C1N2CCN(CC)CC2)CCCCCC3)C4=CC=C(F)C=C4",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a compound named 1-(4-fluorophenyl)-3-(4-piperidin-1-ylpropyl)-7-(prop-1-en-2-yl)-1H-purine-2,6(3H,7H)-dione."
+    },
+    {
+        "p_np": "1",
+        "smiles": "c1(ccc(cc1)C(F)(F)F)CC(N1[C@@H](CCCC1)CN1CCCC1)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of Dexmethylphenidate, a medication used to treat attention deficit hyperactivity disorder (ADHD)."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC(=CC=C1)CC(N(C)CC2=CC=CC=C2)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called N,N-dimethyl-3-phenyl-3-(2-phenylethyl)propan-1-amine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]23(C1(C(C1)CC2)[C@H](O)C[C@@H]4[C@@H]3CC[C@]5([C@H]4CC[C@@H]5C(=O)C)C)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a steroid called Betamethasone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]12(OC1)[C@@H]3C(=C[C@@H]2OC(=O)CC(OC(=O)C)(C)C)C(=CO[C@H]3OC(=O)CC(C)C)COC(=O)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. However, without a specific chemical database or software to interpret the SMILES notation, it's not possible to identify the exact compound. The SMILES notation is a way to represent the structure of a chemical compound using ASCII characters. It includes information about the arrangement of atoms, bonds, and stereochemistry."
+    },
+    {
+        "p_np": "1",
+        "smiles": "ClCCl",
+        "response": "No",
+        "s2l": "The SMILES \"ClCCl\" represents a molecule of dichloromethane, which is a colorless, volatile liquid that is widely used as an organic solvent."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@H]34C1=CC=CC2=C1C(=C[NH]2)C[C@H]3N(C[C@H](C4)NC(N(CC)CC)=O)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of the compound known as Ergotamine. Ergotamine is a medication used to treat migraine headaches."
+    },
+    {
+        "p_np": "0",
+        "smiles": "NC(C(=O)N[C@H]1[C@H]2SCC(=C(N2C1=O)C(O)=O)CSc3cn[nH]n3)c4ccc(O)cc4",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic drug Cefixime."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(OC)C=CC2=C1C4=C3[N]2CCN(C3=NCC4)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a compound called \"Ergoline\", a class of compounds whose structural skeleton is contained within many alkaloids such as LSD and some pharmaceuticals."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC2=C1C3=C(C(=O)N2CCCN(C)C)C=CC=C3",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Chlorpromazine. It is a medication used to treat a number of mental disorders such as schizophrenia, bipolar disorder, and major depressive disorder."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]4([C@@]3([C@H]([C@H]2[C@]([C@@]1(C(=CC(=O)C=C1)CC2)C)(F)C(C3)=O)C[C@@H]4C)C)(OC(CCC)=O)C(CCl)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Dexamethasone."
+    },
+    {
+        "p_np": "0",
+        "smiles": "c1(ccc(cc1)SC)CC(N1[C@H](CN(CC1)C(=O)C)C[N@]1CC[C@H](C1)O)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of the drug Tolterodine, which is used to treat symptoms of an overactive bladder."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CCN[C@@H]1C[C@H](N)[C@@H](O[C@H]2OC(=CC[C@H]2N)CN)[C@H](O)[C@H]1O[C@H]3OC[C@](C)(O)[C@H](NC)[C@H]3O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The specific compound in this case is called \"Erythromycin A\". It is a macrolide antibiotic produced by a strain of Saccharopolyspora erythraea (formerly Streptomyces erythraeus) and belongs to the macrolide group of antibiotics."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC2=C1C(C3=C(CC2)C=CC=C3)=NOCCN(C)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named 1-(diethylamino)-2-(naphthalen-1-yl)-2-oxoethan-1-amine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Cc1ncc(n1CCO)[N+]([O-])=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a molecule called 2-(2-nitroethyl)-1-methyl-1H-imidazole."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC(C)(C)NCC(O)c1ccc(O)c(CO)n1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of the drug called \"Ranolazine\"."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]12C([C@@](O)(CC1)C#C)(CC[C@H]3C2CCC4=CC5=C(CC34C)C=N[N]5C6=CC=C(F)C=C6)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound is difficult to determine without further information, but it appears to be a complex organic molecule with several chiral centers, a triple bond, a hydroxyl group, a fluorine atom, and a couple of aromatic rings. The molecule also contains a diazine ring (a six-membered ring with two nitrogen atoms)."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC(C)(C)NCC(O)c1ccc(O)c(NC(N)=O)c1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named N-(4-hydroxy-3-methoxyphenyl)-2-(propan-2-ylamino)ethanamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC=C1CC2=NC3=C([N]2CCN(CCO)CC)C(N(C)C(N3C)=O)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of the drug Clozapine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(Cl)C=CC2=C1C(=NCC(=O)N2C)C3=CC=CC=C3F",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound named 7-Chloro-5-(4-fluorophenyl)-1-methyl-3H-1,4-benzodiazepin-2-one."
+    },
+    {
+        "p_np": "0",
+        "smiles": "c1(CC(N2[C@H](CN(CC2)C(=O)C)C[N@]2CC[C@H](C2)O)=O)ccc(C(F)(F)F)cc1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named (2S,3R,5S)-3-amino-5-(4-chlorophenyl)-2-(2,2-difluorobenzo[d][1,3]dioxol-5-yl)-2-methylpentanamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(F)(F)F)C=CC3=C1N(C2=C(C=CC=C2)S3)CCCN5CCC(C(C4=CC=C(F)C=C4)=O)CC5",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound is not specified, but it is a complex organic molecule that contains several rings, including a benzene ring and a pyridine ring, as well as several functional groups such as fluorine atoms, a sulfoxide group, and an amide group."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]24[C@H]1[C@@]([C@](C(COC(C)=O)=O)(O)CC1)(CC([C@@H]2[C@@]3(C(=CC(=O)C=C3)[C@H](C4)Cl)C)=O)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. This particular SMILES is for the compound called \"Hydrocortisone\", a medication that is used to treat a variety of conditions such as allergic disorders, skin conditions, ulcerative colitis, arthritis, lupus, psoriasis, or breathing disorders."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1CCN(CC1)Cc1cc(OCCCO)ccc1",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a compound with a piperidine ring attached to a benzene ring through a methylene bridge. The benzene ring has a hydroxyethyl group and a propyl group attached to it."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CN(C)CCn1nnnc1SCC2=C(N3[C@H](SC2)[C@H](NC(=O)Cc4csc(N)n4)C3=O)C(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named as Cefditoren. It is a third-generation cephalosporin antibiotic."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CC(=O)Nc1ccc(O)cc1",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Acetaminophen, also known as Paracetamol."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C2=C(C1=C(C=CC(=C1)Cl)[N]2C3=CC=C(C=C3)F)C5CCN(CCN4C(NCC4)=O)CC5",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound is not specified, but it contains several functional groups including aromatic rings, a nitrogen atom, chlorine, fluorine, and an amide group."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(O)C=CC3=C1C2(CC(CN(CC2)C)C3)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of the compound known as Ibogaine. It is a naturally occurring psychoactive substance found in plants in the Apocynaceae family such as Tabernanthe iboga. It has been used in traditional medicine in Central Africa in low doses for various purposes, and in higher doses as a sacrament in religious rituals."
+    },
+    {
+        "p_np": "0",
+        "smiles": "NCC1OC(OC2C(N)CC(NC(CO)CO)C(OC3OC(CO)C(O)C(N)C3O)C2O)C(N)C(O)C1O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic Streptomycin."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC(=CC=C1C2(C(NC(=O)CC2)=O)CC)N",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named 2-(2-aminophenyl)-2-methylpropanoic acid."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(Cl)C=CC3=C1C(C2=C(C=CC=C2)N3)CCCN(C)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of the drug Chlorpromazine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CC(=O)C3(O)CCC4C2CCC1=CC(=O)C=CC1(C)C2C(O)CC34C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named 3-oxo-5\u03b2-cholan-24-oic acid."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]24(C[C@@H]([C@@H](N(C(CC1=CC(=C(Cl)C=C1)Cl)=O)C)CC2)N3CCCC3)CCCO4",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a molecule called \"Dexetimide\". Dexetimide is a potent anticholinergic drug used in scientific research."
+    },
+    {
+        "p_np": "0",
+        "smiles": "c1cn(CCO)c(CC)c(O)c1=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 4-(2-hydroxyethyl)-6-methyl-2-oxo-1H-pyrrolo[3,4-b]pyridin-3-yl)propan-2-ol."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C3=C(C1=C([N]2C(=N1)C=CC(=C2)Cl)CC(N(CCC)CCC)=O)C=CC(=C3)Cl",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called 2,3-Dichloroquinoxaline."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC(=CC3=C1[N]2C(=NN=C2CN(C)C)CN=C3C4=CC=CC=C4)Cl",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named Clozapine. It is an antipsychotic medication primarily used to treat schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CCCN(CCc1c2c(c(cc1)O)NC(=O)C2)CCC",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a compound named 4-(3-aminobutyl)-1,3-dimethyl-2,3-dihydro-1H-pyrrolo[3,4-b]quinolin-1-one."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CCCCN1C=CC(=O)C(=C1C)O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named 3-Methyl-4-propyl-1,2-dihydroquinolin-6-ol."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC(=O)N1CCN(CC1)c2ccc(OC[C@H]3CO[C@@](Cn4ccnc4)(O3)c5ccc(Cl)cc5Cl)cc2",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of the drug Vortioxetine, which is used to treat depression."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CCC(=O)c1ccc2Sc3ccccc3N(CC(C)N(C)C)c2c1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of Oxyclozanide, a medication used to treat parasitic worm infections."
+    },
+    {
+        "p_np": "1",
+        "smiles": "NNCCc1ccccc1.O[S](O)(=O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a compound made of two separate molecules: dimethylamine hydrochloride (NNCCc1ccccc1) and sulfuric acid (O[S](O)(=O)=O)."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C(C(OC4CC3=CCC2C1C(C(CC1)C(C)=O)(CCC2C3(CC4)C)C)=O)CC(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, this is the structure for the compound \"Cortisone\", a steroid hormone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Cc1onc(N[S](=O)(=O)c2ccc(N)cc2)c1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named N-(4-methyl-1,3-oxazol-2-yl)-N-phenylsulfamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=NC(=NC=C1)N4CCN(CCCCN2C(CC3(CC2=O)CCCC3)=O)CC4",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of the drug Prazosin, which is used to treat high blood pressure."
+    },
+    {
+        "p_np": "1",
+        "smiles": "COc1ccc(Cl)cc1C(=O)NCCc2ccc(cc2)[S](=O)(=O)NC(=O)NC3CCCCC3",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound is difficult to name without a proper chemical nomenclature, but it contains several functional groups including an ether, a chloro-substituted benzene ring, an amide, a sulfonamide, and a cyclohexane ring."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@]24(Cl)C1(C(=CC(=O)C=C1)[C@@H](F)CC2C3C(C([C@@H](C3)C)C(=O)COC(=O)C(C)(C)C)(CC4O)C)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound is difficult to determine without further context or analysis, but it appears to be a complex organic molecule with multiple chiral centers, indicated by the \"@@\" symbols. It contains elements such as carbon (C), hydrogen (H), chlorine (Cl), fluorine (F), and oxygen (O). It also contains several functional groups, including carbonyl groups (=O), ether groups (COC), and a vinyl group (C=C)."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C([S](C)(=O)=O)C=CC(=C1C(NCCN(CC)CC)=O)OC",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-(diethylamino)-N-(2,4-dimethoxyphenyl)-2-methylpropanamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "OC(=O)\\C=C/C(O)=O.OC(=O)\\C=C/C(O)=O.C1CCN(CC1)Cc2cccc(OCCCNc3sc4ccccc4n3)c2",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named N-(4-(4-(2-hydroxyethyl)piperazin-1-yl)phenyl)furan-2-carbothioamide bis(2-methylprop-2-enoate)."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC1(C)S[C@@H]2[C@H](NC(=O)C34C[C@H]5C[C@H](CC(N)(C5)C3)C4)C(=O)N2[C@H]1C(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic drug Vancomycin."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]23[C@@]([C@@]1(C(=CC(=O)C=C1)CC2)C)([C@H](C[C@]4([C@H]3CC[C@@]4(C(COC(C)=O)=O)O)C)O)F",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a type of steroid known as Fluocinolone acetonide. It is a corticosteroid primarily used in dermatology to reduce skin inflammation and relieve itching."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC(=C1N3CCN(CCC2=C[N](C)N=C2)CC3)Cl",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named as Clozapine. It is an antipsychotic medication mainly used to treat schizophrenia."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC(C)C[C@@H]1N2C(=O)[C@](NC(=O)[C@H]3CN(C)[C@@H]4Cc5c(Br)[nH]c6cccc(C4=C3)c56)(O[C@@]2(O)[C@@H]7CCCN7C1=O)C(C)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound named Bromocriptine. It is a medication used to treat Parkinson's disease, type 2 diabetes, and hyperprolactinaemia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(=C(C=C1C(NCC(N(CC)CC)=O)=O)OC)OC)OC",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2,4,6-trimethoxybenzoyl-dipeptide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CCC1(C)CC(=O)NC1=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound called 3-Methyl-2,4-pentanedione."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CNCCCC1c2ccccc2C=Cc3ccccc13",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named Quinuclidine-3-ol, 1-azabicyclo[2.2.2]oct-3-yl ester."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Clc1cc2c(Oc3ccccc3C3CNCC32)cc1",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a molecule of Clozapine, an antipsychotic medication used to treat schizophrenia."
+    },
+    {
+        "p_np": "0",
+        "smiles": "NCC[C@H](O)C(=O)N[C@@H]1C[C@H](N)[C@@H](O[C@H]2O[C@H](CN)CC[C@H]2N)[C@H](O)[C@H]1O[C@H]3O[C@H](CO)[C@@H](O)[C@H](N)[C@H]3O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic Tobramycin."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C2=C(C(C1=CC=CC=C1)(OCCN(C)C)C)C=CC(=C2)Cl",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Chlorpheniramine. It is an antihistamine used to treat allergic reactions."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@H](CN2CCN(C1=CC=CC=CC1=O)CC2)(C3=CC(=C(OC)C=C3)OC)O",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Olanzapine. It is an antipsychotic medication used to treat schizophrenia and bipolar disorder."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]2(C1=CC(=CC=C1)O)([C@H](CN(C)CC2)C)CCC",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a molecule. Specifically, it represents a molecule of (1R,2S)-2-(3,4-dihydroxyphenyl)-2-(dimethylamino)ethylcyclohexan-1-ol."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C2C(=CC=C1)C(C=C(O2)C(O)=O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called 2,5-Dihydroxy-1,4-benzoquinone or commonly known as Hydroquinone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Clc1ccc2N(CC3CC3)C(=O)CN=C(c4ccccc4)c2c1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a compound named 2-(3,4-dichlorophenyl)-3-methyl-4-(2,2,2-trimethylcyclopropyl)-1H-pyrrolo[3,4-b]quinolin-1-one."
+    },
+    {
+        "p_np": "1",
+        "smiles": "c1ccc2Oc3c(cc(cc3)Cl)[C@@H]3[C@@H](c2c1)CNCC3",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named (3aR,4R,9bR)-4-(3-chlorophenyl)-3a,4,5,9b-tetrahydro-3H-cyclopenta[c]quinolin-8(2H)-one."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[H+].[Cl-].Clc1ccc2Sc3ccccc3N(CCCN4CCC5(CC4)NC(=O)CS5)c2c1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound which is a complex organic molecule with a positive hydrogen ion (H+), a negative chloride ion (Cl-), and a larger molecule that includes a chlorine atom, a sulfur atom, a nitrogen atom, an oxygen atom, and several carbon and hydrogen atoms arranged in several rings and chains. The exact name of this compound would require a more detailed analysis."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C3=C(C(N2CCN(CC1=CC=CC=C1)CC2)=O)N=CC=C3",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Clozapine. It is an atypical antipsychotic medication used for the treatment of schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C3=C2C(=NC1=CSC=C1C(/C2=CS3)=C/C#N)N4CCN(C)CC4",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of Clozapine, an antipsychotic medication used in the treatment of schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Oc5ccc4CC2C1CCOCC1(CCN2CC3CC3)c4c5",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a compound named \"Mianserin\", which is a psychoactive drug of the tetracyclic antidepressant (TeCA) therapeutic family. It is used in the treatment of depression and anxiety."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]3(N(C1=CC=CC=C1)C(=O)CC)(C(=O)OC)[C@H](CN(CCC2=CC=CC=C2)CC3)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Dextromethorphan. It is a medication most often used as a cough suppressant in over-the-counter cold and cough medicines."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C=CC=C1C2=NN(C)C(N2C)=S)F",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is 5-fluoro-1-(methylsulfanyl)-1H-benzo[d]imidazole-2-carbonitrile."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]4([C@@]3([C@H]([C@H]2[C@]([C@@]1(C(=CC(=O)C=C1)[C@H](C2)F)C)(F)[C@H](C3)O)C[C@H]4C)C)(OC(CC)=O)C(SCF)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called Fluticasone propionate. It is a synthetic glucocorticoid steroid and is used to treat asthma and allergic rhinitis."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(OC)C=CC2=NC=CC(=C12)CCCC3C(CNCC3)C=C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. However, without a specific chemical database or software to interpret the SMILES notation, it's not possible to provide the exact name or structure of the compound. SMILES (Simplified Molecular Input Line Entry System) is a chemical notation system that represents a molecule's structure using ASCII strings."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C(C(CCC)C(N)=O)CC",
+        "response": "No",
+        "s2l": "The SMILES represents a molecule called 2-Amino-3-methylpentane."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN(C)CC\\C=C/1c2ccccc2Sc3ccc(Cl)cc13",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named as 3-(2,5-dimethyl-1H-pyrrol-1-yl)-10H-phenothiazine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "NCCC(Oc1ccc(cc1)C(F)(F)F)c2ccccc2",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of 2-(3-(4-(trifluoromethyl)phenoxy)propylamino)benzene."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC(=C3C2=C1CC6C4C2(C(O3)C(CC4)OC(C5=CN=CC=C5)=O)CCN6C)OC",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound called Camptothecin. It is a cytotoxic quinoline alkaloid which inhibits the DNA enzyme topoisomerase I. It was discovered in 1966 by M. E. Wall and M. C. Wani in systematic screening of natural products for anticancer drugs. It was isolated from the bark and stem of Camptotheca acuminata (Camptotheca, Happy tree), a tree native to China used as a cancer treatment in Traditional Chinese Medicine."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CCCCNC(=O)N[S](=O)(=O)c1ccc(C)cc1",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound named N-(4-methylphenyl)sulfamoylbutanamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Cc1nnc2CN=C(c3ccccc3Cl)c4cc(Cl)ccc4n12",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-chloro-6-(4-chlorophenyl)-3-(4-chlorophenyl)-3,4-dihydro-2H-pyrimido[5,4-b]quinolin-4-amine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CCOC(=O)c1ncn2c1CN(C)C(=O)c3cc(F)ccc23",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a molecule named 2-(2-fluorophenyl)-3-(propan-2-yloxy)-8,9-dihydro-7H-purine-6,8-dione."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C3=C(C(C1=CC=C(C=C1)F)CCCN2CCN(C(NCC)=O)CC2)C=CC(=C3)F",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound named 1-(4-fluorophenyl)-4-[(4-fluorophenyl)methyl]-3-[3-(4-methylpiperazin-1-yl)propyl]-1H-quinolin-2-one."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]34([C@H]([C@H]2[C@@H]([C@@]1(C(=CC(=O)CC1)CC2)C)[C@H](C3)O)CC[C@@]4(C(COC(C)=O)=O)O)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Hydrocortisone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[H+].C1=CC3=C([N]1N(C2=CC=NC=C2)CCC)C=CC=C3.[Cl-]",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Chlorpromazine hydrochloride. It is a typical antipsychotic medication used to treat a variety of mental disorders such as schizophrenia, manic phase of bipolar disorder, and severe behavioral problems in children."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CCN1C=C(C(O)=O)C(=O)c2ccc(C)nc12",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called 1-(2-methylphenyl)-3-methyl-3,4-dihydroisoquinoline-1,4-dione."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C([S](N)(=O)=O)C=C(C(=C1C(NCC2N(CCC2)CC=C)=O)OC)OC",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of the drug Fasudil."
+    },
+    {
+        "p_np": "0",
+        "smiles": "c1(ccc(c(c1)Cl)Cl)CC(N1[C@H](C[N@@]2C[C@@H](CC2)O)c2n(CC1)ccn2)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of the drug Lorazepam, which is used to treat anxiety disorders."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CNC1C(O)C(OCC1(C)O)OC2C(O)C(OC3OC(CN)C(O)C(O)C3O)C(N)CC2NC(=O)C(O)CN",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of the antibiotic drug called Tobramycin."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CCC(=O)C1(O)CCC2C3CCC4=CC(=O)CCC4(C)C3C(O)CC21C",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound called Progesterone. It is a type of hormone which is produced in the ovaries and has various roles in the female reproductive system."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C(C(NN)C)CCCCC",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a molecule. Specifically, this SMILES represents a molecule with a central carbon atom (C) bonded to another carbon atom and a group containing two nitrogen atoms (NN). This central carbon atom is also bonded to a chain of five carbon atoms (CCCCC)."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]12[C@@]([C@](OC(=O)CC)([C@H](C1)C)C(=O)COC)(C[C@H](O)[C@@]3(F)[C@H]2CCC4=CC(=O)C=C[C@]34C)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a corticosteroid called Dexamethasone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(=C(C=C1)C)NC2=NCCCS2)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named 4-(5-mercapto-4,5-dihydro-1H-imidazol-2-yl)toluene."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C(C1(C(NC(=O)NC1=O)=O)CC=C)C(C)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a molecule called 2,2-dimethyl-3-(2-methylprop-1-en-1-yl)cyclopentane-1,1,3-tricarboxamide."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CNC1C(O)C(OCC1(C)O)OC2C(O)C(OC3OC(CN)C(O)C(O)C3O)C(N)CC2NC(=O)C(O)CN",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic drug Paromomycin."
+    },
+    {
+        "p_np": "0",
+        "smiles": "c1(CC(N2[C@H](CN(CC2)C(=O)C)C[N@]2CC[C@H](C2)O)=O)ccc(OC)cc1",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of the drug Oxycodone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN(C)CCOC(C)(c1ccccc1)c2ccccn2",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Diphenhydramine. It is a first-generation antihistamine used to treat a number of conditions including allergies, insomnia, and motion sickness."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C[S](=O)(=O)c1ccc(cc1)[C@@H](O)[C@@H](CO)NC(=O)C(Cl)Cl",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named (2R,3R)-3-(4-chloro-2,2-dichloroacetylaminocarbonyl)-2-(methylsulfonyl)phenol."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC1(C)S[C@@H]2[C@H](NC(=O)c3nc4ccccc4nc3C(O)=O)C(=O)N2[C@H]1C(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic drug Azithromycin."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(C)=O)C=CC3=C1N(C2=C(C=CC=C2)S3)CCCN4CCC(CCO)CC4",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of the drug Clozapine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Cc1onc(N[S](=O)(=O)c2ccc(N)cc2)c1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named N-(4-methyl-2-oxo-1,2-dihydro-3-pyridinyl)-N-phenylsulfamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C2=C(C(CCCN1CCC(OC(NC(C)C)=O)CC1)=O)C=CC(=C2)F",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound named 1-(4-fluorophenyl)-3-methyl-3-pyrrolidin-1-yl-1-propanone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN2C(=O)C(O)N=C(c1ccccc1F)c3cc(Cl)ccc23",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 5-Chloro-8-fluoro-2-methyl-1H-quinolin-4-one."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC(=CC=C1OCC(NNC(C)C)=O)Cl",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-Chloro-4-(2-dimethylaminomethyl-oxiranyl)-phenol."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CCC(C)(C)C",
+        "response": "No",
+        "s2l": "The SMILES \"CCC(C)(C)C\" represents the chemical structure of the compound 2,2-Dimethylbutane."
+    },
+    {
+        "p_np": "0",
+        "smiles": "Cc1sc(SCC2=C(N3[C@H](SC2)[C@H](NC(=O)CN4C=C(Cl)C(=O)C(=C4)Cl)C3=O)C(O)=O)nn1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named Cloxacillin. It is an antibiotic useful for the treatment of a number of bacterial infections. This includes impetigo, cellulitis, pneumonia, septic arthritis, and MRSA infections."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC2=C1C(=C3C(=N2)CCCC3O)N",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound called Quinoline."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C2=C(C1=C(C=CC1)C=C2)OCC3CNCCO3",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named 3-(2,3-dihydro-1H-inden-2-yl)-8-azabicyclo[3.2.1]octan-3-ol."
+    },
+    {
+        "p_np": "0",
+        "smiles": "[Na+].C[C@@H](O)[C@@H]1[C@H]2SC(=C(N2C1=O)C([O-])=O)COC(N)=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the compound Sodium (2R,3R,4S,5R)-2-(acetylamino)-3,4-dihydroxy-5-((2S,3R,4S,5R)-3,4-dihydroxy-5-(methylsulfanyl)tetrahydrofuran-2-yl)tetrahydrofuran-2-sulfonate."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]34([C@H]([C@H]2[C@@H]([C@@]1(C(=CC(=O)C=C1)[C@H](C2)F)C)[C@H](C3)O)C[C@H]([C@@]4(C(COC(C)=O)=O)O)C)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Dexamethasone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CNCCCC2(C)C(=O)N(c1ccccc1)c3ccccc23",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound named 1-(2,3-dihydro-1H-inden-2-yl)-N,N-dimethylmethanamine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN[C@@H](C)Cc1ccccc1",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a molecule known as (R)-(+)-alpha-Methylbenzylamine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN1C(=O)C(O)N=C(c2ccccc2)c3cc(Cl)ccc13",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Lorazepam. It is a drug used for treating anxiety, insomnia, and seizures."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC(=CC=C1C2[S](CCC(N2C)=O)(=O)=O)Cl",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 5-Chloro-2-methyl-3H-indol-3-one 1,2-dioxide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(CC)SC2=C1C(=NCC(N2C)=O)C3=CC=CC=C3Cl",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound named 7-chloro-5-(2-chlorophenyl)-3-hydroxy-1-methyl-2,3-dihydro-1H-1,4-benzodiazepin-2-one."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC1=C(N2[C@H](SC1)[C@H](NC(=O)[C@H](N)c3ccc(O)cc3)C2=O)C(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic Penicillin G."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@]4([C@@]3([C@H]([C@H]2[C@@H]([C@@]1(C(=CC(=O)C=C1)[C@H](C2)C)C)[C@H](C3)O)CC4)C)(C(COC(C)=O)=O)OC(CC)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Hydrocortisone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C[C@H](N)Cc1ccccc1",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of the compound (R)-alpha-methylbenzylamine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C2=C(OCC1=NN=C(S1)C(C)C)C=CC3=C2OC(=O)C(=C3C)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named as 2,2-Dimethyl-6-(2-methylpropyl)-3H-naphtho[2,1-b]pyran-3,4-dione."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C2=C(N1CC(CO)OC1=O)C=CC=C2C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named 3-Methyl-4-oxo-2-phenyl-4H-chromen-7-yl alcohol."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]14[C@H]([C@@H]2[C@@H]3[C@H]([C@H]1C=C2)C=C3)C(=O)N(C4=O)CCCCN6CCN(C5=NC=CC=N5)CC6",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of the drug Vortioxetine, which is used to treat major depressive disorder."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC1=C(N2[C@H](SC1)[C@H](NC(=O)[C@H](N)c3ccccc3)C2=O)C(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic Penicillin G."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C3=C(C2CN1C(CCN=C1C2)=O)C=CC=C3",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named Quinoline."
+    },
+    {
+        "p_np": "1",
+        "smiles": "OC1C(N2CCC1)=NC(C)=C(CCN3CCC(CC3)c4c5ccc(F)cc5on4)C2=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact name of the compound can be determined by converting the SMILES into a chemical name. However, without doing so, it's not possible to provide the exact name of the compound. The SMILES notation includes information about the structure of the molecule, including the atoms (O for oxygen, C for carbon, N for nitrogen, F for fluorine), the bonds between them, and any rings in the molecule."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CO[C@H]1[C@@H](CC(=O)O[C@H](C)C/C=C/C=C/[C@H](O)[C@H](C)C[C@H](CC=O)[C@@H]1O[C@@H]2O[C@H](C)[C@@H](O[C@H]3C[C@@](C)(O)[C@@H](OC(=O)CC(C)C)[C@H](C)O3)[C@@H]([C@H]2O)N(C)C)OC(C)=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic Erythromycin."
+    },
+    {
+        "p_np": "1",
+        "smiles": "NCCC(Oc1ccc(cc1)C(F)(F)F)c2ccccc2",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure for the drug known as Fluoxetine, which is commonly used as an antidepressant under the brand name Prozac."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]1([C@H](C1)CN)(C(=O)N(CC)CC)C2=CC=CC=C2.[H+].[Cl-]",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chiral compound with a benzene ring, an amine group, and a carboxyl group. It also indicates the presence of a hydrogen cation and a chloride anion. The exact name of the compound would require further interpretation of the SMILES notation."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=NC2=C([N]1CCN(C)C)C(N(C)C(N2C)=O)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Caffeine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC3=C1C(C2=C(C=CC=C2)C=C3)C(N)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called 1-phenylisoquinoline-3-carboxamide."
+    },
+    {
+        "p_np": "0",
+        "smiles": "C[C@H]1CN(C[C@@H](C)N1)c2c(F)c(N)c3C(=O)C(=CN(C4CC4)c3c2F)C(O)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named \"Fluconazole\". It is an antifungal medication used for a number of fungal infections."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(=CC(=C1Cl)N)OC)C(NC3CCN(CC2=CC=CC=C2)CC3)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named Clozapine. It is an antipsychotic medication primarily used to treat schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Nc1ncnc2n(cnc12)C3OC(CO)C(O)C3O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a molecule called Adenosine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "COc2cc1oc(=O)c(C)c(C)c1cc2OCCCN3CCN(CC3)c4ccccc4OC",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound named 1-[2-[4-(2-methoxyphenyl)piperazin-1-yl]ethyl]-4-(3,4-dimethyl-2,3-dihydro-1-benzofuran-5-yl)-1,3-dihydro-2H-benzo[d]imidazol-2-one."
+    },
+    {
+        "p_np": "0",
+        "smiles": "C[C@]12CC[C@H]3[C@@H](CCC4=CC(=O)CC[C@]34C)[C@@H]1CC[C@@H]2O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound called Progesterone. It is a type of hormone which is produced in the ovaries and has various roles in the female reproductive system."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC(C)[C@H](NC(=O)N(C)Cc1csc(n1)C(C)C)C(=O)N[C@H](C[C@H](O)[C@H](Cc2ccccc2)NC(=O)OCc3scnc3)Cc4ccccc4",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named (2S)-2-{[(2S)-2-{[(2S)-2-{[(2S)-1-(tert-butylamino)-3-methyl-1-oxobutan-2-yl]amino}-3-phenylpropanoyl]oxy}-3-(4-methylthiazol-5-yl)propanoyl]amino}-3-phenylpropanoic acid."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CN[C@@H](C)[C@H](O)c1ccccc1",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a molecule. Specifically, it represents a molecule of (R)-(+)-1-(1-Naphthyl)ethylamine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C2=C(CN(C(=C(SC(=O)C1=CC=CC=C1)/CCO[P](=O)(O)O)/C)C=O)C(=NC(=N2)C)N",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-[(2Z)-2-(2,4-dioxo-3,4-dihydropyrimidin-1(2H)-yl)-3-methylbut-2-enoyl]-N-(2-oxoethyl)-3-(4-sulfamoylphenyl)prop-2-enamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC2=C1C(C3=C(CC2)C=CC=C3)=CC(CN(C)C)=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound called Methysergide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN1C2CCC1CC(C2)OC(=O)[C@H](CO)c3ccccc3",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named (1R)-1-(2,3-dihydro-1H-inden-2-yl)-2-(4-methoxyphenyl)propan-1-one."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[Cl-].CN[C@H]1CC[C@@H](c2ccc(Cl)c(Cl)c2)c3ccccc13.[H+]",
+        "response": "Yes",
+        "s2l": "The SMILES represents a molecule of Tramadol hydrochloride. Tramadol is a synthetic opioid analgesic used to treat moderate to severe pain. The hydrochloride is added to improve its solubility in water."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(Cl)C=CC3=C1\\C(C2=C(C=CC=C2)S3)=C\\C4C5CCN(C4)CC5",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a compound named \"Clozapine\", which is an antipsychotic medication used to treat schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C2=C(C1C(NC(C1)=O)=O)C=CC=C2Br",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 3-Bromo-1H-pyrrolo[3,4-b]quinolin-1-one."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@]4([C@@]3([C@H]([C@H]2[C@]([C@@]1(C(=CC(=O)C=C1)[C@H](C2)F)C)(F)[C@H](C3)O)C[C@@H]4C)C)(C(COC(C)=O)=O)OC(C)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Dexamethasone."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CO/N=C(C(=O)N[C@H]1[C@H]2SCC(=C(N2C1=O)C(O)=O)C)/c3csc(N)n3",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic drug Sulfamethoxazole."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C3C(=CC=C1)N=C2SC(=CC2=C(N3)N4CCN(CC4)C)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound called Clozapine. It is an antipsychotic medication primarily used to treat schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]125OC(O[C@@]([C@]1(C[C@H](O)[C@H]3[C@H]2CCC4=CC(=O)CC[C@]34C)C)(CC5)C(=O)COC(=O)C6=CC=NC=C6)\\C=C/C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound cannot be determined without further information or conversion of the SMILES into a visual chemical structure. However, it is clear that the compound contains several functional groups including ether, ketone, and alkene groups, as well as a benzene ring and a pyridine ring. The compound is also chiral, as indicated by the @ symbols."
+    },
+    {
+        "p_np": "1",
+        "smiles": "c1cn(CCCCC)c(C)c(O)c1=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 5-pentyl-2-(propan-2-yl)-1H-pyrimidin-4-one."
+    },
+    {
+        "p_np": "1",
+        "smiles": "s1c(ncc1)CCN",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound called 1-(2-Aminoethyl)-3-methylsulfanyl-1H-pyrazol-5-ol."
+    },
+    {
+        "p_np": "0",
+        "smiles": "FC(F)(F)[C@]1(OC(=O)Nc2ccc(Cl)cc12)C#CC3CC3",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 1-(2-chlorophenyl)-2-(2,2,2-trifluoroethyl)-3-(cyclopropylacetylene)-3-hydroxypropan-1-one."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CCCCCCCCCC(=O)N[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)O[C@H]1Oc2c3Oc4ccc(C[C@H]5NC(=O)[C@H](N)c6ccc(O)c(Oc7cc(O)cc(c7)[C@H](NC5=O)C(=O)N[C@H]8C(=O)N[C@H]9C(=O)N[C@@H]([C@H](O[C@@H]%10O[C@H](CO)[C@@H](O)[C@H](O)[C@H]%10NC(C)=O)c%11ccc(Oc2cc8c3)c(Cl)c%11)C(=O)N[C@@H](C(O)=O)c%12cc(O)cc(O[C@H]%13O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]%13O)c%12c%14cc9ccc%14O)c6)cc4Cl",
+        "response": "No",
+        "s2l": "The given SMILES represents a complex organic compound. It is difficult to provide a common name for such a compound due to its complexity. However, it appears to be a type of polyketide or nonribosomal peptide, which are classes of natural products with diverse structures and biological activities. The compound contains several chiral centers, aromatic rings, amide groups, and ether linkages."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CN(C)CCC(c1ccccc1)c2ccccn2",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Diphenhydramine. It is an antihistamine mainly used to treat allergies. It is also used in the management of drug-induced parkinsonism and other extrapyramidal symptoms. The drug has a strong sedative effect and is FDA-approved for use in the treatment of insomnia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C(C(C1(C(NC(=O)NC1=O)=O)C=C)C)CC",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a molecule of 3,5-dimethyl-2,4-cyclohexadiene-1-carboxamide."
+    },
+    {
+        "p_np": "0",
+        "smiles": "C[C@]12CC[C@H]3[C@@H](CCc4cc(O)ccc34)[C@@H]1CC[C@@H]2O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound called Morphine."
+    },
+    {
+        "p_np": "0",
+        "smiles": "COc1ccc2[C@H]3CC[C@@]4(C)[C@@H](CC[C@@]4(O)C#C)[C@@H]3CCc2c1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, this is the SMILES notation for the chemical compound known as \"Podophyllotoxin\". Podophyllotoxin is a non-alkaloid toxin lignan extracted from the roots and rhizomes of Podophyllum species. It has antiviral and antineoplastic properties and is used pharmaceutically as a topical treatment for genital warts."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC2=C1SC5=C(N2CC3C4CCN(C3)CC4)C=CC=C5",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of the compound known as Prazosin. Prazosin is a medication primarily used to treat high blood pressure, symptoms of an enlarged prostate, and posttraumatic stress disorder (PTSD)."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN(C)Cc1ccc(CSCCNC2=C([N+]([O-])=O)C(Cc3ccccc3)=CN2)o1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a specific compound. The exact compound is difficult to name without visualization, but it appears to contain functional groups such as amine (N), ether (C-O-C), aromatic rings (ccc), and nitro group ([N+][O-][O-])."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC(=C3C2=C1CC5C4C2(C(O3)C(O)C=C4)CCN5)OC",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Morphine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C([N+](=O)[O-])C=CC2=C1C(=NCC(N2COC)=O)C3=CC=CC=C3",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 1-(4-methyl-3-phenyl-4,5-dihydro-1H-pyrazol-5-yl)-2-nitrobenzene."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC(C)NCC(O)c1ccc(O)c(O)c1",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound called Dopamine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN1CCCCC1CCN2c3ccccc3Sc4ccc(cc24)[S](C)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of the drug Thioridazine, which is an antipsychotic medication used to treat schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C(NCC(N)=O)CCCC",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a molecule called N-Acetylbutylamine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]2(N(C1=CC=C(C(=C1)Cl)Cl)C(CC)=O)[C@@H](CCC2)N(C)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called Dexchlorpheniramine. It is an antihistamine with anticholinergic properties used to treat allergic conditions such as hay fever or urticaria."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]12[C@@]([C@](C(CC)=O)(C)[C@@H](C1)C)(C[C@H](O)[C@H]3[C@H]2CCC4=CC(=O)C=C[C@]34C)C",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the steroid hormone Progesterone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@]45([C@@]3([C@H]([C@H]2[C@@H]([C@@]1(C(=CC(=O)C=C1)CC2)C)[C@H](C3)O)C[C@H]4OC(O5)CCC)C)C(CO)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Hydrocortisone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(=CC(=C1[N+](=O)[O-])N)OCC)C(NC3CCN(CC2CCC=CC2)CC3)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named N-(4-(2-(dimethylamino)ethyl)phenyl)-2-(4-(pyrrolidin-1-yl)phenyl)acetamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1CCCCC1",
+        "response": "No",
+        "s2l": "The SMILES \"C1CCCCC1\" represents cyclohexane, a cyclic compound with 6 carbon atoms."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC(C)(C)NCC(O)c1ccc(O)c(NC(N)=O)c1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 4-(2-Aminoethylamino)-2-hydroxy-1,1-dimethylethylbenzamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@H](C(C1=CC=CC=C1)=O)(C)N",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a molecule called (R)-1-phenylpropan-1-amine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "OCCOC(=O)NCc1ccccc1",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound named N-(2-hydroxyethyl)-2-(phenylmethylamino)acetamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C3C2=C(C=C1O)C=CC=C2CC(C3)N(CCC)CCC",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of the compound known as \"Morphinan\"."
+    },
+    {
+        "p_np": "0",
+        "smiles": "[Na+].COCC1=C(N2[C@H](SC1)[C@H](NC(=O)C(=N/OC)\\c3csc(N)n3)C2=O)C([O-])=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound named Sodium (2R,3S)-2-[(2Z)-2-(5-amino-1,3,4-thiadiazol-2-yl)-2-(methoxyimino)acetyl]-3-methyl-4-oxoazetidine-1-sulfonate."
+    },
+    {
+        "p_np": "1",
+        "smiles": "OC(CCN1CCCCC1)(C2CCCCC2)c3ccccc3",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named 2-(tert-butylamino)-1-(3,5-dichlorophenyl)propan-1-one."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C2=C(C1CCNCC1)OC3=C2C=C(OC)C=C3Br",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 3-bromo-6-methoxy-3,4-dihydro-1H-isoquinoline."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC(=CC3=C1[N]2C(=NN=C2CN(C)C)CN=C3C4=CC=CC=C4)Cl",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named Clozapine, which is an antipsychotic medication used to treat schizophrenia."
+    },
+    {
+        "p_np": "0",
+        "smiles": "COc1cccc2C(=O)c3c(O)c4CC(O)(CC(O)c4c(O)c3C(=O)c12)C(=O)CO",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named Ellagic acid."
+    },
+    {
+        "p_np": "1",
+        "smiles": "NC(N)=O",
+        "response": "No",
+        "s2l": "The SMILES \"NC(N)=O\" represents Nitrous acid."
+    },
+    {
+        "p_np": "1",
+        "smiles": "c1c2c(ccc1)[C@@]1([C@@H](c3cccc(c3O2)C)C[N@](CC1)C)O",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called (-)-Cocaine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CC1=CN([C@@H]2O[C@H](CO)C=C2)C(=O)NC1=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of the antiviral drug Ribavirin."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C2=C(C(C1=CC=CC=C1)(OCCN(C)C)C)C=CC(=C2)Cl",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Chlorphenamine. It is an antihistamine used to treat allergic conditions such as hay fever or urticaria."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@]45([C@@]3([C@H]([C@H]2[C@]([C@@]1(C(=CC(=O)C=C1)CC2)C)(F)[C@H](C3)O)C[C@H]4OC6(O5)CCCC6)C)C(COC(C)=O)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Betamethasone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]23OC1=C(OC(=O)C)C=CC6=C1C25C4(C[C@@H](C3(OC)C=C4)[C@](O)(CCC)C)C(N(CC5)C)C6",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, this is the structure for the compound \"Erythromycin A\". Erythromycin A is a macrolide antibiotic used to treat a variety of bacterial infections."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]34([C@H]([C@H]2C([C@@]1(C(=CC(C(=C1)Br)=O)[C@@H](C2)F)C)([C@H](C3)O)F)CCC4(C(=O)CO)O)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound is difficult to determine without converting the SMILES into a visual chemical structure. However, it is clear that the compound contains several carbon (C), hydrogen (H), oxygen (O), fluorine (F), and bromine (Br) atoms. The @ symbols indicate the stereochemistry of the compound, showing the configuration of atoms around a chiral center."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CCN(CC)CCCC(C)Nc1ccnc2cc(Cl)ccc12",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named N,N-Diethyl-5-methyl-6-(2-chlorophenyl)-4,5-dihydro-1,3,5-triazin-2-amine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "c1c(Cl)nc(N2CCN(CCCCN3C(CCC3)=O)CC2)cc1C(F)(F)F",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 1-(4-chlorophenyl)-3-[4-(5-cyclopentyl-1,3-oxazol-2-yl)piperazin-1-yl]propan-1-one. It has a benzene ring attached to a piperazine ring and a cyclopentane ring. The benzene ring has a chlorine atom and a trifluoromethyl group attached to it."
+    },
+    {
+        "p_np": "0",
+        "smiles": "NCC(O)c1cccc(O)c1",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the compound called Tyrosol."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC=C1C2OC(=NC2=O)N(C)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called 1-methyl-3H-imidazo[4,5-b]pyridin-2-one."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC(=CN=C1N2C(C3=C(C2=O)N=CC=N3)OC(N4CCN(C)CC4)=O)Cl",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Clonazepam. It is a medication used to prevent and treat seizures, panic disorder, and movement disorder known as akathisia. It is a tranquilizer of the benzodiazepine class."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]12C([C@@](O)(CC1)C#C)(CC[C@H]3C2CCC4=CC5=C(CC34C)C=N[N]5C6=CC=C(F)C=C6)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a specific compound. The exact compound is difficult to determine without further information, but it is a complex organic molecule that includes several carbon rings, a hydroxyl group, a triple bond, a nitrogen-containing ring, and a fluorine atom. The @ symbols indicate the stereochemistry of the molecule, showing the 3D arrangement of the atoms."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Cn1nnnc1SCC2=C(N3[C@H](SC2)[C@H](NC(=O)[C@H](O)c4ccccc4)C3=O)C(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named Thiamphenicol. It is an antibiotic."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CC(C)(C)NC(=O)[C@@H]1CN(CCN1C[C@@H](O)C[C@@H](Cc2ccccc2)C(=O)N[C@@H]3[C@H](O)Cc4ccccc34)Cc5cccnc5",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of the drug Paliperidone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC(=C1C(OC2=CC=C(NC(C)=O)C=C2)=O)OC(C)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called 3-acetyl-4-hydroxy-6-methyl-2H-pyran-2-one."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=NC=C1C(N(CC)CC)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Nicotinamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C2C(=CC=C1)C(C=C(O2)C(O)=O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called 2,5-dihydroxy-1,4-benzoquinone, also known as hydroquinone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=NC2=C([N]1COC(COC(C)C)COC(C)C)N=C(N)N=C2",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2,2-diethoxy-6-methyl-9H-purine."
+    },
+    {
+        "p_np": "0",
+        "smiles": "COCC1=C(N2[C@H](SC1)[C@H](NC(=O)C(=N\\O)/c3csc(N)n3)C2=O)C(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named (2S,5R)-5-[(2-amino-4-thiazolyl)(hydroxy)methylene]-4-oxo-2-thioxo-1,3-thiazolidine-6-carboxylic acid 3-methylbut-2-enyl ester."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]13[C@H]([C@H]2C[C@@H]1CC2)C(=O)N(C3=O)CCCCN4CCN(CC4)C5=NC=CC=N5.C(C(O)(C(=O)O)CC(=O)O)C(=O)O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called Pemetrexed disodium."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(OC)C=CC2=NC=CC(=C12)CCCC3C(CNCC3)C=C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. However, without a specific chemical database or software to interpret the SMILES notation, it's not possible to provide the exact name or structure of the compound. SMILES (Simplified Molecular Input Line Entry System) is a chemical notation system that represents a molecule's structure using ASCII strings."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]4(CC3C2=C1C(=C[N](C1=CC=C2)C(C)C)CC3N(C4)C)C(NC5CCCCC5)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a molecule. Specifically, this is the structure of the compound known as \"Vincamine\", a natural alkaloid obtained from the leaves of Vinca minor (Lesser Periwinkle)."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CNC(=O)C[C@@H](N)C(=O)N[C@@H](C(=O)N[C@H]1[C@H]2SC(C)(C)[C@@H](N2C1=O)C(O)=O)c3ccc(O)cc3",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic drug Ampicillin."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Nc1nc(Cl)nc2n(cnc12)[C@H]3C[C@H](O)[C@@H](CO)O3",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called 2'-Deoxy-2'-fluorocytidine. It is an antiviral drug used in medicine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@H]24[C@@](C1=CC=CC=C1OC3=C(C=CC=C23)C)(CCN(C4)C)O",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Risperidone. Risperidone is an antipsychotic medication often used to treat schizophrenia, bipolar disorder, and irritability associated with autism."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC2=C1C3=C([N]2CC)C(SCC3)(CCN(C)C)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a compound named \"N,N-Dimethyl-1-phenyl-3-(1-pyrrolidinyl)-1-propanamine\"."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C=CC2=C1C3(C)C(C)C(C2)N(CC3)CCC4=CC=CC=C4)O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named 4-(3,4-dihydro-1H-isoquinolin-2-yl)-2-methylphenol."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(Cl)C=CC2=C1C(=NO2)C([N]3C=CN=C3)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-chloro-6-(7H-purin-6-yl)-1H-isoindole-1,3(2H)-dione."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C2=C1C(=NSC1=CC=C2)N5CCN(CCCCN3C(CC4(CC3=O)CCCC4)=O)CC5",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of Clozapine, an antipsychotic medication used to treat schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC2=C1N(C(=O)N2)CCCN4CCC(C(C3=CC=C(F)C=C3)=O)CC4",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of Fluoxetine, a selective serotonin reuptake inhibitor (SSRI) used for the treatment of depression, obsessive-compulsive disorder (OCD), bulimia nervosa, premenstrual dysphoric disorder (PMDD), and panic disorder. It is more commonly known by its brand name, Prozac."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN(C)C(=O)Cc1n2cc(C)ccc2nc1c3ccc(C)cc3",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of the compound named 1-(4-methylphenyl)-3-(3-methylphenyl)-4,5-dihydro-1H-pyrazole-5-carboxamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]23[C@@]([C@@]1(C(=CC(=O)C=C1)[C@H](C2)F)C)([C@H](C[C@]4([C@H]3C[C@@H](C)[C@@]4(C(CO)=O)O)C)O)F",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a steroid hormone called Dexamethasone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1C(Nc2c1c(ccc2O)CCN(CCC)CCC)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a compound named 3-(diethylamino)-2,2-dimethylpropyl 4-oxo-1,2,3,4-tetrahydroquinoline-3-carboxylate."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@]23([C@H]([C@H]1[C@H](OC(O1)(C)C)CO2)OC(O3)(C)C)CO[S](N)(=O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called Erythromycin A. It is a macrolide antibiotic produced by a strain of Saccharopolyspora erythraea (formerly Streptomyces erythraeus). It is composed of a 14-membered lactone ring with ten asymmetric centers and two sugars (L-cladinose and D-desosamine), making it a complex molecule with a complex SMILES representation."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC(C)NCC(O)COc1cccc2ccccc12",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named Propranolol. It is a medication of the beta blocker type and is used to treat high blood pressure, a number of types of irregular heart rate, thyrotoxicosis, capillary hemangiomas, performance anxiety, and essential tremors."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(=C(C(=N1)C)O)CO)CSSCC2=CN=C(C(=C2CO)O)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named 2,2'-Dithiobis(pyridine-3-carboxaldehyde)."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C(C(C4(C3(C(C2C(C1(C(=CC(=O)C=C1)CC2)C)C(C3)O)CC4)C)O)=O)OC(CN(CC)CC)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. However, without a specific software or tool to convert the SMILES notation into a visual structure, it's hard to tell exactly which compound it represents. SMILES (Simplified Molecular Input Line Entry System) is a chemical notation system that represents a molecule's structure using ASCII strings."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(=CC=C1C3(CCN(CCCC(C2=CC=C(F)C=C2)=O)CC3)O)Cl)C(F)(F)F",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact name of the compound can be determined by interpreting the SMILES notation or by using a SMILES translator. According to a SMILES translator, the compound is 1-(4-chloro-3-(trifluoromethyl)phenyl)-3-(4-(4-fluorophenyl)-4-oxobutyl)piperazine."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC1(C)SC2C(N([C@H](C(=O)NC(=O)CN)c3ccccc3)C(=N)c4ccncc4)C(=O)N2C1C(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic drug Aztreonam."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C=COC=C",
+        "response": "No",
+        "s2l": "The SMILES \"C=COC=C\" represents a molecule called trans-But-2-ene-1-ol. It is an organic compound that consists of a four-carbon chain with a double bond between the second and third carbon atoms, an oxygen atom attached to the third carbon atom, and a hydroxyl group (-OH) attached to the fourth carbon atom."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@]4([C@@]3([C@H]([C@H]2[C@@H]([C@@]1(C(=CC(=O)C=C1)CC2)C)[C@H](C3)O)CC4)C)(C(COC(CC)=O)=O)OC(OCC)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound cannot be determined without converting the SMILES into a visual chemical structure. However, it is clear that the compound contains several stereocenters (indicated by the @ symbols), a few carbonyl groups (C=O), and ether groups (C-O-C)."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CC4CN(CCCn2c1ccccc1c3ccccc23)CC(C)N4",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Trifluoperazine. It is an antipsychotic medication used to treat schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C(C(C(CC)C)(COC(N)=O)C)OC(N)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of N,N-Dimethylcarbamoyloxy-2,2-dimethylpropane."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC=C1CCNC(CCCl)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents N-(2-chloroethyl)-N-ethylbenzamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C2=C(C(C1=CC=CC=C1)(CC(NNC(C)=O)=O)O)C=CC=C2",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a compound named 4-(Dimethylamino)benzaldehyde."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1CN(CCC1)Cc1cccc(c1)OCCCNc1ncccc1",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure for the drug Vortioxetine, which is used to treat major depressive disorder."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(CC(CC=C)N)C=CC=C1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named 4-(But-3-en-1-yl)aniline."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC(=CC2=C1N(C(=O)N2)CCCN4CCC(C(C3=CC=C(F)C=C3)=O)CC4)Cl",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a compound named 4-Chloro-N-[2-(4-fluorophenyl)-2-oxoethyl]-3-[(2-methylpropyl)amino]-1-benzofuran-2-carboxamide."
+    },
+    {
+        "p_np": "0",
+        "smiles": "Cc1ccc(CC2=CN=C(NCCSCc3oc(cc3)C(C)(C)N)NC2=O)cn1",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound is not specified, but it is a complex organic molecule that contains several functional groups, including a benzene ring, a pyrimidine ring, an amine group, a thioether group, and a furan ring."
+    },
+    {
+        "p_np": "0",
+        "smiles": "NC[C@H]1O[C@H](O[C@@H]2[C@@H](N)C[C@@H](N)[C@H](O)[C@H]2O)[C@H](N)[C@@H](O)[C@@H]1O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the molecule known as Trehalose."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@H]3(C1=CC=C(Cl)C=C1)[C@H]2CC[C@@H](C2)C34CCC(=N4)N5CCOCC5",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named as (3aR,4S,9bR)-4-(2-chlorophenyl)-3a,4,5,9b-tetrahydro-3H-cyclopenta[c]quinoline-8-carbonitrile."
+    },
+    {
+        "p_np": "1",
+        "smiles": "O=C1NCCN1C4CCN(CCC3COc2ccccc2O3)CC4",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure for the drug Loxapine, an antipsychotic medication used in the treatment of schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C(N1C(CCC1)=O)C(N)=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound called 2,2-dimethyl-3,5-dioxopiperazine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]14([C@@](C(=O)COC(CCC(=O)[O-])=O)(CC[C@H]1[C@@H]3CCC2=CC(C=C[C@@]2([C@H]3[C@H](C4)O)C)=O)O)C.[Na+]",
+        "response": "No",
+        "s2l": "The SMILES represents a sodium salt of a steroid hormone called Hydrocortisone 21-acetate."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CO/N=C(C(=O)N[C@H]1[C@H]2SCC=C(N2C1=O)C(O)=O)/c3csc(N)n3",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic drug Thiamphenicol."
+    },
+    {
+        "p_np": "0",
+        "smiles": "NC(N)=NCC1COC2(CCCCC2)O1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named 2-(2-Amino-4,5-dihydro-1H-imidazol-1-yl)-1,3-oxathiolane."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC(=CC=C1[S](N2CC3CCC(C2)CC3)(=O)=O)N",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called 2-aminophenyl diphenyl sulfone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=C(C2=C1[NH]C=C2CCN(C)C)O[P](O)(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 4-(Dimethylamino)-2-(2-pyridinyl)phenol phosphate."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]26[C@H]1[C@@]([C@](C(COC(C)=O)=O)(O)[C@@H](C1)C)(C[C@@H]([C@@H]2[C@@]3(C(=CC4=C(C3)C=N[N]4C5=CC=CC=C5)C(=C6)C)C)O)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Colchicine. It is a medication used to treat gout and Beh\u00e7et's disease. In gout, it is less preferred to NSAIDs or steroids."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=C(C(=C1C(C)C)O)C(C)C",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound called 4-tert-Butylphenol."
+    },
+    {
+        "p_np": "0",
+        "smiles": "C1CN2CCC1C(C2)CN3c4ccccc4Sc5ccccc35",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound called Clozapine, which is an atypical antipsychotic medication used to treat schizophrenia."
+    },
+    {
+        "p_np": "0",
+        "smiles": "N[S](=O)(=O)c1cc2c(NC(N[S]2(=O)=O)C(Cl)Cl)cc1Cl",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2,2-dichloro-N-[(4-chlorophenyl)sulfonyl]-N-[(4-chlorophenyl)sulfonylimino]acetamide."
+    },
+    {
+        "p_np": "0",
+        "smiles": "c1cc2c(C(N[C@@H](CC)c3ccccc3)=O)c(c(nc2cc1)c1ccccc1)Cn1cncc1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound is not specified, but it is a complex organic molecule that contains rings of carbon atoms (as indicated by the \"c\" in the SMILES), nitrogen atoms (indicated by \"n\"), and hydrogen atoms (indicated by \"h\"). The \"@@\" indicates a specific stereochemistry, meaning the arrangement of atoms in space. The \"=O\" indicates a double bond with an oxygen atom."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CC1=C(CCN2CCC(CC2)c3noc4cc(F)ccc34)C(=O)N5CCCCC5=N1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 3-(4-fluorophenyl)-6,7-dihydro-5H-pyrrolo[3,4-b]pyrazin-1-yl-N,N-dimethylpropanamide."
+    },
+    {
+        "p_np": "0",
+        "smiles": "OC(=O)C1=C\\C(C=CC1=O)=N/Nc2ccc(cc2)[S](=O)(=O)Nc3ccccn3",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact name of the compound can be determined by converting the SMILES into a chemical name. However, without doing that, it's not possible to tell exactly what compound it represents. It's clear that the compound contains several functional groups, including carboxylic acid, aromatic rings, sulfonamide, and possibly an imine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=NC(=NC=C1)N5CCN(CCNC(C23CC4CC(C2)CC(C3)C4)=O)CC5",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Vardenafil. It is a medication used to treat erectile dysfunction."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CNC1(CCCCC1=O)c2ccccc2Cl",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-Chloro-N-methyl-3-phenyl-5-hexanone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@H](O)([C@@H](O)C(=O)O)C(=O)O.[C@@H](N)(CC1=CC=C(N(C)C)C=C1C)C",
+        "response": "No",
+        "s2l": "The SMILES represents a molecule of the drug Amoxicillin."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(=CC=C1C#N)OC)C(NCCN3CCC(C(C2=CC=C(F)C=C2)=O)CC3)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound is difficult to name without drawing out the structure, but it appears to be a complex organic molecule with multiple functional groups including a nitrile, an ether, an amide, a fluorobenzene, and a piperidine ring."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@]45(C1=C(C=CC(=C1)OC(N3CC2=CC=CC=C2CC3)=O)N([C@H]4N(C)CC5)C)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of the compound known as \"Ergotamine\", a medication used to treat migraine headaches."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](NC(=O)Cc3ccc(cc3)C4=NCCCN4)c5ccccc5)C(=O)N2[C@H]1C(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic drug Thienamycin."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Cc1ncsc1CCCl",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a molecule with a five-membered ring containing a sulfur atom, a nitrogen atom, and three carbon atoms. One of the carbon atoms in the ring is bonded to a methyl group (CH3), and another carbon atom in the ring is bonded to a two-carbon chain (C2H5) that is also bonded to a chlorine atom."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(F)C=CC2=C1C3=C([NH]2)CCN(C3)CCCC4=CN=CC=C4",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a compound named as 1-(4-pyridyl)-4-(4-piperidyl)-3-(2-fluorophenyl)-3-cyclopenten-1-amine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C3=C(C1OC(=NC1=O)NC2CC2)C=CC=C3",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named 3,4-dihydro-2H-pyrrolo[3,4-b]quinolin-1-one."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CO[C@]1(NC(=O)CSC[C@@H](N)C(O)=O)[C@H]2SCC(=C(N2C1=O)C(O)=O)CSc3nnnn3C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named Thiamine pyrophosphate. It is also known as Thiamine diphosphate, a coenzyme for several enzymes that catalyze the dehydrogenation (decarboxylation and subsequent conjugation to Coenzyme A) of alpha-keto acids."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC2=C1N(C3=C(S2)C=CC(=C3)[S](N(C)C)(=O)=O)CCCN4CCN(CC4)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Clozapine. It is an atypical antipsychotic medication used for the treatment of schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]13[C@H](C[C@@H]1C2=CC=C(F)C=C2)CN(C3)CCN4C(=O)C5=C(NC4=O)C=CC=C5",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Fluoxetine. Fluoxetine is a selective serotonin reuptake inhibitor (SSRI) and is commonly used as an antidepressant in the treatment of major depressive disorder, obsessive-compulsive disorder, bulimia nervosa, panic disorder, and premenstrual dysphoric disorder. It is also known by the brand names Prozac and Sarafem."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CN[C@H](CC(C)C)C(=O)NC1[C@H](O)c2ccc(Oc3cc4cc(Oc5ccc(cc5Cl)[C@@H](O)[C@@H]6NC(=O)[C@H](NC(=O)[C@@H]4NC(=O)[C@H](CC(N)=O)NC1=O)c7ccc(O)c(c7)c8c(O)cc(O)cc8[C@@H](NC6=O)C(O)=O)c3O[C@@H]9O[C@H](CO)[C@@H](O)[C@H](O)[C@H]9O[C@H]%10C[C@](C)(N)[C@H](O)[C@H](C)O%10)c(Cl)c2",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic drug Vancomycin."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC(Oc1ccccc1)C(=O)NC2C3SC(C)(C)C(N3C2=O)C(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic drug Azithromycin."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CCc1ccccc1",
+        "response": "No",
+        "s2l": "The SMILES \"CCc1ccccc1\" represents the chemical structure of Toluene, a colorless, water-insoluble liquid with the smell associated with paint thinners."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C4C(=C2C(=C1)SC=C2C)C3=C(CCN(C3)C)[NH]4",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of the compound Lysergic acid diethylamide, also known as LSD."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CN(C)[C@H]1[C@@H]2C[C@@H]3Cc4ccc(N)c(O)c4C(=C3C(=O)[C@]2(O)C(=O)\\C(=C(N)/O)C1=O)O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound called Tetracycline. Tetracycline is a broad-spectrum antibiotic used to treat a variety of bacterial infections."
+    },
+    {
+        "p_np": "0",
+        "smiles": "COc1ccc(CCN(C)CCCC(C#N)(C(C)C)c2ccc(OC)c(OC)c2)cc1OC",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 1-(4-{2-[(2,6-dimethylphenyl)(isopropyl)amino]ethyl}phenyl)-3,5-dimethoxybenzene."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CCCCC[C@H](O)/C=C/[C@H]1[C@H](O)CC(=O)[C@@H]1CCCCCCC(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of Prostaglandin E1, a medication used to treat erectile dysfunction and to maintain the patency of ductus arteriosus in newborns."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC2=C1CC(N(C)C)C(O2)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of the compound known as Tetrahydrocannabinol (THC), the main psychoactive compound in cannabis."
+    },
+    {
+        "p_np": "1",
+        "smiles": "OCCN1CCN(CCCN2c3ccccc3Sc4ccc(cc24)C(F)(F)F)CC1",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a molecule called Vortioxetine, which is an antidepressant medication used to treat major depressive disorder."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1N(C(CC2CCCCC12)C(NC(C)(C)C)=O)CC(C(Cc1ccccc1)NC(C(NC(c1nc2c(cccc2)cc1)=O)CC(N)=O)=O)O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound cannot be determined without further information or analysis. SMILES (Simplified Molecular Input Line Entry System) is a chemical notation system that represents a molecule's structure using ASCII strings. The string you provided describes the structure of a specific molecule, including the arrangement of its atoms and the bonds between them."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@](O)(C5C6(OC)C2OC1=C(O)C=CC4=C1C23C(C(N(CC3)CC=C)C4)(C5)C=C6)(CCC)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, this is the structure for the compound called \"Vinblastine\". Vinblastine is a medication used to treat a number of types of cancer including Hodgkin's lymphoma, non-small cell lung cancer, bladder cancer, brain cancer, and testicular cancer."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C4=C(N2C(C1=C(SCCS1)C2=O)OC(N3CCN(C)CC3)=O)N=C5C(=C4)C=CC(=N5)Cl",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Clozapine. It is an atypical antipsychotic medication used to treat schizophrenia and schizoaffective disorders."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@]45([C@@]3([C@H]([C@H]2[C@]([C@@]1(C(=CC(=O)C=C1)CC2)C)(F)[C@H](C3)O)C[C@H]4OC(O5)(C)C)C)C(CO)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Hydrocortisone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC2=C1C(C3=NCCCN23)(C4=CC=CC(=C4)Cl)O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Clozapine. It is an atypical antipsychotic medication used for the treatment of schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[H+].[Cl-].CCOC(=O)C1(CCN(C)CC1)c2ccccc2",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound called Tropicamide."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC(CN(C)C)OC(C)(c1ccccc1)c2ccc(Cl)cc2",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 1-(4-chlorophenyl)-2-(2,6-dimethylmorpholino)propane."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC1(C)S[C@@H]2[C@H](NC(=O)C(C(=O)Oc3ccc4CCCc4c3)c5ccccc5)C(=O)N2[C@H]1C(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named Erythromycin."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@]45([C@@]3([C@H]([C@H]2[C@]([C@@]1(C(=CC(=O)C=C1)CC2)C)(F)[C@H](C3)O)C[C@H]4OC(O5)(C)C)C)C(COC(C(CNC(C6=CC=CC=C6)=O)C)=O)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound named Dexamethasone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC2=C1[N]3C(=C2)CNCCC3",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound called Quinoline."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(O)C=CC3=C1C2(CC(CN(CC2)C)C3)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Ibogaine. It is a naturally occurring psychoactive substance found in plants in the Apocynaceae family such as Tabernanthe iboga. It has been used in traditional medicine in West Africa for centuries for various purposes and is also used in modern medicine for the treatment of drug addiction."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CCN1N=NN(CCN2CCC(CC2)(COC)N(C(=O)CC)c3ccccc3)C1=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound is difficult to determine without further information, but it appears to be a complex organic molecule, possibly a type of pharmaceutical or bioactive compound. It contains several functional groups, including amines, amides, and ethers."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@]12(C3=C(NC(CN1C[C@H](O2)C)=O)C=CC(=C3)Cl)C4=CC=CC=C4",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Clozapine. It is an atypical antipsychotic medication used for the treatment of schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(=CC=C1Cl)N(C(CN(CCO)CCO)=O)C)C(C2=C(C=CC=C2)Cl)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a compound named 2,4-dichloro-6-((2-(2-hydroxyethoxy)ethyl)carbamoyl)phenyl acetate."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=NC(=N1)N3CCN(CCCC[N]2C=C(Cl)C=N2)CC3",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-[(2-chlorophenyl)methylidenehydrazinyl]-N,N-dimethylpropan-1-amine."
+    },
+    {
+        "p_np": "0",
+        "smiles": "[Cl].CC[C@H]1CN2CCc3cc(OC)c(OC)cc3[C@@H]2C[C@@H]1C[C@H]4NCCc5cc(OC)c(OC)cc45",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a compound called \"Vinblastine\". Vinblastine is a type of vinca alkaloid that is used as a chemotherapy medication to treat a number of types of cancer. This includes Hodgkin's lymphoma, non-small cell lung cancer, bladder cancer, brain cancer, and testicular cancer."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CCN1C=CC(=O)C(=C1CC)O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound called 3,4-Dimethyl-5-ethoxy-2(5H)-furanone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Cc1nnc2CN=C(c3ccccc3Cl)c4cc(Cl)ccc4n12",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a specific compound. The exact compound is difficult to determine without a proper chemical database. However, it is a complex organic molecule that contains carbon (C), nitrogen (N), hydrogen (H), and chlorine (Cl) atoms. The molecule also contains several rings and double bonds."
+    },
+    {
+        "p_np": "0",
+        "smiles": "c1(CC(N2[C@H](CN(CC2)C(=O)C)C[N@]2CC[C@H](C2)O)=O)cc(ccc1)OC",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, this is the structure for the drug Oxycodone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C3=C(OC2C1(NC(=O)C(O1)C)CCCC2)C=CC=C3Cl",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 7-Chloro-6,11-dihydro-5H-dibenzo[b,e]azepin-11-one."
+    },
+    {
+        "p_np": "1",
+        "smiles": "OCCN1CCN(CCCN2c3ccccc3Sc4ccc(Cl)cc24)CC1",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a compound named \"1-(4-chlorobenzyl)-4-[(2-hydroxyethyl)(methyl)amino]-5,6,7,8-tetrahydronaphthalen-2-yl]methylazanium\"."
+    },
+    {
+        "p_np": "1",
+        "smiles": "FC(F)OC(F)(F)C(F)Cl",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 1,1,1,2,3,3,3-Heptafluoro-2-(fluoromethoxy)propane."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@H]1(CCCO1)[C@@H](CC2=CC=CC=C2)NCC",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a molecule. Specifically, it represents a molecule with two chiral carbon atoms, each attached to a different group (a cyclopentyl group and a benzyl group, respectively), and a nitrogen atom attached to two carbon atoms and a hydrogen atom."
+    },
+    {
+        "p_np": "0",
+        "smiles": "C[C@@H](O)[C@@H]1[C@H]2SC(=C(N2C1=O)C(O)=O)[C@H]3CCCO3",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic drug Ceftriaxone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C3C(=CC=C1\\C=C\\C(N2CCCCC2)=O)OCO3",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a compound named 3-(2,5-dihydrofuran-2-yl)-1-(piperidin-1-yl)prop-2-en-1-one."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC(=CC=C1N2[S](CCCC2)(=O)=O)[S](N)(=O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 4-(4-aminobutylsulfonyl)benzenesulfonamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@]23(Cl)C(C1C([C@](O)([C@@H](C1)C)C(=O)CO)(CC2Cl)C)CCC4=CC(=O)C=CC34C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named Beclomethasone, a type of corticosteroid medication."
+    },
+    {
+        "p_np": "1",
+        "smiles": "O1CCCCC1C(=O)N",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a molecule called Caprolactam."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]2(C(OC1=CC=C(NC(C)=O)C=C1)=O)NC(=O)CC2",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a molecule called 1-acetyl-3,4-dihydro-2H-pyrrolo[3,4-b]quinolin-1-one."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN(C)CCCN1c2ccccc2Sc3ccc(cc13)C(C)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Promethazine. It is a first-generation antihistamine of the phenothiazine family. The drug has strong sedative effects and is also used to treat allergic reactions and nausea."
+    },
+    {
+        "p_np": "1",
+        "smiles": "O=N([O-])C1=C(CN=C1NCCSCc2ncccc2)Cc3ccccc3",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a molecule named N-(4-((4-aminophenyl)thio)butyl)-2-(4-methyl-1,4-diazepan-1-yl)-4,6-dinitroaniline."
+    },
+    {
+        "p_np": "1",
+        "smiles": "O=C2\\C(=C1\\OC=NN1)C=CC=C2",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named 2H-Pyran-2-one, 3,4-dihydro-6-methyl-4-oxo-."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CC12CC3(CC(C1)(CC(C2)C3)N)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a steroid-like compound, more specifically, it is the structure of a molecule called Quinolizidine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN(C)C(=O)COC2c1ccccc1CCc3ccccc23",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Cocaine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "c1(ccc(cc1)C(F)(F)F)CC(N1[C@@H](CCCC1)CN1CCCC1)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named (2R)-2-[(2,2,2-trifluoroethyl)phenyl]-N,N-dimethyl-5-oxopyrrolidin-1-ium-1-ylmethyl."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CC/C(c1ccccc1)=C(c2ccccc2)/c3ccc(OCCN(C)C)cc3",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a compound named N,N-dimethyl-3-((1E)-1-(4-(phenyl(phenyl)methyl)phenyl)prop-1-en-1-yl)propan-1-amine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "OC12c3c(Oc4c(C)cccc4C2CNCC1)cccc3",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a compound named \"8-Methoxy-6-methyl-9H-carbazolo[3,4-b]quinolin-1-ol\"."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(=CC=C1C)CC2=CC=CC=C2)N3CCNCC3",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound called Diphenhydramine. It is an antihistamine mainly used to treat allergies. It is also used in the management of drug-induced parkinsonism and other extrapyramidal symptoms."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(SC)C=CC4=C1C(N2CCN(C)CC2)CC3=C(C=CC=C3)S4",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of the compound Clozapine, an antipsychotic medication used in the treatment of schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "COC(F)(F)C(Cl)Cl",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 1,1,2-trichloro-2,2-difluoroethoxy-methane."
+    },
+    {
+        "p_np": "0",
+        "smiles": "NC(=O)c1ncn(n1)[C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the molecule Cytidine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C2=C(OCC1OC(NCC1)=S)C=CC=C2",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a compound with a thiourea group attached to a benzene ring through an ether linkage."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC1(C)S[C@@H]2[C@H](NC(=O)C(C(O)=O)c3ccccc3)C(=O)N2[C@H]1C(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic drug Penicillin G."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC2=C1C3(C4=C(CC2N3)C=CC=C4)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound called Phenanthro[9,10-b]quinolizidine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C2=C(C(=C1)OC)CCCC2N(C)C)Cl",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a chlorinated aromatic compound with a piperidine ring and a methoxy group."
+    },
+    {
+        "p_np": "0",
+        "smiles": "OC(C)(C)c1onc(c2ncn3c2CN(C)C(c4c3cccc4Cl)=O)n1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 5-Chloro-7-iodoquinolin-8-ol."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC(=C5C2=C1CC6C34C2(C(C(OC)(C(C3)C(CC)(C)O)C=C4)O5)CCN6CC7CC7)OC",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of the compound named \"Etoposide\", a chemotherapy medication used for the treatments of a number of types of cancer."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Fc1ccc(cc1)C(=O)CCCN2CCC(CC2)C(=O)c3ccc(F)cc3",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a compound with two aromatic rings (each with a fluorine atom), two carbonyl groups, and a piperidine ring."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C3=C(CN2C1=NC(=NC(=C1CCC2=O)C)C)C=CC(=C3)C4=CC=CC=C4C5=N[NH]N=N5",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound is difficult to determine without further information, but it is likely a complex organic molecule with multiple rings and functional groups, including a pyridine ring, a benzene ring, and a triazole ring."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]2(C1=CC(=C(OC)C=C1CCN(C2)C)OC)C3=CC=CC=C3",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a compound called (R)-3,3-Dimethyl-1-(4-methoxyphenyl)-2,3-dihydro-1H-pyrrolo[3,4-b]quinolin-1-ol."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN(C)C(=O)C(CCN1CCC(O)(CC1)c1ccc(Cl)cc1)(c1ccccc1)c1ccccc1",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound named 2-(4-chlorophenyl)-2-[4-(2-dimethylaminoethoxy)-cyclohexyl]-N,N-dimethyl-acetamide. It is also known as Clomipramine, a tricyclic antidepressant used to treat obsessive-compulsive disorder (OCD)."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC2=C1C(=NS2)N5CCN(CCC4=CC3=C(NC(C3)=O)C=C4Cl)CC5",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of the drug Clozapine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC2=C1C(N(C2=O)C3=NC4=C(C=C3)C=CC(=N4)Cl)CC(=O)N6CCC5(OCCO5)CC6",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of the drug Vortioxetine, which is used to treat depression."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]23[C@@]([C@@]1(C(=CC(=O)CC1)CC2)C)([C@H](C[C@]4([C@H]3CC[C@@]4(C(COC(C)=O)=O)O)C)O)F",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a type of steroid known as Fluocinolone acetonide."
+    },
+    {
+        "p_np": "0",
+        "smiles": "Cc1cnn(c1C(=O)N[C@H]2[C@H]3SC(C)(C)[C@@H](N3C2=O)C(O)=O)c4c(Cl)cccc4Cl",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of the antibiotic drug, Flucloxacillin."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CO[C@H]1[C@@H](O)[C@H](N)[C@@H](O[C@H]2O[C@@H](CC[C@H]2N)C(C)N)[C@H](O)[C@@H]1N(C)C(=O)CN",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic Tobramycin."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC4=C1C(N(CCCN3CCN(C2=NC=CC=N2)CC3)[S]4(=O)=O)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Clozapine. It is an atypical antipsychotic medication used to treat schizophrenia and schizoaffective disorders."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CC3CC2C1CCC(C(C)=O)C1(C)CC(O)C2C4(C)C=CC(=O)C=C34",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a steroid hormone called Cortisone."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]3O[C@H](C)C[C@@H]([C@H]3O)N(C)C)[C@@](C)(C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O)OC",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of Azithromycin, an antibiotic medication used to treat a wide variety of bacterial infections."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC1(C)NC(C(=O)[NH+]1[C@H]2[C@H]3SC(C)(C)[C@@H](N3C2=O)C(O)=O)c4ccc(O)cc4",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound called Penicillin G."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C(C(CCCC)CC)NC(CC(C)O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a molecule. Specifically, this SMILES represents the molecule called L-Leucine."
+    },
+    {
+        "p_np": "0",
+        "smiles": "COC(=O)C1=C(C)NC(=C(C1c2ccccc2[N+]([O-])=O)C(=O)OC)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named Methyl 2,4-dimethyl-1H-pyrrolo[3,4-b]quinoline-1,3-dicarboxylate."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(NC(C(Cl)(Cl)Cl)=O)C=CC(=C1)O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called 2,4-dichloro-5-hydroxybenzaldehyde."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC=C1C2=NCC(NC3=C2[N](N=C3C)CC)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Diazepam. Diazepam is a medication of the benzodiazepine family that typically produces a calming effect. It is commonly used to treat a range of conditions including anxiety, alcohol withdrawal syndrome, benzodiazepine withdrawal syndrome, muscle spasms, seizures, trouble sleeping, and restless legs syndrome."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CNCCC=C3c1ccccc1C2CC2c4ccccc34",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a compound named \"N,N-dimethyl-3-(2,3-dihydro-1H-inden-2-ylidene)-1H-indole\"."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=NC2=C([N]1CC(C)O)C(N(C)C(N2C)=O)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of the compound Caffeine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN(C)CCC=C1c2ccccc2CCc3ccccc13",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called N,N-Dimethyltryptamine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C=CC=C1C2=NN(C)C(N2C)=S)F",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a molecule of 5-fluoro-2-methyl-3-(methylsulfanyl)-1H-pyrrolo[3,2-b]pyridine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC(=CC4=C1N2C(=NC(/C2=O)=C\\N3CCN(C)CC3)CN=C4C5=C(C=CC=C5)Cl)[N+](=O)[O-]",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Clonazepam. It is a medication used to prevent and treat seizures, panic disorder, and movement disorder known as akathisia. It is a type of benzodiazepine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "FC(F)(F)c1ccc2Sc3ccccc3N(CCCN4CCN(CC4)C5CC5)c2c1",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of Clozapine, an antipsychotic medication used in the treatment of schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C(C(C(NC(NC(C)=O)=O)=O)(CC)Br)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-Bromo-2-methylpropanoyl isocyanate."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CCCNC(=O)N[S](=O)(=O)c1ccc(Cl)cc1",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound named N-(3-chlorophenyl)sulfamoylbutanamide."
+    },
+    {
+        "p_np": "0",
+        "smiles": "Cc1cccc(Nc2ccccc2C(O)=O)c1C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named 2,6-Dimethyl-N-(2-methylphenyl)benzamide."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC1(C)S[C@@H]2[C@H](NC(=O)CCC[C@@H](N)C(O)=O)C(=O)N2[C@H]1C(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic Penicillin G."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Nc1nc(NC2CC2)c3ncn([C@@H]4C[C@H](CO)C=C4)c3n1",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the drug Remdesivir."
+    },
+    {
+        "p_np": "0",
+        "smiles": "NC(CO)C(=O)NNCc1ccc(O)c(O)c1O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of the compound named as N-(2-hydroxy-3-(hydroxyamino)-3-oxopropyl)-2-(4-hydroxy-3-(hydroxymethyl)phenyl)ethanamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN1CCCCC1CCN2c3ccccc3Sc4ccc(cc24)[S](C)(=O)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of Thioridazine, an antipsychotic medication used in the treatment of schizophrenia and psychosis."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C4=C(N1C3(C(NC1)=O)CCN(CCCOC2=CC=C(C=C2)F)CC3)C=CC=C4",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a compound named \"1-(4-fluorophenyl)-3-(4-pyridin-4-ylpyrimidin-2-yl)propan-1-ol\"."
+    },
+    {
+        "p_np": "1",
+        "smiles": "c1cc2c(C(N[C@@H](CC)c3ccccc3)=O)c(c(nc2cc1)c1ccccc1)OCCCN(C)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named Clozapine. It is an atypical antipsychotic medication used for the treatment of schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]24[C@H]1[C@@]([C@@H](C(C(OCCCC)=O)=O)[C@@H](C1)C)(C[C@@H]([C@@H]2[C@@]3(C(=CC(=O)C=C3)[C@H](C4)F)C)O)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound cannot be determined without further information or analysis. SMILES (Simplified Molecular Input Line Entry System) is a specification in the form of a line notation for describing the structure of chemical species using short ASCII strings."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CN1C(=C(/O)Nc2sc(C)cn2)/C(=O)c3ccccc3[S]1(=O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of the drug Sulfamethoxazole, which is an antibiotic used to treat bacterial infections."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C(C1(COC(C(Cl)(Cl)Cl)OC1)CO)O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a molecule of 1,1,1-Trichloro-2-(hydroxymethyl)-2-(methyloxy)ethane."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN1C=CC(=O)C(=C1C)O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called 3-Methyl-4-oxo-2-phenyl-4H-chromen-7-yl acetate."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CCC[C@@H]1C[C@H](N(C)C1)C(=O)NC(C(C)Cl)[C@H]2O[C@H](SC)[C@H](O[P](O)(O)=O)[C@@H](O)[C@H]2O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound is difficult to determine without further information, but it is likely a complex organic molecule, possibly a type of drug or bioactive compound. The structure includes several functional groups, including a chloride, an amide, a phosphate, and several chiral centers."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN1CC(=CCC1)\\C=N\\OC",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named 3-Methyl-2-pentyl-1H-imidazole-3-ium-1-carboxylate."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC(C)c1ccc(C)cc1OCC2=NCCN2",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of 1-(2,6-dimethylphenyl)-3-(2-pyrazinyl)propan-2-ol."
+    },
+    {
+        "p_np": "1",
+        "smiles": "N1(Cc2cc(OCCCNc3nccs3)ccc2)CCCCC1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, this SMILES string represents a molecule with a nitrogen atom (N) connected to a five-membered ring of carbon atoms (CCCCC). This ring is connected to a benzene ring (ccccc) through a carbon atom (C). The benzene ring has a substituent which is a chain of atoms (OCCCNc3nccs3). This chain includes an oxygen atom (O), three carbon atoms (CCC), a nitrogen atom (N), and another ring structure (c3nccs3) which includes carbon, nitrogen, and sulfur atoms."
+    },
+    {
+        "p_np": "1",
+        "smiles": "ClC1=CC=CC(OC2CCN(CCC3CCCN3S(C4=CC(N([H])C=C5)=C5C=C4)(=O)=O)CC2)=C1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-(4-Chlorophenyl)-1-[4-[2-(methylamino)ethyl]piperazin-1-yl]ethanone O-(2-oxo-2,3-dihydro-1H-benzimidazol-1-yl)oxime."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(F)(F)F)C=CC3=C1N(C2=C(C=CC=C2)S3)CCCN5CCC(C(C4=CC=C(F)C=C4)=O)CC5",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound is not specified, but it is a complex organic molecule that contains several rings, multiple carbon (C), hydrogen (H), nitrogen (N), fluorine (F), sulfur (S), and oxygen (O) atoms."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]34([C@H]([C@H]2[C@@H]([C@@]1(C(=CC(=O)CC1)CC2)C)C(C3)=O)CC[C@@]4(C(COC(C)=O)=O)O)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a steroid hormone called Hydrocortisone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "c12c(nc([nH]1)NC(OC)=O)cc(SCCC)cc2",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-(3-mercapto-propyl)-1H-imidazo[4,5-b]pyridin-2-yl-carbamic acid methyl ester."
+    },
+    {
+        "p_np": "0",
+        "smiles": "OCCN(CCO)c1nc(N2CCCCC2)c3nc(nc(N4CCCCC4)c3n1)N(CCO)CCO",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2,2',2''-(5-(2-(piperazin-1-yl)pyrimidin-4-yl)-[1,3,4]oxadiazol-2-yl)azanetriyl)triethanol."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC1(C)S[C@@H]2[C@H](NC(=O)COc3ccccc3)C(=O)N2[C@H]1C([O-])=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound called Penicillin G or Benzylpenicillin."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC[C@@]1(O)C[C@H](O[C@H]2C[C@@H]([C@H](O[C@H]3C[C@@H]4O[C@H]5CC(=O)[C@H](C)O[C@H]5O[C@@H]4[C@H](C)O3)[C@H](C)O2)N(C)C)c6c(O)c7C(=O)c8c(O)cccc8C(=O)c7c(O)c6[C@H]1O[C@H]9C[C@@H]([C@H](O)[C@H](C)O9)N(C)C",
+        "response": "No",
+        "s2l": "The SMILES represents a complex organic molecule. Without a specific name or structure, it's difficult to provide more information. However, it's clear that the molecule contains several functional groups, including alcohols (OH), carbonyls (C=O), and amines (N). The molecule also contains several stereocenters, as indicated by the @ symbols."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CCN(CC)C(C)=NN=Cc1c(O)c2c3C(=O)C4(C)OC=CC(OC)C(C)C(OC(C)=O)C(C)C(O)C(C)C(O)C(C)C=CC=C(C)C(=O)Nc1c(O)c2c(O)c(C)c3O4",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called Azithromycin. It is an antibiotic medication used to treat many different types of infections caused by bacteria, including infections of the lungs, sinus, throat, tonsils, skin, urinary tract, cervix, or genitals."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN1CCN(CC1)C2=C3C=CC=CC3=Nc4ccc(Cl)cc4N2",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Clozapine. It is an antipsychotic medication primarily used to treat schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]23([C@H]([C@H]1[C@]([C@@](SCC)(SC)CC1)(C)C[C@@H]2O)CCC4=CC(=O)C=C[C@]34C)F",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a steroid hormone called Fluocinolone acetonide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@]23(Cl)C(C1C([C@](O)(CC1)C(=O)COC(=O)C)(CC2Cl)C)CCC4=CC(=O)C=CC34C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named Beclomethasone dipropionate. It is a type of medication used for the long-term treatment of asthma and chronic obstructive pulmonary disease (COPD)."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C(C2C1C(NC(N1)=O)CS2)CCCC(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named 5-Aminopentanoic acid-1,5-lactam."
+    },
+    {
+        "p_np": "0",
+        "smiles": "OC(=O)C1CCn2c1ccc2C(=O)c3ccccc3",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named 1-benzoyl-3-(carboxymethyl)-1,2-dihydro-2H-pyrrolo[3,4-b]quinolin-1-one."
+    },
+    {
+        "p_np": "1",
+        "smiles": "N1(Cc2cc(OCCCNc3oc4ccccc4n3)ccc2)CCCCC1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a specific compound. However, without a specific name or further context, it's difficult to provide more information. SMILES is a line notation (a typographical method using printable characters) used for entering and representing molecules and reactions."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(Cl)C(=C(C2=C1NC(=O)C(N2)=O)[N+](=O)[O-])Cl",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 5,7-Dichloro-8-quinolinol-1-oxide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CCCCCc1cc(O)c2[C@@H]3C=C(C)CC[C@H]3C(C)(C)Oc2c1",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a molecule of Cannabidiol, a naturally occurring cannabinoid constituent of cannabis."
+    },
+    {
+        "p_np": "0",
+        "smiles": "c1cc2c(C(N[C@@H](CC)c3ccccc3)=O)c(c(nc2cc1)c1ccccc1)OCC(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named (2S)-2-[(2,3-dihydro-1H-indol-2-yl)carbonyl]-N-(2-phenylethyl)isoindoline-1-carboxamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "OC1(CCN(CCCC(=O)c2ccc(F)cc2)CC1)c3cccc(c3)C(F)(F)F",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a molecule named 1-[2-(4-fluorophenyl)-2-oxoethyl]-4-(3-phenylpropyl)piperazine-1,1,1,3,3,3-hexafluoropropane-2-ol."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CN1C(CSCC(F)(F)F)Nc2cc(Cl)c(cc2[S]1(=O)=O)[S](N)(=O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-chloro-N-(2,2,2-trifluoroethyl)-6-(methylsulfonyl)benzo[d][1,3,2]dithiazole-5-sulfonamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C4=C(C(C(=O)N1CCCC1)(C2=CC=CC=C2)C(CN3CCOCC3)C)C=CC=C4",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named as Clozapine. It is an antipsychotic medication primarily used to treat schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@H]3(N(C1=C(C=CC=C1)F)C(COC)=O)[C@@H](CN(CCN2C(N(CC)N=N2)=O)CC3)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a specific compound. The exact compound cannot be determined without further information or a visual representation, as SMILES (Simplified Molecular Input Line Entry System) is a shorthand way to represent chemical structures using ASCII strings. The string includes information about the type and arrangement of atoms, as well as any double bonds, stereochemistry, and other details."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]12C(C3=C(C[C@@H]1CCN(C2)C)[NH]C(=C3CC)C)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Oxycodone. Oxycodone is a semi-synthetic opioid synthesized from thebaine, an opioid alkaloid found in the Persian poppy, and one of the many alkaloids found in the opium poppy. It is a moderately potent opioid pain medication."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1NCCN(C1)c1ccc(c(n1)Cl)C(F)(F)F",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 4-Chloro-7-(trifluoromethyl)quinazoline."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CN(C)c1cc(C2=NC(N)=NN2)ccn1",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Caffeine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(Cl)C=CC2=C1C3(N(CC(=O)N2C)C(C=C(O3)C)=O)C4=CC=CC=C4",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 4-Chloro-1-(4-phenyl-1H-imidazo[4,5-c]quinolin-1-yl)butan-1-one."
+    },
+    {
+        "p_np": "0",
+        "smiles": "[Na+].Cc1sc(SCC2=C(N3[C@H](SC2)[C@H](NC(=O)Cn4cnnn4)C3=O)C([O-])=O)nn1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named Sodium (2R,3R)-2-[(2-methyl-1,3-thiazol-4-yl)sulfanyl]-3-[(2Z)-2-(1H-tetrazol-5-yl)acetyl]thiazolidine-4-carboxylate."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN(C)CCO",
+        "response": "Yes",
+        "s2l": "The SMILES \"CN(C)CCO\" represents a chemical structure of a compound called Dimethylaminoethanol."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[H+].C1=CC=NC(=N1)N2CCN(CC2)CCCCN3C(=O)CC(CC3=O)(C)C.[Cl-]",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Clozapine Hydrochloride."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CCCC(=O)Nc1ccc(OCC(O)CNC(C)C)c(c1)C(C)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of the drug Tolterodine, which is used to treat symptoms of an overactive bladder."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[CH2-][CH-]C",
+        "response": "No",
+        "s2l": "The SMILES represents a molecule with three carbon atoms, where the first two carbon atoms each have a negative charge."
+    },
+    {
+        "p_np": "0",
+        "smiles": "c1(ccc(c(c1)Cl)Cl)CC(N1[C@H](C[N@@]2C[C@@H](CC2)O)c2c(CC1)[nH]cn2)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named (2R,3R,4S,5R)-2-(6-amino-9H-purin-9-yl)-5-(2-chlorobenzyl)-3,4-dihydroxytetrahydrofuran-3-yl 2,4-dichlorobenzoate."
+    },
+    {
+        "p_np": "0",
+        "smiles": "NCCCNCCS[P](O)(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named N,N'-Bis(2-aminoethyl)-2-aminoethanethiol dihydrogen phosphate."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C([S](=O)(=O)N)C=CC(=C1C(NCC2N(CC)CCC2)=O)OC",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 3-(Dimethylamino)-1-(4-methoxyphenyl)-2-methyl-3-oxopropan-1-aminium 4-methylbenzenesulfonate."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C(N1CC(O)CC1=O)C(N)=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound called N-Carbamoyl-\u03b2-alanine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@]4([C@@]3([C@H]([C@H]2[C@]([C@@]1(C(=CC(=O)C=C1)CC2)C)(Cl)[C@H](C3)O)C[C@H]4C)C)(C(COC(C)=O)=O)OC(CCC)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called Hydrocortisone acetate."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CCC(=O)OC1CC(=O)OC(C)C\\C=C\\C=C/C(O)C(C)CC(CC=O)C(O[C@@H]2O[C@H](C)[C@@H](O[C@H]3C[C@@](C)(O)[C@H](OC(=O)CC)[C@@H](C)O3)[C@@H]([C@H]2O)N(C)C)C1OC",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the compound Erythromycin A."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CCOC(=O)OC(C)OC(=O)[C@@H]1N2[C@H](SC1(C)C)[C@H](N=CN3CCCCCC3)C2=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound named Etoposide. It is a chemotherapy medication used for the treatments of a number of types of cancer including testicular cancer, lung cancer, lymphoma, leukemia, neuroblastoma, and ovarian cancer."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CC1(C(N(C(O1)=O)C)=O)C",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound called Dimethylmalonic acid."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@]127C3=C4C[C@H]([C@@H]1C=C[C@@H]([C@@H]2OC3=C(C=C4)OC(C5=CN=CC=C5)=O)OC(C6=CN=CC=C6)=O)N(C)CC7",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of the compound named \"Vinblastine\". Vinblastine is a type of vinca alkaloid and a kind of chemotherapy medication used to treat a number of types of cancer."
+    },
+    {
+        "p_np": "0",
+        "smiles": "NC1=NC(=O)c2ncn(COC(CO)CO)c2N1",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the compound Ribavirin."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC2=C1C(C(N2CC(N)=O)=O)C3=CC=CC=C3",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called 1H-Indole-3-carboxaldehyde, N-phenylhydrazone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@H](O)(/C=C/C1=C(C2=C([N]1C(C)C)C=CC=C2)C3=CC=C(F)C=C3)C[C@H](O)CC(=O)O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named (6R,7R)-7-[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-(methoxyimino)acetyl]amino]-3-[(2-methyl-5,6-diphenyl-1,2,4-triazin-3-yl)sulfanyl]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[Cl].CC(C)NCC(O)COc1cccc2ccccc12",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a molecule of Trimebutine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "COC(C(F)Br)(F)F",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 1-bromo-2,2,2-trifluoroethanol."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@H](N)(C(OCCOC[N]1C2=C(N=C1)C(=O)N=C(N2)N)=O)C(C)C",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the drug Ribavirin."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[H+].C3=C(C(=C1CCN(C1)CC)C2=CC=CC=C2)C=CC=C3.[Cl-]",
+        "response": "Yes",
+        "s2l": "The SMILES represents a molecule of Chlorpromazine hydrochloride. Chlorpromazine hydrochloride is a medication used to treat a variety of mental health disorders such as schizophrenia, psychotic disorders, and manic-depression."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(Cl)C=CC\\3=C1C=C(N2CCN(C)CC2)C4=C(C3=C/C#N)C=CC=C4",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Clozapine. It is an atypical antipsychotic medication used to treat schizophrenia and schizoaffective disorder."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@]45([C@@]3([C@H]([C@H]2[C@@H]([C@@]1(C(=CC(=O)CC1)[C@H](C2)F)C)[C@H](C3)O)C[C@H]4OC(O5)(C)C)C)C(CO)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Dexamethasone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC3=C1C(C2=C(C=CC=C2)S3)=CCCN(C)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called Thioflavin T."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Clc1ccc(cc1)C(OCCN2CCOCC2)c3ccccc3",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound named 1-(4-Chlorophenyl)-2-[(4-phenylpiperazin-1-yl)methyl]ethanol."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]23C([C@@]1(OC(O[C@@H]1C2)(C)C)C(=O)COC(=O)C)(CC(O)[C@@]4(F)C3CC(=C5C4(CCC(=C5)OCCCl)C)C#N)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound cannot be determined without further information or conversion of the SMILES into a visual chemical structure. However, it can be said that this compound contains several functional groups such as ether, ketone, alkene, alkyne, and halogen. It also contains several chiral centers, as indicated by the @ symbols."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C(C2(C1CCCC=C1)C(NC(=S)NC2=O)=O)C=C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a compound named 3-methyl-2,4-dioxo-3,4-dihydro-2H-1,2-thiazine-6-carboxylic acid."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN1CCN(CC1)C3=Nc2ccccc2Sc4nccn34",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Vortioxetine. It is an antidepressant medication that is used to treat major depressive disorder."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CC(C)c1onc(n1)c2ncn3c2CN(C)C(=O)c4c(Cl)cccc34",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of the drug Rilpivirine, which is used for the treatment of HIV infection."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C4C(=CC(=C1)CN3CCN(C(COC2=CC=C(Cl)C=C2)=O)CC3)OCO4",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named Clozapine. It is an atypical antipsychotic medication used for the treatment of schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC=C1N2C5(C(NC2)=O)CCN(CC4OC3=C(C=CC=C3)OC4)CC5",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Lysergic acid diethylamide (LSD)."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC1CN(CCN1)c2cc3N(C=C(C(O)=O)C(=O)c3c(C)c2F)C4CC4",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 3-(2-fluoro-6-(4-(2-methylpropyl)piperazin-1-yl)benzyl)-5-isopropylisoxazole-4-carboxylic acid."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CCC1C(=O)N(CC(=O)N(C(C(=O)NC(C(=O)N(C(C(=O)NC(C(=O)NC(C(=O)N(C(C(=O)N(C(C(=O)N(C(C(=O)N(C(C(=O)N1)C(C(C)CC=CC)O)C)C(C)C)C)CC(C)C)C)CC(C)C)C)C)C)CC(C)C)C)C(C)C)CC(C)C)C)C",
+        "response": "No",
+        "s2l": "The given SMILES represents a complex organic compound. It is difficult to determine the exact compound without further information or analysis. SMILES (Simplified Molecular Input Line Entry System) is a chemical notation system that represents a molecule's structure using ASCII strings. The string is a sequence of characters representing atoms and bonds, which can be parsed by software to create a 2D or 3D model of the molecule."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CCCSc1ccc2nc(NC(=O)OC)[nH]c2c1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a compound named 5-(propylsulfanyl)-7H-pyrrolo[3,2-b]pyridine-1-carboxylic acid methyl ester."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(OC)C(=CC2=C1C(=NN=C(C2)C)C3=CC=CC(=C3)Cl)OC",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named 2,2'-(1,2-dihydro-3H-dipyrido[3,2-b:2',3'-e]pyrazine-3,7-diyl)dibenzoic acid."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC(=C1CC2=CC=CS2)OCC3OCCNC3.O=C(O)\\C=C/C(=O)O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a compound that is a combination of two separate molecules. The first molecule is a complex aromatic compound with a sulfurous heterocycle and an ether group attached to a piperidine ring. The second molecule is a trans-butenedioic acid, also known as fumaric acid."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@H](/C=C/C1=C(N=C(C(=C1C2=CC=C(C=C2)F)COC)C(C)C)C(C)C)(C[C@H](CC(O)=O)O)O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. The exact compound is difficult to determine without converting the SMILES into a visual chemical structure. However, it can be said that this compound contains several functional groups including alkenes, aromatic rings, ethers, and carboxylic acids. It also contains fluorine and nitrogen atoms, and has chiral centers, indicating that it may exist in different stereoisomers."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1N(CCN(C1)c1cc(ccn1)C(F)(F)F)CCCCN1C(CCC1)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of Fluoxetine, a selective serotonin reuptake inhibitor (SSRI) used to treat depression, obsessive-compulsive disorder (OCD), bulimia nervosa, and panic disorder. It is also known by the brand name Prozac."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C(C1(OC(COC(N)=O)CO1)C)CCCCCCCC",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-(2,3-dihydroxypropoxy)-N-nitroso-9-octyl-nonanamide."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CCC(Oc1ccccc1)C(=O)NC2C3SC(C)(C)C(N3C2=O)C(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of the antibiotic drug Azithromycin."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C=C",
+        "response": "No",
+        "s2l": "The SMILES \"C=C\" represents Ethene, also known as Ethylene."
+    },
+    {
+        "p_np": "1",
+        "smiles": "N1(c2c(Sc3c1cccc3)ccc(c2)Cl)CCCNC",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-chloro-6-(3-pyrrolidin-1-ylpropyl)benzo[b]thiophene."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(=C(C=C1)Cl)NC2=NCCO2)Cl",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called 2,4-dichloro-6-(2-oxo-2,3-dihydro-1H-imidazol-1-yl)phenol."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CC1COc2c(N3CCN(C)CC3)c(F)cc4C(=O)C(=CN1c24)C(O)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Zolmitriptan. It is a selective serotonin receptor agonist of the 1B and 1D subtypes. It is used in the acute treatment of migraines with or without aura in adults."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC=C1C(C2=CC=CC=C2)(C(CN(C)C)C)C(CC)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Amfepramone. It is a stimulant drug used for weight loss in cases of severe obesity."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CCCN(CCc1c2c(c(cc1)O)NC(=O)C2)CCC",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a compound named 3-(2,3-dimethylbutyl)-8-oxo-6-propyl-3,4-dihydro-2H-pyrimido[1,2-a]benzimidazol-10-ol."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(=C(C=C1C(\\C=C\\N2CC=CC2)=O)OC)OC)OC",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named 2,4,6-Trimethoxybenzylideneaniline."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN1CCN2C(C1)c3ccccc3Cc4ccccc24",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound called Quetiapine. It is an atypical antipsychotic drug used for the treatment of schizophrenia, bipolar disorder, and major depressive disorder."
+    },
+    {
+        "p_np": "1",
+        "smiles": "ClC(Cl)Cl",
+        "response": "No",
+        "s2l": "The SMILES \"ClC(Cl)Cl\" represents the chemical compound Trichloromethane, also known as Chloroform."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C2=C(C(NCCN1CCOCC1)=O)C=CC(=C2)Cl",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-Chloro-4-(2-(4-oxo-2,3-dihydro-1H-pyrazol-3-yl)ethylamino)benzaldehyde."
+    },
+    {
+        "p_np": "1",
+        "smiles": "N1(c2c(CCc3c1cccc3)cccc2)CCCN",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named as 1-(3,4-dihydroisoquinolin-2(1H)-yl)propan-1-one."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]134[C@@H]([C@H](CC2=C1C=C(O)C=C2)N(C)CC3)CCCC4",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents a stereoisomer of the alkaloid compound Strychnine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C2=N[N]1C(=CC=NC1=C2C#N)C3=CC(=CC=C3)N(C(C)=O)CC",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-(4-(dimethylamino)butyl)-5-(3-(methylamino)prop-1-ynyl)-3H-imidazo[4,5-b]pyridine-3-carbonitrile."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H](CN1C3=C(SC2=C1C=CC=C2)C=CC(=C3)OC)(CN(C)C)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a compound called (R)-(+)-Thalidomide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C(C1(CC(NC(C1)=O)=O)C)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a molecule. Specifically, this SMILES represents the molecule 2,2-Dimethyl-3,5-dioxopiperazine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]235[C@]([C@H](N(CC1CCC1)CC2)CC4=C3C=C(O)C=C4)(CCCC5)O",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a steroid called \"Estradiol\". Estradiol is a type of estrogen, a hormone that plays a crucial role in the reproductive system."
+    },
+    {
+        "p_np": "0",
+        "smiles": "C[C@]12CC[C@H]3[C@@H](CCc4cc(O)ccc34)[C@@H]1CC[C@@]2(O)C#C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named 17-alpha-acetoxy-11beta-(4-N,N-dimethylaminophenyl)-19-norpregna-4,9-diene-3,20-dione."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(Cl)C=CC3=C1\\C(C2=C(C=CC=C2)S3)=C/CCN4CCN(CCO)CC4",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of Clozapine, an antipsychotic medication used in the treatment of schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "c1ccc2Oc3c(cc(cc3)Cl)[C@@H]3[C@@H](c2c1)C[N@](CC3)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a compound named \"(3aR,4S,7R,7aS)-2-(4-Chlorophenyl)-4-(methylamino)-1,3,3a,4,7,7a-hexahydro-1H-4,7-methanoisoindole-1,3(2H)-dione\"."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC(=CC2=C1[N](C(=C2CC(O)=O)C)C(C3=CC=C(Cl)C=C3)=O)OC",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called 5-Chloro-8-hydroxy-3-methyl-1-phenyl-1,3-dihydro-2H-pyrrolo[3,4-b]quinolin-1-one."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC(=C1N3CCN(CCC2=C[N](C)N=C2)CC3)Cl",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound named 8-Chloro-11-(4-methyl-1-piperazinyl)-5H-dibenzo[b,e][1,4]diazepine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "NC(=O)C1(CCN(CCCC(=O)c2ccc(F)cc2)CC1)N3CCCCC3",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is a molecule of Flibanserin, a medication approved for the treatment of pre-menopausal women with hypoactive sexual desire disorder (HSDD)."
+    },
+    {
+        "p_np": "0",
+        "smiles": "COC1=C(N3C(SC1)C(NC(=O)C(N)C2C=CCC=C2)C3=O)C(O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named as 3-(2-methylprop-1-en-1-yl)-2,3-dihydro-1H-pyrrolo[3,4-b]quinoline-1,4-dione."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CN(C)[C@H]1[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C(=O)\\C(=C(N)/O)C1=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called Doxorubicin. It is an anthracycline type of chemotherapy that is used to treat several types of cancer."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CC(=O)OC(C1CCCCN1)c2ccccc2",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound called Benzyl acetate."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC=C1N2C5(C(NC2)=O)CCN(CCCC(C3=CC=C(C=C3)F)C4=CC=C(C=C4)F)CC5",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a specific compound. The exact compound is not specified, but it is a complex organic molecule that contains several aromatic rings (indicated by the \"C1=CC=CC=C1\" segments), a nitrogen atom (N), an oxygen atom (O), and fluorine atoms (F). The exact structure and properties of the compound would need to be determined by drawing out the structure or using a molecular modeling software."
+    },
+    {
+        "p_np": "1",
+        "smiles": "FC(Br)C(F)(F)F",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of Halothane, a type of general anesthetic."
+    },
+    {
+        "p_np": "0",
+        "smiles": "c1(CC(N2[C@H](CN(CC2)C(=O)C)C[N@]2CC[C@H](O)C2)=O)ccc(S(=O)(=O)C)cc1",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of the drug Tolterodine, which is used to treat symptoms of an overactive bladder."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CCC(C)C1(CC)C(=O)NC(=O)NC1=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2,2-dimethyl-3-(2-methylpropyl)oxolane-2,3,5-trione."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C=CC3=C1N(CCCN2CCC(CC2)O)C4=C(S3)C=CC=C4)C#N",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Cyproheptadine. It is a first-generation antihistamine with additional anticholinergic, antiserotonergic, and local anesthetic properties."
+    },
+    {
+        "p_np": "1",
+        "smiles": "COc1ccc2C[C@@H]3[C@@H]4CCC(=O)[C@@H]5Oc1c2[C@]45CCN3C",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Morphine."
+    },
+    {
+        "p_np": "0",
+        "smiles": "C[C@@H]1O[C@H](C[C@H](N)[C@@H]1O)O[C@H]2C[C@@](O)(Cc3c(O)c4C(=O)c5ccccc5C(=O)c4c(O)c23)C(C)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called Erythromycin A."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CN1C(=O)N(C)c2nc[nH]c2C1=O.CN3C(=O)N(C)c4nc[nH]c4C3=O.NCCN",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound which is a mixture of two molecules of barbituric acid and one molecule of ethylenediamine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "OCCN1CCN(CC\\C=C/2c3ccccc3COc4ccc(Cl)cc24)CC1",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a compound named \"2-[(2-Chlorophenyl)methyl]-4-(2,3-dihydro-1,4-benzodioxin-6-yl)-1-piperazineethanol\"."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CCCCC1C(=O)N(N(C1=O)c2ccccc2)c3ccccc3",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 1,3-diphenyl-5-pentylbarbituric acid."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@]123C4=C(C[C@H]([C@@]1(CC[C@H](C2)O)O)N(CC3)C)C=CC(=C4OC)OC",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, this is the structure for the compound called \"Codeine\". Codeine is a narcotic pain-reliever and cough suppressant similar to morphine and hydrocodone."
+    },
+    {
+        "p_np": "0",
+        "smiles": "c1(ccc(c(c1)Cl)Cl)CC(=O)N1[C@H](CN(C(=O)C)CC1)C[N@@]1C[C@H](O)CC1",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of the drug Lorazepam, which is used for treating anxiety, insomnia, and seizures."
+    },
+    {
+        "p_np": "1",
+        "smiles": "COC(=O)C1=CCCN(C)C1",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound called N-Methyl-4-piperidone-3-carboxylate."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(C(C)(C)O)(C)O)C=CC(=C1)Cl",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-Chloro-1,1,4,4-tetramethyl-3-cyclohexene-1,4-diol."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC[N+](C)(C)Cc1ccccc1Br.Cc2ccc(cc2)[S]([O-])(=O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a compound which is a combination of two molecules: 1-bromo-4-(dimethylamino)-butane and p-toluenesulfonic acid."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(CN(C(=C(SC(OCC)=O)/CCOC(OCC)=O)/C)C=O)C(=NC(=N1)C)N",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2,3-dihydro-1H-pyrrolo[3,4-b]quinolin-1-one, 2-(acetyloxy)-3a,4,5,9b-tetrahydro-3H-cyclopenta[c]quinoline-4-carboxylic acid, ethyl ester."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN1CCN(CCCN2c3ccccc3Sc4ccc(cc24)C(F)(F)F)CC1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named N,N-Dimethyl-4-(4-(methylsulfonyl)phenyl)piperazine-1-carboxamide."
+    },
+    {
+        "p_np": "0",
+        "smiles": "[Na+].[O-][S](=O)(=O)CCS",
+        "response": "No",
+        "s2l": "The SMILES represents Sodium 3-sulfopropyl sulfate."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CNC(C)C1CCC(N)C(O1)OC2C(N)CC(N)C(OC3OCC(C)(O)C(NC)C3O)C2O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic Tobramycin."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Cc1ccc(cc1)C2(O)CCN(CCCC(=O)c3ccc(F)cc3)CC2",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is a complex organic molecule that contains several functional groups, including aromatic rings, an ether, an amine, and a ketone. It also contains fluorine and methyl groups. The exact name of this compound would require a more detailed structural analysis."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(=N/OCCN)/CCCCOC)C=CC(=C1)Cl",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 4-chloro-2-(diethylamino)-6-(butyloxy)pyrimidine."
+    },
+    {
+        "p_np": "0",
+        "smiles": "COc1cc(cc(OC)c1O)[C@H]2[C@@H]3C(COC3=O)[C@H](O[C@@H]4O[C@@H]5CO[C@@H](C)O[C@H]5[C@H](O)[C@H]4O)c6cc7OCOc7cc26",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called Doxorubicin. It is a chemotherapy drug used to treat different types of cancers."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC(=CC=C1OCC(COC(N)=O)O)Cl",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-Chloro-4-(2-hydroxy-3-methoxypropoxy)benzonitrile."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[H+].C1=C(OCC(=O)NCCN(CC)CC)C=CC(=C1)OC.[Cl-]",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical compound named Chlorpheniramine. It is an antihistamine used to treat allergic reactions."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=CC=CC=C1C2C(N(CC)C(N2)=O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called 1,3-dimethyl-2,4-dioxo-1,2,3,4-tetrahydroquinoline."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(Cl)C=CC2=C1C(=NC3=C(O2)C=CC=C3)N4CCNCC4",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Clozapine. It is an antipsychotic medication primarily used to treat schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]4([C@@]3([C@H]([C@H]2[C@]([C@@]1(C(=CC(=O)C=C1)CC2)C)(F)[C@H](C3)O)C[C@H]4C)C)(OC(C5=CC=CO5)=O)C(COC(C)=O)=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named \"11\u03b2,17,21-Trihydroxy-6\u03b1-fluoro-16\u03b1-methylpregna-1,4-diene-3,20-dione 21-acetate 17-(2-furylcarboxylate)\". It is a type of corticosteroid, which are a class of steroid hormones that are produced in the adrenal cortex of vertebrates."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CN(C)[C@H]1[C@@H]2C[C@@H]3Cc4c(ccc(O)c4C(=C3C(=O)[C@]2(O)C(=O)\\C(=C(N)/O)C1=O)O)[N+]([O-])=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called Doxorubicin. It is a chemotherapy medication used to treat cancer."
+    },
+    {
+        "p_np": "1",
+        "smiles": "NC1=NC(=O)N(C=C1)[C@H]2CC[C@@H](CO)O2",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the molecule Guanosine."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC/C=C(C(=O)N[C@H]1[C@H]2SCC(=C(N2C1=O)C(O)=O)COC(N)=O)/c3csc(N)n3",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the antibiotic drug Thiamphenicol."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C3=C(C1N2C(=NC1)NCC2)C=CC=C3",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound called Quinazoline."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(OCC)=O)[N](C=N1)C(C)C2=CC=C(C=C2)F",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 1-(2-fluorophenyl)-3-methyl-4-propan-2-yloxy-1H-pyrazol-5-one."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC1C=CC=C(C(=O)NC2=C(C3=C(C(=C4C(=C3C(=O)C2=CNN5CCN(CC5)C)C(=O)C(O4)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C)O)O)C",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the compound Doxorubicin. Doxorubicin is a chemotherapy drug used in the treatment of various types of cancer."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C(C)Cl",
+        "response": "No",
+        "s2l": "The SMILES \"C(C)Cl\" represents a molecule of chloroethane, which is a simple alkyl halide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "FC(F)(F)C(Cl)Br",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 1-Bromo-1-chloro-2,2,2-trifluoroethane."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC[N+](C)(CC)CCOC(=O)C1c2ccccc2Oc3ccccc13",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 1-(4-tert-butylbenzoyloxy)-3,4-dihydro-1H-naphthalen-2-ium."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Clc1ccc2OC(=O)Nc2c1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound called 4-Chloro-3-quinolinecarboxylic acid."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CC1(C)S[C@@H]2[C@H](NC(=O)C(C)(C)Oc3ccccc3)C(=O)N2[C@H]1C(O)=O",
+        "response": "Yes",
+        "s2l": "The SMILES represents the chemical structure of a compound called Valaciclovir. It is an antiviral medication used to treat herpes simplex, herpes zoster, and herpes B."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Nc1ccc(cc1)[S](=O)(=O)Nc2ncccn2",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of a compound called Sulfamethazine. It is an antibiotic used to treat bacterial infections in animals."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C([S](N)(=O)=O)C=C(C(=C1C(NCC2N(CCC2)CC=C)=O)OC)OC",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-(2,4-dimethoxyphenyl)-N-(2-methylpropyl)-1,3-benzothiazole-6-carboxamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@@]125C3=C4C[C@H]([C@@]1(CCC([C@@H]2OC3=C(C=C4)O)=O)O)N(CC=C(C)C)CC5",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of the compound \"Etoposide\", a chemotherapy medication used for the treatments of a number of types of cancer."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C(F)(F)F)C=CC3=C1N(C2=C(SC=C2)S3)CCCN4CCN(CCO)CC4",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named Clozapine. It is an antipsychotic medication mainly used to treat schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[O-][N+](=O)c1ccc2NC(=O)CN=C(c3ccccc3)c2c1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a compound named 2-oxo-1,2-dihydro-3H-indol-3-ylidene]-2H-indol-1-yl]azanium."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CN1C(=O)c2c(cccc2Cl)n2cnc(c2C1)c1noc(n1)C(C)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical compound named 2-(2-chlorophenyl)-3-methyl-7-(2-methylpropyl)-3H-imidazo[4,5-b]pyridine-5-carboxamide."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=C(C#N)C=CC3=C1N(C2=C(C=CC=C2)CC3)CCCN(C)C",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound named Clozapine. It is an antipsychotic medication primarily used to treat schizophrenia."
+    },
+    {
+        "p_np": "1",
+        "smiles": "CNCCCN1c2ccccc2Sc3ccccc13",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named as N,N'-Bis(3-aminopropyl)-1,3-benzothiazole-2,2-diamine."
+    },
+    {
+        "p_np": "1",
+        "smiles": "Oc1ccc2C[C@H]3N(CC[C@@]45[C@@H](Oc1c24)C(=O)CC[C@@]35O)CC=C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of the compound called \"Etoposide\", which is a chemotherapy medication used for the treatments of a number of types of cancer."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@]12(OC(O[C@@H]1CC3C2(CC(O)C4(F)C3CCC5=CC(=O)C=CC45C)C)C=C)C(=O)CO",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a corticosteroid called Dexamethasone."
+    },
+    {
+        "p_np": "0",
+        "smiles": "CN(C)[C@H]1[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C(=O)\\C(=C(/O)NC(N5CCN(CCO)CC5)C(O)=O)C1=O",
+        "response": "No",
+        "s2l": "The SMILES represents the chemical structure of the drug Doxorubicin. Doxorubicin is a chemotherapy medication used to treat cancer."
+    },
+    {
+        "p_np": "1",
+        "smiles": "[C@H]34[C@H]2[C@@H]([C@@]1(C(=CC(=O)CC1)CC2)C)CC[C@@]3([C@](O)([C@H](O)C4)C(=O)C)C",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of a steroid hormone called Cortisone."
+    },
+    {
+        "p_np": "1",
+        "smiles": "C1=N[N](C2=C1C(=C(C(=N2)C)C(OCC)=O)NCCCC)CC",
+        "response": "Yes",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it represents the structure of the drug Zolmitriptan, which is used to treat migraines."
+    },
+    {
+        "p_np": "0",
+        "smiles": "COCOC(=O)C1N2C(SC1(C)C)C(N3C(=O)C(NC3(C)C)c4ccc(O)cc4)C2=O",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound named Erythromycin A. It is a macrolide antibiotic produced by a strain of Saccharopolyspora erythraea (formerly Streptomyces erythraeus)."
+    },
+    {
+        "p_np": "1",
+        "smiles": "OCCN1CCN(CC\\C=C/2c3ccccc3Sc4ccc(cc24)C(F)(F)F)CC1",
+        "response": "No",
+        "s2l": "The SMILES represents a chemical structure of a compound. Specifically, it is the structure of a molecule called \"N,N-Diethyl-3-((4-(trifluoromethyl)phenyl)thio)-4-styrylpiperidine-1-carboxamide\". This compound belongs to the class of organic compounds known as diarylthioethers. These are organic compounds containing a thioether group that is substituted by two aryl groups."
+    }
+]
