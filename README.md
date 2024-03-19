@@ -1,6 +1,8 @@
 # Symbol-to-Language (S2L)
 **Speak It Out: Solving Symbol-Related Problems with Symbol-to-Language Conversion for Language Models.** [arxiv](https://arxiv.org/pdf/2401.11725.pdf)
 
+Our work has been accepted by [ICLR AGI Workshop 2024](https://agiworkshop.github.io/2024/overview/) !
+
 ![Overview](intro.png)
 
 ## Tasks
